@@ -20,7 +20,7 @@ h1, p {
   max-width: 450px;
   left: 50%;
   padding: 1em;
-  position: fixed;
+  position: relative;
   text-align: center;
   top: 10px;
   transform: translate(-50%);
