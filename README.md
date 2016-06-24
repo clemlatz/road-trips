@@ -12,7 +12,9 @@ the [Creative Commons BY-NC-ND 4.0 License](https://creativecommons.org/licenses
 
 ## TODO
 
+* Mobile
 * Babel + Webpack
+* Lightbox
 * Markdown
 * Comments ?
 * React

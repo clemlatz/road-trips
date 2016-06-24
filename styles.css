@@ -30,6 +30,7 @@ h1, p {
   background: white;
   color: #000;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+  box-sizing: border-box;
   max-width: 450px;
   left: 50%;
   padding: 1em;
@@ -51,12 +52,13 @@ h1, p {
 #page {
   background: white;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+  box-sizing: border-box;
   display: none;
   margin: 2em auto;
   max-width: 550px;
   padding: 1em;
   position: relative;
-  width: 90%;
+  width: 95%;
   z-index: 200;
 }
 
@@ -92,4 +94,16 @@ h1, p {
   font-size: .9em;
   margin-top: .25em;
   font-style: italic;
+}
+
+@media (min-width: 500px) {
+  #header br {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #header {
+
+  }
 }
