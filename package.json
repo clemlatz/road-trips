@@ -1,0 +1,19 @@
+{
+  "name": "iceland-road-trip",
+  "version": "1.0.0",
+  "description": "A Travel Blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwazaru/iceland-road-trip.git"
+  },
+  "author": "Clément Bourgoin <cb@nokto.net> (http://nokto.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwazaru/iceland-road-trip/issues"
+  },
+  "homepage": "https://github.com/iwazaru/iceland-road-trip#readme"
+}
