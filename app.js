@@ -3,6 +3,8 @@
 
 'use strict';
 
+import 'whatwg-fetch';
+
 // MAP
 
 class Map {
