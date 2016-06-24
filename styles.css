@@ -62,7 +62,7 @@ h1, p {
 
 #page h1 {
   color: #c33d2b;
-  margin: .25em 0;
+  margin: .25em 0 .5em;
 }
 
 #page p {
@@ -74,4 +74,22 @@ h1, p {
   position: absolute;
   top: 3px;
   right: 10px;
+}
+
+.photo {
+  margin-top: 1em;
+}
+
+.thumbnail {
+  border: 5px solid rgba(0, 0, 0, .05);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .15);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.caption {
+  color: rgba(0, 0, 0, .75);
+  font-size: .9em;
+  margin-top: .25em;
+  font-style: italic;
 }

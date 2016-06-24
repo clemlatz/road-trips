@@ -66,6 +66,7 @@ class Pin {
     this.marker.addListener('click', function() {
       window.page.setTitle(this.entry.title);
       window.page.setContent(this.entry.content);
+      window.page.renderPhotos(this.entry.photos);
       window.page.show();
     }.bind(this));
   }
@@ -80,6 +81,7 @@ class Page {
     this.title   = element.querySelector('.title');
     this.content = element.querySelector('.content');
     this.close   = element.querySelector('.close');
+    this.photos  = element.querySelector('.photos');
 
     this.close.addEventListener('click', function() {
       this.hide();
@@ -94,12 +96,50 @@ class Page {
     this.content.textContent = content;
   }
 
+  renderPhotos(photos) {
+    this.photos.innerHTML = '';
+    photos.forEach(function(data) {
+      const photo = new Photo(data.id, data.caption);
+      this.photos.appendChild(photo.element);
+    }.bind(this));
+  }
+
   show() {
     this.element.style.display = 'block';
   }
 
   hide() {
     this.element.style.display = 'none';
+  }
+}
+
+// PHOTO
+
+class Photo {
+
+  constructor(id, caption) {
+    this.id      = id;
+    this.caption = caption;
+
+    this.render();
+  }
+
+  render() {
+    this.element = document.createElement('div');
+    this.element.classList.add('photo');
+
+    const image = document.createElement('img');
+    image.classList.add('thumbnail');
+    image.src = `/data/thumbs/${this.id}.jpg`;
+    image.alt = this.caption;
+    this.element.appendChild(image);
+
+    const text = document.createElement('p');
+    text.classList.add('caption');
+    text.textContent = this.caption;
+    this.element.appendChild(text);
+
+    return this.element;
   }
 
 }
