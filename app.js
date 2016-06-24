@@ -171,9 +171,9 @@ document.addEventListener('DOMContentLoaded', function() {
 /**
  * Called by Google Maps API JS when loaded
  */
-function initMap() {
+google.maps.event.addDomListener(window, 'load', function() {
   const map = document.querySelector('#map');
   if (map) {
     new Map(map);
   }
-}
+});
