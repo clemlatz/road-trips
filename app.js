@@ -20,12 +20,27 @@ class Map {
   buildMap() {
     this.map = new google.maps.Map(this.element, {
       center: { lat: 64.9313, lng: -19.0212 },
-      zoom: 7
+      zoom: this.getZoomForWidth(),
+      zoomControl: true,
+      scaleControl: true,
+      disableDefaultUI: true
     });
 
     // google.maps.event.addListener(this.map, 'click', function(event) {
     //   console.log(event.latLng.lat(), event.latLng.lng());
     // });
+  }
+
+  /**
+   * Returns zoom level for window width
+   */
+  getZoomForWidth() {
+    let width = window.innerWidth || document.documentElement.clientWidth
+      || document.body.clientWidth;
+    if (width < 768) {
+      return 5;
+    }
+    return 7;
   }
 
   /**
