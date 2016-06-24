@@ -71,6 +71,16 @@ h1, p {
   margin-bottom: .5em;
 }
 
+.id {
+  background-color: #c33d2b;
+  border-radius: 20px;
+  color: white;
+  float: left;
+  margin-right: 9px;
+  padding: 3px 9px 4px;
+  transform: translateY(3px);
+}
+
 .close {
   cursor: pointer;
   position: absolute;

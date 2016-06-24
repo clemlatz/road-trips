@@ -83,8 +83,7 @@ class Pin {
     });
 
     this.marker.addListener('click', function() {
-      window.page.setTitle(this.entry.title);
-      window.page.setContent(this.entry.content);
+      window.page.render(this.entry.id, this.entry.title, this.entry.content);
       window.page.renderPhotos(this.entry.photos);
       window.page.show();
     }.bind(this));
@@ -97,6 +96,7 @@ class Page {
 
   constructor(element) {
     this.element = element;
+    this.id      = element.querySelector('.id');
     this.title   = element.querySelector('.title');
     this.content = element.querySelector('.content');
     this.close   = element.querySelector('.close');
@@ -107,11 +107,9 @@ class Page {
     }.bind(this));
   }
 
-  setTitle(title) {
+  render(id, title, content) {
+    this.id.textContent = id;
     this.title.textContent = title;
-  }
-
-  setContent(content) {
     this.content.textContent = content;
   }
 
