@@ -13,6 +13,19 @@ h1, p {
   margin: 0;
 }
 
+#map-container {
+  left: 0;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+#map {
+  height: 100%;
+}
+
 #header {
   background: white;
   color: #000;
@@ -22,7 +35,7 @@ h1, p {
   padding: 1em;
   position: relative;
   text-align: center;
-  top: 10px;
+  top: 1em;
   transform: translate(-50%);
   width: 90%;
   z-index: 200;
@@ -35,15 +48,30 @@ h1, p {
   text-transform: uppercase;
 }
 
-#map-container {
-  left: 0;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
+#page {
+  background: white;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+  display: none;
+  margin: 2em auto;
+  max-width: 550px;
+  padding: 1em;
+  position: relative;
+  width: 90%;
+  z-index: 200;
 }
 
-#map {
-  height: 100%;
+#page h1 {
+  color: #c33d2b;
+  margin: .25em 0;
+}
+
+#page p {
+  margin-bottom: .5em;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  top: 3px;
+  right: 10px;
 }

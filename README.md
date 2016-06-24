@@ -15,5 +15,6 @@ the [Creative Commons BY-NC-ND 4.0 License](https://creativecommons.org/licenses
 * Entries
 * Photos
 * Babel + Webpack
-* Navigation
+* Markdown
+* Navigation history
 * Comments ?
