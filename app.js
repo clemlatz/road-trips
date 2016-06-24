@@ -22,6 +22,10 @@ class Map {
       center: { lat: 64.9313, lng: -19.0212 },
       zoom: 7
     });
+
+    // google.maps.event.addListener(this.map, 'click', function(event) {
+    //   console.log(event.latLng.lat(), event.latLng.lng());
+    // });
   }
 
   /**
