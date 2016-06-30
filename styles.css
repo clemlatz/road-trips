@@ -96,6 +96,7 @@ h1, p {
   border: 5px solid rgba(0, 0, 0, .05);
   box-shadow: 1px 1px 3px rgba(0, 0, 0, .15);
   box-sizing: border-box;
+  cursor: zoom-in;
   max-width: 100%;
 }
 
@@ -104,6 +105,32 @@ h1, p {
   font-size: .9em;
   margin-top: .25em;
   font-style: italic;
+}
+
+#overlay {
+  display: none;
+  background: rgba(0, 0, 0, .75);
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 300;
+}
+
+#lightbox {
+  background: white;
+  cursor: zoom-out;
+  position: absolute;
+}
+
+#lightbox img {
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  border: 10px solid white;
+  height: 100%;
+  width: 100%;
 }
 
 @media (min-width: 500px) {
