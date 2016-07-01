@@ -84,11 +84,11 @@ class Pin {
       title: this.entry.title
     });
 
-    this.marker.addListener('click', function() {
+    this.marker.addListener('click', () => {
       window.page.render(this.entry.id, this.entry.title, this.entry.content);
       window.page.renderPhotos(this.entry.photos);
       window.page.show();
-    }.bind(this));
+    });
   }
 }
 
@@ -104,9 +104,9 @@ class Page {
     this.close   = element.querySelector('.close');
     this.photos  = element.querySelector('.photos');
 
-    this.close.addEventListener('click', function() {
+    this.close.addEventListener('click', () => {
       this.hide();
-    }.bind(this));
+    });
   }
 
   render(id, title, content) {
@@ -117,10 +117,10 @@ class Page {
 
   renderPhotos(photos) {
     this.photos.innerHTML = '';
-    photos.forEach(function(data) {
+    photos.forEach((data) => {
       const photo = new Photo(data.id, data.caption);
       this.photos.appendChild(photo.element);
-    }.bind(this));
+    });
   }
 
   show() {
@@ -153,9 +153,15 @@ class Photo {
     image.alt = this.caption;
     this.element.appendChild(image);
 
-    image.addEventListener('click', function() {
-      window.lightbox.show(this);
-    }.bind(this));
+    // When image is loaded
+    image.addEventListener('load', () => {
+      this.ratio = image.naturalWidth / image.naturalHeight;
+
+      // Display lightbox when photo is clicked
+      image.addEventListener('click', () => {
+        window.lightbox.show(this);
+      });
+    });
 
     const text = document.createElement('p');
     text.classList.add('caption');
@@ -173,7 +179,6 @@ class Lightbox {
   constructor(element) {
     this.element = element;
     this.overlay = element.parentNode;
-    this.imageRatio = 1.28;
 
     this.overlay.addEventListener('click', this.hide.bind(this));
   }
@@ -213,11 +218,13 @@ class Lightbox {
   }
 
   show(photo) {
+
     // Display image with low-res image for fast loading
     this.image = document.createElement('img');
     this.image.style.backgroundImage = `url(/data/thumbs/${photo.id}.jpg)`;
     this.element.appendChild(this.image);
 
+    this.imageRatio = photo.ratio;
     this.overlay.style.display = 'block';
     this.resize();
     this.overlay.style.opacity = 1;
