@@ -181,6 +181,10 @@ class Lightbox {
     this.overlay = element.parentNode;
 
     this.overlay.addEventListener('click', this.hide.bind(this));
+
+    window.addEventListener('resize', () => {
+      this.resize();
+    });
   }
 
   getDimensions() {
