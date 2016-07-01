@@ -54,8 +54,14 @@ class Map {
       .then(function(response) {
         return response.json();
       }).then(function(entries) {
+        let delay = 0;
         entries.forEach(function(entry) {
-          new Pin(entry, map);
+          (function(delay) {
+            window.setTimeout(() => {
+              new Pin(entry, map);
+            }, delay);
+          })(delay);
+          delay += 250;
         });
       });
   }
