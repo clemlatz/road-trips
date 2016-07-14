@@ -91,7 +91,7 @@ class Pin {
     });
 
     this.marker.addListener('click', () => {
-      window.page.render(this.entry.id, this.entry.title, this.entry.content);
+      window.page.render(this.entry.id, this.entry.title, this.entry.date, this.entry.content);
       window.page.renderPhotos(this.entry.photos);
       window.page.show();
     });
@@ -106,6 +106,7 @@ class Page {
     this.element = element;
     this.id      = element.querySelector('.id');
     this.title   = element.querySelector('.title');
+    this.date    = element.querySelector('.date');
     this.content = element.querySelector('.content');
     this.close   = element.querySelector('.close');
     this.photos  = element.querySelector('.photos');
@@ -115,9 +116,10 @@ class Page {
     });
   }
 
-  render(id, title, content) {
+  render(id, title, date, content) {
     this.id.textContent = id;
     this.title.textContent = title;
+    this.date.textContent = date;
     this.content.textContent = content;
   }
 
