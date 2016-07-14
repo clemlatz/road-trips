@@ -81,6 +81,17 @@ h1, p {
   transform: translateY(3px);
 }
 
+.date {
+  background-color: #c33d2b;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+  color: #fff;
+  font-size: .8em;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+
 .close {
   cursor: pointer;
   position: absolute;
