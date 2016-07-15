@@ -17,7 +17,7 @@
     "title": "Hafnarfjödur",
     "date": "15 juillet - 10h",
     "coords": [ 64.05177661560711, -21.985015869140625 ],
-    "content": "Arret bref mais inévitable à Hafnarfjödur, petite ville de pêcheurs à la périphérie de Reykjavik, où prend place l'intrigue d'Elliot du Néant de David Calvo, roman emporté dans les bagages !",
+    "content": "Arret bref mais inévitable à Hafnarfjödur, petite ville de pêcheurs à la périphérie de Reykjavik, où prend place l'intrigue d'Elliot du Néant, roman de David Calvo emporté dans les bagages !",
     "photos": [
       {
         "id": "B"
@@ -29,7 +29,7 @@
     "title": "Lac de Kleirfarvatn",
     "date": "15 juillet - 12h",
     "coords": [ 63.94642140599408, -21.961669921875 ],
-    "content": "C'est la route 1, qui fait le tour de l'île, que nous allons emprunter tout au long de notre voyage, mais pour rallier notre premier étape à Selfoss, on choisit d'emprunter la route 42 qui nous fera longer la côte. Bonne idée, puisque cela nous permet de nous aux abords du lac de Kleirfarvatn",
+    "content": "C'est la route 1, celle qui fait le tour de l'île, que nous allons emprunter tout au long de notre voyage, mais pour rallier notre premier étape à Selfoss, on choisit d'emprunter la route 42 qui nous fera longer la côte. Bonne idée, puisque cela nous permet de nous aux abords du lac de Kleirfarvatn",
     "photos": [
       {
         "id": "C1",
@@ -54,6 +54,39 @@
       {
         "id": "C6",
         "caption": "Le lac vu du sommet"
+      }
+    ]
+  },
+  {
+    "id": "D",
+    "title": "Les fumerolles de Seltùn",
+    "date": "15 juillet - 14h",
+    "coords": [ 63.88724882293143, -22.054367065429688 ],
+    "content": "Deuxième arrêt impromptu sur la route de Selfoss lorsqu'on aperçoit des fumerolles. De l'eau chauffée à 200° par le magma qui remonte à la surface en dissolvant la roche et s'évapore en bouillonant à la surface.",
+    "photos": [
+      {
+        "id": "D1",
+        "caption": "Les fumerolles"
+      },
+      {
+        "id": "D2",
+        "caption": "Vu de près : c'est beau, mais ça sent l'oeuf pourri"
+      },
+      {
+        "id": "D3",
+        "caption": "Vu du haut de la colline, les cratères formés par les explosions de vapeur"
+      },
+      {
+        "id": "D4",
+        "caption": "Au loin, des fumerolles particulièrement denses"
+      },
+      {
+        "id": "D5",
+        "caption": "Attention à ne pas mettre les pieds dans un bout de trou de boue qui bout (à 100°) !"
+      },
+      {
+        "id": "D6",
+        "caption": "Sur la route de Selfoss, le paysage ressemble à s'y méprendre à un gigantesque cookie aux pépites de chocolat. Ou bien est-ce parce que nous n'avons rien mangé depuis le matin ?"
       }
     ]
   }
