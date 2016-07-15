@@ -1,1 +1,60 @@
-[]
+[
+  {
+    "id": "A",
+    "title": "Aéroport de Keflavik",
+    "date": "15 juillet - 9h",
+    "coords": [ 63.99282663400118, -22.6153564453125 ],
+    "content": "Arrivée au petit matin à l'aéroport international de Keflavik, après un vol sans encombre depuis Paris. L'air est frais est vivifiant. On récupère d'abord la voiture, l'occasion pour le loueur de nous informer des nombreux dangers qui guettent l'automobiliste amateur en Islande : tempêtes de sable, collines aveugles, routes de graviers, moutons en liberté... Il faut aussi toujours prendre soin de se garer face au vent, faute de quoi les portes peuvent être arrachées !",
+    "photos": [
+      {
+        "id": "A",
+        "caption": "Un élément indispensable au road-trip réussi : la voiture !"
+      }
+    ]
+  },
+  {
+    "id": "B",
+    "title": "Hafnarfjödur",
+    "date": "15 juillet - 10h",
+    "coords": [ 64.05177661560711, -21.985015869140625 ],
+    "content": "Arret bref mais inévitable à Hafnarfjödur, petite ville de pêcheurs à la périphérie de Reykjavik, où prend place l'intrigue d'Elliot du Néant de David Calvo, roman emporté dans les bagages !",
+    "photos": [
+      {
+        "id": "B"
+      }
+    ]
+  },
+  {
+    "id": "C",
+    "title": "Lac de Kleirfarvatn",
+    "date": "15 juillet - 12h",
+    "coords": [ 63.94642140599408, -21.961669921875 ],
+    "content": "C'est la route 1, qui fait le tour de l'île, que nous allons emprunter tout au long de notre voyage, mais pour rallier notre premier étape à Selfoss, on choisit d'emprunter la route 42 qui nous fera longer la côte. Bonne idée, puisque cela nous permet de nous aux abords du lac de Kleirfarvatn",
+    "photos": [
+      {
+        "id": "C1",
+        "caption": "Parés pour la première sortie !"
+      },
+      {
+        "id": "C2",
+        "caption": "Le lac et sa plage de sable noir"
+      },
+      {
+        "id": "C4",
+        "caption": "Pour prendre un peu de hauteur, nous entreprenons de gravir la colline voisine"
+      },
+      {
+        "id": "C3",
+        "caption": "Les flancs de la colines creusés par le vent"
+      },
+      {
+        "id": "C5",
+        "caption": "La vue au sommet de la colline"
+      },
+      {
+        "id": "C6",
+        "caption": "Le lac vu du sommet"
+      }
+    ]
+  }
+]

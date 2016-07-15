@@ -28,9 +28,9 @@ class Map {
       disableDefaultUI: true
     });
 
-    // google.maps.event.addListener(this.map, 'click', function(event) {
-    //   console.log(event.latLng.lat(), event.latLng.lng());
-    // });
+    google.maps.event.addListener(this.map, 'click', function(event) {
+      console.log(event.latLng.lat(), event.latLng.lng());
+    });
   }
 
   /**
