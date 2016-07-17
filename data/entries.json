@@ -173,5 +173,36 @@
         "id": "G4"
       }
     ]
+  },
+  {
+    "id": "H",
+    "title": "Randonnée à Skógafoss",
+    "date": "16 juillet - 12h",
+    "coords": [ 63.53172502888363, -19.50845718383789 ],
+    "content": "Skógafoss, sans doute notre plus beau moment jusqu'à présent. Les chutes sont impresionnantes, mais il faut surtout monter en haut et suivre le chemin de randonnée qui borde la rivière Skógá pour découvrir d'autres chutes et des paysages somptueux.",
+    "photos": [
+      {
+        "id": "H1",
+        "caption": "La légende veut que Þrasi Þórólfsson, premier colon Viking, aurait caché son trésor dans une cave derrière les chutes (on n'a pas trouvé)"
+      },
+      {
+        "id": "H2",
+        "caption": "Au sommet : double rainbow !"
+      },
+      {
+        "id": "H3",
+        "caption": "En amont, les gorges de la rivière Skóga"
+      },
+      {
+        "id": "H4",
+        "caption": "En Islande, les moutons vont toujours par trois. Si vous n'en voyez que deux, le troisième est probablement en train de charger dans votre dos !"
+      },
+      {
+        "id": "H5"
+      },
+      {
+        "id": "H6"
+      }
+    ]
   }
 ]
