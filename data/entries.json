@@ -158,6 +158,20 @@
     "date": "16 juillet - 15h",
     "coords": [ 64.327639889255, -20.124292373657227 ],
     "content": "Gullfoss (\"La Chute d'Or\") est une cascade haute de 32 mètres et large de 70. Selon la légende, elle doit son nom à un type riche et avare qui aurait préféré y jeter tout son or plutôt que de voir quelqu'un en hériter. Sympa ! Après avoir un nombre improbable de tentatives malheureuses, on abandonne l'idée du seflie devant les chutes.",
-    "photos": []
+    "photos": [
+      {
+        "id": "G1",
+        "caption": "Le chemin de ? doit son nom à ? ?, une islandaise qui lutta pour empêcher la transformation des chutes en barrage hydro-éléctrique"
+      },
+      {
+        "id": "G2"
+      },
+      {
+        "id": "G3"
+      },
+      {
+        "id": "G4"
+      }
+    ]
   }
 ]
