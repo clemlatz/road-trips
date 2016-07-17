@@ -117,10 +117,10 @@
   },
   {
     "id": "F",
-    "title": "Geysir & Skottur",
+    "title": "Geysir & Strokkur",
     "date": "16 juillet - 13h",
     "coords": [ 64.31335755280075, -20.300374031066895 ],
-    "content": "Geysir a donné son nom au phénomène des geysers (et non gésiers comme dit Clément) et jaillit à 80 mètres trois fois par jour. Heureusement pour les touristes, son petit frère Skottur jaillit à 25 mètres toutes les dix minutes.",
+    "content": "Geysir a donné son nom au phénomène des geysers (et non gésiers comme dit Clément) et jaillit à 80 mètres trois fois par jour. Heureusement pour les touristes, son petit frère Strokkur jaillit à 25 mètres toutes les dix minutes.",
     "photos": [
       {
         "id": "F1",
@@ -132,15 +132,15 @@
       },
       {
         "id": "F3",
-        "caption": "Un mini geysir"
+        "caption": "Un mini geyser"
       },
       {
         "id": "F4",
-        "caption": "Skrottur !"
+        "caption": "Strokkur !"
       },
       {
         "id": "F5",
-        "caption": "L'eau est d'un bleu tropical, j'ai cru entendre quelqu'un dire que c'était du au sulfate de cuivre"
+        "caption": "L'eau est d'un bleu tropical, j'ai cru entendre quelqu'un dire que c'était dû au sulfate de cuivre"
       },
       {
         "id": "F6",
@@ -148,7 +148,7 @@
       },
       {
         "id": "F7",
-        "caption": "Voici à quoi ressemble un bus scolaire Islandais. pratique quand ton école est sur un glacier !"
+        "caption": "Voici à quoi ressemble un bus scolaire Islandais. Pratique quand l'école est sur un glacier !"
       }
     ]
   },
@@ -157,11 +157,11 @@
     "title": "Selfies à Gullfoss",
     "date": "16 juillet - 15h",
     "coords": [ 64.327639889255, -20.124292373657227 ],
-    "content": "Gullfoss (\"La Chute d'Or\") est une cascade haute de 32 mètres et large de 70. Selon la légende, elle doit son nom à un type riche et avare qui aurait préféré y jeter tout son or plutôt que de voir quelqu'un en hériter. Sympa ! Après avoir un nombre improbable de tentatives malheureuses, on abandonne l'idée du seflie devant les chutes.",
+    "content": "Gullfoss (\"La Chute d'Or\") est une cascade haute de 32 mètres et large de 70. Selon la légende, elle doit son nom à un type riche et avare qui aurait préféré y jeter tout son or plutôt que de voir quelqu'un en hériter. Sympa ! Après avoir un nombre improbable de tentatives malheureuses, on abandonne l'idée du selfie devant les chutes.",
     "photos": [
       {
         "id": "G1",
-        "caption": "Le chemin de ? doit son nom à ? ?, une islandaise qui lutta pour empêcher la transformation des chutes en barrage hydro-éléctrique"
+        "caption": "Le chemin de Sigríður doit son nom à Sigríður Tómasdóttir, une islandaise qui lutta pour empêcher la transformation des chutes en barrage hydro-éléctrique"
       },
       {
         "id": "G2"
