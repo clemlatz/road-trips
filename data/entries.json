@@ -121,7 +121,36 @@
     "date": "16 juillet - 13h",
     "coords": [ 64.31335755280075, -20.300374031066895 ],
     "content": "Geysir a donné son nom au phénomène des geysers (et non gésiers comme dit Clément) et jaillit à 80 mètres trois fois par jour. Heureusement pour les touristes, son petit frère Skottur jaillit à 25 mètres toutes les dix minutes.",
-    "photos": []
+    "photos": [
+      {
+        "id": "F1",
+        "caption": "L'eau qui ruisselle par terre est à 100°, l'hôpital le plus proche est à 62 km"
+      },
+      {
+        "id": "F2",
+        "caption": "Fumerolles aux abords des geysers"
+      },
+      {
+        "id": "F3",
+        "caption": "Un mini geysir"
+      },
+      {
+        "id": "F4",
+        "caption": "Skrottur !"
+      },
+      {
+        "id": "F5",
+        "caption": "L'eau est d'un bleu tropical, j'ai cru entendre quelqu'un dire que c'était du au sulfate de cuivre"
+      },
+      {
+        "id": "F6",
+        "caption": "Le geyser Geysir gisant sans gémir"
+      },
+      {
+        "id": "F7",
+        "caption": "Voici à quoi ressemble un bus scolaire Islandais. pratique quand ton école est sur un glacier !"
+      }
+    ]
   },
   {
     "id": "G",
