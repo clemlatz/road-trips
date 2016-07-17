@@ -74,7 +74,7 @@
       },
       {
         "id": "D3",
-        "caption": "Vu du haut de la colline, les cratères formés par les explosions de vapeur"
+        "caption": "Vus du haut de la colline, les cratères formés par les explosions de vapeur"
       },
       {
         "id": "D4",
@@ -89,5 +89,46 @@
         "caption": "Sur la route de Selfoss, le paysage ressemble à s'y méprendre à un gigantesque cookie aux pépites de chocolat. Ou bien est-ce parce que nous n'avons rien mangé depuis le matin ?"
       }
     ]
+  },
+  {
+    "id": "E",
+    "title": "Le cratère de Kerið",
+    "date": "16 juillet - 11h",
+    "coords": [ 64.0409583983354, -20.882606506347656 ],
+    "content": "Après une nuit à la ferme auberge Vatnsholt près de Selfoss (où Mathilde a tenté d'apprendre le français à un perroquet), direction le Cercle d'or, site le plus touristique d'Islande. Première escale à Kerið, un cratère formé par l'effondrement de la chambre magmatique d'un ancien volcan.",
+    "photos": [
+      {
+        "id": "E1",
+        "caption": "Kerið"
+      },
+      {
+        "id": "E2",
+        "caption": "Un escalier en bois pour descendre au fond du cratère"
+      },
+      {
+        "id": "E3",
+        "caption": "Vue du fond du cratère"
+      },
+      {
+        "id": "E4",
+        "caption": "La roche volcanique aux abords du cratère"
+      }
+    ]
+  },
+  {
+    "id": "F",
+    "title": "Geysir & Skottur",
+    "date": "16 juillet - 13h",
+    "coords": [ 64.31335755280075, -20.300374031066895 ],
+    "content": "Geysir a donné son nom au phénomène des geysers (et non gésiers comme dit Clément) et jaillit à 80 mètres trois fois par jour. Heureusement pour les touristes, son petit frère Skottur jaillit à 25 mètres toutes les dix minutes.",
+    "photos": []
+  },
+  {
+    "id": "G",
+    "title": "Selfies à Gullfoss",
+    "date": "16 juillet - 15h",
+    "coords": [ 64.327639889255, -20.124292373657227 ],
+    "content": "Gullfoss (\"La Chute d'Or\") est une cascade haute de 32 mètres et large de 70. Selon la légende, elle doit son nom à un type riche et avare qui aurait préféré y jeter tout son or plutôt que de voir quelqu'un en hériter. Sympa ! Après avoir un nombre improbable de tentatives malheureuses, on abandonne l'idée du seflie devant les chutes.",
+    "photos": []
   }
 ]
