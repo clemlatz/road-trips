@@ -20,7 +20,8 @@
     "content": "Arret bref mais inévitable à Hafnarfjödur, petite ville de pêcheurs à la périphérie de Reykjavik, où prend place l'intrigue d'Elliot du Néant, roman de David Calvo emporté dans les bagages !",
     "photos": [
       {
-        "id": "B"
+        "id": "B",
+        "caption": ""
       }
     ]
   },
@@ -37,23 +38,23 @@
       },
       {
         "id": "C2",
-        "caption": "Le lac et sa plage de sable noir"
+        "caption": "Le lac et sa plage de sable noir."
       },
       {
         "id": "C4",
-        "caption": "Pour prendre un peu de hauteur, nous entreprenons de gravir la colline voisine"
+        "caption": "Pour prendre un peu de hauteur, nous entreprenons de gravir la colline voisine."
       },
       {
         "id": "C3",
-        "caption": "Les flancs de la colines creusés par le vent"
+        "caption": "Les flancs de la colines creusés par le vent."
       },
       {
         "id": "C5",
-        "caption": "La vue au sommet de la colline"
+        "caption": "La vue au sommet de la colline."
       },
       {
         "id": "C6",
-        "caption": "Le lac vu du sommet"
+        "caption": "Le lac vu du sommet."
       }
     ]
   },
@@ -70,15 +71,15 @@
       },
       {
         "id": "D2",
-        "caption": "Vu de près : c'est beau, mais ça sent l'oeuf pourri"
+        "caption": "Vu de près : c'est beau, mais ça sent l'oeuf pourri."
       },
       {
         "id": "D3",
-        "caption": "Vus du haut de la colline, les cratères formés par les explosions de vapeur"
+        "caption": "Vus du haut de la colline, les cratères formés par les explosions de vapeur."
       },
       {
         "id": "D4",
-        "caption": "Au loin, des fumerolles particulièrement denses"
+        "caption": "Au loin, des fumerolles particulièrement denses."
       },
       {
         "id": "D5",
@@ -103,15 +104,15 @@
       },
       {
         "id": "E2",
-        "caption": "Un escalier en bois pour descendre au fond du cratère"
+        "caption": "Un escalier en bois pour descendre au fond du cratère."
       },
       {
         "id": "E3",
-        "caption": "Vue du fond du cratère"
+        "caption": "Vue du fond du cratère."
       },
       {
         "id": "E4",
-        "caption": "La roche volcanique aux abords du cratère"
+        "caption": "La roche volcanique aux abords du cratère."
       }
     ]
   },
@@ -124,15 +125,15 @@
     "photos": [
       {
         "id": "F1",
-        "caption": "L'eau qui ruisselle par terre est à 100°, l'hôpital le plus proche est à 62 km"
+        "caption": "L'eau qui ruisselle par terre est à 100°, l'hôpital le plus proche est à 62 km."
       },
       {
         "id": "F2",
-        "caption": "Fumerolles aux abords des geysers"
+        "caption": "Fumerolles aux abords des geysers."
       },
       {
         "id": "F3",
-        "caption": "Un mini geyser"
+        "caption": "Un mini geyser."
       },
       {
         "id": "F4",
@@ -140,11 +141,11 @@
       },
       {
         "id": "F5",
-        "caption": "L'eau est d'un bleu tropical, j'ai cru entendre quelqu'un dire que c'était dû au sulfate de cuivre"
+        "caption": "L'eau est d'un bleu tropical, j'ai cru entendre quelqu'un dire que c'était dû au sulfate de cuivre."
       },
       {
         "id": "F6",
-        "caption": "Le geyser Geysir gisant sans gémir"
+        "caption": "Le geyser Geysir gisant sans gémir."
       },
       {
         "id": "F7",
@@ -161,29 +162,32 @@
     "photos": [
       {
         "id": "G1",
-        "caption": "Le chemin de Sigríður doit son nom à Sigríður Tómasdóttir, une islandaise qui lutta pour empêcher la transformation des chutes en barrage hydro-éléctrique"
+        "caption": "Le chemin de Sigríður doit son nom à Sigríður Tómasdóttir, une islandaise qui lutta pour empêcher la transformation des chutes en barrage hydro-éléctrique."
       },
       {
-        "id": "G2"
+        "id": "G2",
+        "caption": ""
       },
       {
-        "id": "G3"
+        "id": "G3",
+        "caption": ""
       },
       {
-        "id": "G4"
+        "id": "G4",
+        "caption": ""
       }
     ]
   },
   {
     "id": "H",
     "title": "Randonnée à Skógafoss",
-    "date": "16 juillet - 12h",
+    "date": "17 juillet - 12h",
     "coords": [ 63.53172502888363, -19.50845718383789 ],
     "content": "Skógafoss, sans doute notre plus beau moment jusqu'à présent. Les chutes sont impresionnantes, mais il faut surtout monter en haut et suivre le chemin de randonnée qui borde la rivière Skógá pour découvrir d'autres chutes et des paysages somptueux.",
     "photos": [
       {
         "id": "H1",
-        "caption": "La légende veut que Þrasi Þórólfsson, premier colon Viking, aurait caché son trésor dans une cave derrière les chutes (on n'a pas trouvé)"
+        "caption": "La légende veut que Þrasi Þórólfsson, premier colon Viking, aurait caché son trésor dans une cave derrière les chutes (on n'a pas trouvé)."
       },
       {
         "id": "H2",
@@ -191,17 +195,44 @@
       },
       {
         "id": "H3",
-        "caption": "En amont, les gorges de la rivière Skóga"
+        "caption": "En amont, les gorges de la rivière Skóga."
       },
       {
         "id": "H4",
         "caption": "En Islande, les moutons vont toujours par trois. Si vous n'en voyez que deux, le troisième est probablement en train de charger dans votre dos !"
       },
       {
-        "id": "H5"
+        "id": "H5",
+        "caption": ""
       },
       {
-        "id": "H6"
+        "id": "H6",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "id": "I",
+    "title": "Les moutons de Reynisfjall",
+    "date": "17 juillet - 17h",
+    "coords": [ 63.41196604278784, -19.02454376220703 ],
+    "content": "Arrivée à Vik, petite ville surplombée par les falaises de Reynisfjall, au sommet desquelles on grimpe pour faire une randonnée de 8 km.",
+    "photos": [
+      {
+        "id": "I1",
+        "caption": "La plage de sable au noir de Vik, au pied des falaises."
+      },
+      {
+        "id": "I2",
+        "caption": "Au sommet des falaises."
+      },
+      {
+        "id": "I3",
+        "caption": "Reynisdrangar : selon la légende, un trois-mâts que deux trolls auraient échoué à traîner jusqu'au rivage, changé en pierre au lever du soleil."
+      },
+      {
+        "id": "I4",
+        "caption": "L'Islande compte 1 million de moutons. De fait, on en croise plus souvent que des Islandais."
       }
     ]
   }
