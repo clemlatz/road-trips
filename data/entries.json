@@ -235,5 +235,30 @@
         "caption": "L'Islande compte 1 million de moutons. De fait, on en croise plus souvent que des Islandais."
       }
     ]
+  },
+  {
+    "id": "J",
+    "title": "Les colonnes de Reynisfjara",
+    "date": "18 juillet - 11h",
+    "coords": [ 63.40351340012634, -19.05029296875 ],
+    "content": "Avant de repartir de Vik pour l'ouest, petite escale à la plage de Reynisfjara, au pied des falaises gravies la veille, célèbre pour ses colonnes de basalte.",
+    "photos": [
+      {
+        "id": "J1",
+        "caption": "Les colonnes de basalte, phénomène naturel, formées par des coulées de laves lorsqu'elles refroidissent."
+      },
+      {
+        "id": "J2",
+        "caption": "La légende veut que les phoques viennent une fois par an dans cette grotte, retirent leur peau et chantent et dansent une nuit durant. Nous on garde nos polaires..."
+      },
+      {
+        "id": "J3",
+        "caption": ""
+      },
+      {
+        "id": "J4",
+        "caption": "Le trône de pierre !"
+      }
+    ]
   }
 ]
