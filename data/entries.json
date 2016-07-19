@@ -266,7 +266,7 @@
     "title": "Les glaces de Jökulsárlón",
     "date": "18 juillet - 15h",
     "coords": [ 64.04276172598884, -16.18011474609375 ],
-    "content": "Après une longue route à travers le Skeiðarársandur (désert de sable noir), sortie sur le Fjallsárlón et randonnée le long des rives de son grand-frère, le Jökulsárlón. Les deux lacs proglaciaires sont nés de la fonte du Vatnajökull, le plus grand glacier d'Islande. Les iceberg s'en détachent en craquant et glissent lentement vers la mer.",
+    "content": "Après une longue route à travers le Skeiðarársandur (désert de sable noir), sortie sur le Fjallsárlón et randonnée le long des rives de son grand-frère, le Jökulsárlón. Les deux lacs proglaciaires sont nés de la fonte du Vatnajökull, le plus grand glacier d'Islande. Les icebergs s'en détachent en craquant et glissent lentement vers la mer.",
     "photos": [
       {
         "id": "K1",
@@ -302,11 +302,36 @@
       },
       {
         "id": "K9",
-        "caption": "Les icebergs sont bleus lorsqu'ils se détachent du glacier ou tant qu'ils sont sous l'eau, et deviennent blanc au contact de l'oxygène. Celui-ci vient sans doute de se retourner."
+        "caption": "Les icebergs sont bleus lorsqu'ils se détachent du glacier ou tant qu'ils sont sous l'eau, et deviennent blancs au contact de l'oxygène. Celui-ci vient sans doute de se retourner."
       },
       {
         "id": "K10",
         "caption": "Le soir venu, les employés de l'office du tourisme rangent les icerbergs à l'aide de grandes perches."
+      }
+    ]
+  },
+  {
+    "id": "L",
+    "title": "L'appel de Skaftafell",
+    "date": "18 juillet - 15h",
+    "coords": [ 64.0229187084014, -16.972503662109375 ],
+    "content": "Après une nuit à Höfn, petit retour sur nos pas pour une randonnée de 8 km dans le parc naturel de Skaftafell, avant de reprendre la route pour rallier Egilstaðir à l'Est.",
+    "photos": [
+      {
+        "id": "L1",
+        "caption": "La cascade Svartifoss (\"Chute noire\") et ses colonnes de basalte, dont s'est inspiré l'architecte de l'église Hallgrímskirkja à Reykjavik."
+      },
+      {
+        "id": "L2",
+        "caption": "Le glacier Skaftafelljökull, noirci par les débris volcaniques."
+      },
+      {
+        "id": "L3",
+        "caption": "Skaftafelljökull s'achève par une lagune glaciaire où dérivent les icebergs. Le recul du glacier s'accélère depuis plusieurs années."
+      },
+      {
+        "id": "L4",
+        "caption": "Le Skeiðarársandur, que nous avons traversé la veille, désert humide de sable noir issu de la fonte du glacier."
       }
     ]
   }
