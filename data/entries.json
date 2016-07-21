@@ -383,5 +383,46 @@
         "caption": "L'état de la voiture après les routes de montagne."
       }
     ]
+  },
+  {
+    "id": "N",
+    "title": "Les macareux de Borgarfjörður",
+    "date": "21 juillet - 11h",
+    "coords": [ 65.54261585474393, -13.756427764892578 ],
+    "content": "Au bout de la route 94 qui mène au fjord de Borgarfjörður, à l'extrême Nord-Est de l'Islande, se trouve un tout petit port, ambiance bout du monde. Et surtout, à la sortie du port, se dresse une falaise où vivent des centaines d'oiseaux, dont une colonie de macareux !",
+    "photos": [
+      {
+        "id": "N0",
+        "caption": "Le port"
+      },
+      {
+        "id": "N1",
+        "caption": ""
+      },
+      {
+        "id": "N2",
+        "caption": ""
+      },
+      {
+        "id": "N3",
+        "caption": ""
+      },
+      {
+        "id": "N4",
+        "caption": ""
+      },
+      {
+        "id": "N5",
+        "caption": "Les macareux installent leur nid dans des tunnels qu'ils garnissent de feuilles, de plumes et de brin d'herbes."
+      },
+      {
+        "id": "N6",
+        "caption": "En anglais, \"macareux\" se dit \"puffin\", ce qui reflète bien le côté patapouf de ces petits pingouins volants un peu patauds."
+      },
+      {
+        "id": "N7",
+        "caption": ""
+      }
+    ]
   }
 ]
