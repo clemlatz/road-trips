@@ -334,5 +334,54 @@
         "caption": "Le Skeiðarársandur, que nous avons traversé la veille, désert humide de sable noir issu de la fonte du glacier."
       }
     ]
+  },
+  {
+    "id": "M",
+    "title": "Moutons dans la brume",
+    "date": "20 juillet",
+    "coords": [ 65.10914820386473, -13.64501953125 ],
+    "content": "Une journée à sillonner les fjords de la côte Est en voiture. Pour les atteindre, il faut traverser des cols de montagne noyés dans la brume, d'où des moutons surgissent sur la route sans crier gare.",
+    "photos": [
+      {
+        "id": "M1",
+        "caption": "En chemin, un arrêt à la cascade de Gufufoss."
+      },
+      {
+        "id": "M2",
+        "caption": "La route disparaît dans la brume."
+      },
+      {
+        "id": "M3",
+        "caption": "Bientôt, on ne voit pas beaucoup plus loin que le nez de la voiture."
+      },
+      {
+        "id": "M4",
+        "caption": "Au plus haut du col, les neiges éternelles."
+      },
+      {
+        "id": "M5",
+        "caption": "Sur les routes de montagne, on croise beaucoup d'auto-stoppeurs. Celui-là a l'air un peu louche."
+      },
+      {
+        "id": "M6",
+        "caption": "Même sur la route principale, les tunnels comme les ponts ne sont assez larges que pour un seul véhicule. Il faut attendre son tour..."
+      },
+      {
+        "id": "M7",
+        "caption": "En sortant du brouillard, les fjords."
+      },
+      {
+        "id": "M8",
+        "caption": ""
+      },
+      {
+        "id": "M9",
+        "caption": ""
+      },
+      {
+        "id": "M10",
+        "caption": "L'état de la voiture après les routes de montagne."
+      }
+    ]
   }
 ]
