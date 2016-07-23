@@ -465,5 +465,42 @@
         "caption": ""
       }
     ]
+  },
+  {
+    "id": "P",
+    "title": "Les solfatares de Hverarönd",
+    "date": "21 juillet - 18h",
+    "coords": [ 65.64088063577655, -16.80856704711914 ],
+    "content": "Dernière étape sur la route de Mývatn où nous passerons la nuit, le site de Hverarönd. Impossible de manquer, depuis la route, les fumerolles blanches qui s'élèvent dans le ciel. Mais au nord de l'Islande, on trouve aussi des solfatare, nom italien pour un type de fumerolle particulièrement puissant qui s'échappe du sol en sifflant.",
+    "photos": [
+      {
+        "id": "P1",
+        "caption": "L'eau froide s'infiltre jusqu'aux chambres magmatiques, se transforme en vapeur sous l'effet de la chaleur et remonte accompagnée de gaz content de l'hydrogène sulfuré."
+      },
+      {
+        "id": "P2",
+        "caption": "Un solfatare"
+      },
+      {
+        "id": "P3",
+        "caption": "Le touriste malin ne reste pas longtemps dans la fumée du solfatare, brûlante et irrespirable."
+      },
+      {
+        "id": "P4",
+        "caption": "Un trou de boue bouillonnante. On peut y prendre des bains s'y on supporte les températures supérieures à 80°."
+      },
+      {
+        "id": "P5",
+        "caption": "Les sols sont multicolores : rouge, brun, bleu, jaune, doré..."
+      },
+      {
+        "id": "P6",
+        "caption": "En Islande, il suffit parfois de se tromper de sortie sur la route pour se retrouver sur une autre planète."
+      },
+      {
+        "id": "P7",
+        "caption": "Seuls sur Mars (et pas de Matt Damon en vue !)"
+      }
+    ]
   }
 ]
