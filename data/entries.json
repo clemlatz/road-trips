@@ -424,5 +424,46 @@
         "caption": ""
       }
     ]
+  },
+  {
+    "id": "O",
+    "title": "Les paysages extraterrestres de Dettifoss",
+    "date": "22 juillet - 16h",
+    "coords": [ 65.81431290777762, -16.381988525390625 ],
+    "content": "Large de 100 mètres et haute de 45, la cascade de Detifoss est la plus puissante d'Europe avec un débit de 600 mètres-cube par seconde. C'est le décor qu'a choisi Ridley Scott pour la scène d'introduction de son film Prometheus, où l'on voit un extraterrestres plonger dans une cascade aux eaux noires.",
+    "photos": [
+      {
+        "id": "O1",
+        "caption": "Pour accéder à la cascade, il faut s'éloigner de la route 1 et traverser des kilomètres de désert de lave refroidie."
+      },
+      {
+        "id": "O2",
+        "caption": "Dettifoss"
+      },
+      {
+        "id": "O3",
+        "caption": "On se dit qu'il n'a pas fallu beaucoup d'effets spéciaux pour donner au lieu un aspect extraterrestre ou, en l'occurence, \"soupe primodiale\"."
+      },
+      {
+        "id": "O3b",
+        "caption": "La scène du film de Ridley Scott est censée se dérouler il y a 4 milliards d'années, mais l'Islande est une île relativement récente qui a émergée des eaux il y a \"seulement\" 40 millions d'années."
+      },
+      {
+        "id": "O4",
+        "caption": "Un chemin de randonnée, trempé par les projections d'eau, suit les gorges en aval de la cascade."
+      },
+      {
+        "id": "O5",
+        "caption": "Certains chemins de la randonnée sont plus verticaux que ceux auquels nous sommes habitués."
+      },
+      {
+        "id": "O6",
+        "caption": ""
+      },
+      {
+        "id": "O7",
+        "caption": ""
+      }
+    ]
   }
 ]
