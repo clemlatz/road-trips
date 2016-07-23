@@ -543,5 +543,46 @@
         "caption": ""
       }
     ]
+  },
+  {
+    "id": "R",
+    "title": "La citadelle sombre de Dimmuborgir",
+    "date": "22 juillet - 13h",
+    "coords": [ 65.58600383388769, -16.911907196044922 ],
+    "content": "De loin, Dimmuborgir (\"sombres chateaux\") évoque les ruines d'une cité vieille de plusieurs milliers d'années. Sauf qu'il n'y avait personne en Islande avant le VIIème siècle... La citadelle sombre est en réalité le résultat d'une éruption volcanique. Selon les légendes, Dimmuborgir serait une porte vers l'enfer ou l'habitat des Jólasveinarnir, sorte de croisement entre le père-noël et les sept nains de Blanche-Neige...",
+    "photos": [
+      {
+        "id": "R1",
+        "caption": "Dimmuborgir"
+      },
+      {
+        "id": "R2",
+        "caption": "Un panneau sur le chemin de randonnée qui n'est paradoxalement pas très rassurant."
+      },
+      {
+        "id": "R3",
+        "caption": ""
+      },
+      {
+        "id": "R4",
+        "caption": "On ne sait en réalité pas très bien comment se sont formés les châteaux de Dimmuborgir."
+      },
+      {
+        "id": "R5",
+        "caption": "Une théorie veut que le site fut autrefois un lac de lave, dans lequel jets de vapeur d'eau aurait refroidie la lave, créant ces cheminées autour d'eux."
+      },
+      {
+        "id": "R6",
+        "caption": "Les Jólasveinarnir, supposés autochtones, ont des noms évocateurs tels que \"Lécheur-de-cuillère\", \"Claqueur-de-porte\" ou \"Gobeur-de-skyr\". A Noël, ils amène des cadeaux aux enfants sages et des patates pourries aux autres."
+      },
+      {
+        "id": "R7",
+        "caption": "Une caverne de Jólasveinarnir. L'été, ils hibernent..."
+      },
+      {
+        "id": "R8",
+        "caption": "A l'extremité de Dimmuborgir, les champs de lave s'étendent à perte de vue, comme une mer fossilisée."
+      }
+    ]
   }
 ]
