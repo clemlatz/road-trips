@@ -502,5 +502,46 @@
         "caption": "Seuls sur Mars (et pas de Matt Damon en vue !)"
       }
     ]
+  },
+  {
+    "id": "Q",
+    "title": "Mývatn, le lac aux mouches",
+    "date": "22 juillet - 10h",
+    "coords": [ 65.59480042624011, -17.0068359375 ],
+    "content": "Le plus grand lac d'Islande serait aussi le plus grand rassemblement de canard d'Europe. On a surtout vu la plus grande concentration de moucheron au mètre-carré. Mais passé les murs d'insecte, et pour peu que le soleil soit au rendez-vous, se dévoilent des paysages bucoliques du lac Mývatn.",
+    "photos": [
+      {
+        "id": "Q1",
+        "caption": "Ils vous vendent le cheval islandais au cinq allures, les moutons dans les montagnes, les macareux dans les fjords... mais personne ne vous parle des moucherons de Mývatn."
+      },
+      {
+        "id": "Q2",
+        "caption": "La solution pour traverser les murs d'insecte. Clément songe à garder la même tenue pour passer les contrôles de l'aéroport au retour."
+      },
+      {
+        "id": "Q3",
+        "caption": ""
+      },
+      {
+        "id": "Q4",
+        "caption": ""
+      },
+      {
+        "id": "Q5",
+        "caption": ""
+      },
+      {
+        "id": "Q6",
+        "caption": ""
+      },
+      {
+        "id": "Q7",
+        "caption": "La flore aux abords du lac."
+      },
+      {
+        "id": "Q8",
+        "caption": ""
+      }
+    ]
   }
 ]
