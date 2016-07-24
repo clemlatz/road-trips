@@ -508,7 +508,7 @@
     "title": "Mývatn, le lac aux mouches",
     "date": "22 juillet - 10h",
     "coords": [ 65.59480042624011, -17.0068359375 ],
-    "content": "Le plus grand lac d'Islande serait aussi le plus grand rassemblement de canard d'Europe. On a surtout vu la plus grande concentration de moucheron au mètre-carré. Mais passé les murs d'insecte, et pour peu que le soleil soit au rendez-vous, se dévoilent des paysages bucoliques du lac Mývatn.",
+    "content": "Mývatn serait le plus grand rassemblement de canard d'Europe. On a surtout vu la plus grande concentration de moucheron au mètre-carré. Mais passés les murs d'insecte, et pour peu que le soleil soit au rendez-vous, se dévoilent des paysages bucoliques du lac Mývatn.",
     "photos": [
       {
         "id": "Q1",
@@ -549,7 +549,7 @@
     "title": "La citadelle sombre de Dimmuborgir",
     "date": "22 juillet - 13h",
     "coords": [ 65.58600383388769, -16.911907196044922 ],
-    "content": "De loin, Dimmuborgir (\"sombres chateaux\") évoque les ruines d'une cité vieille de plusieurs milliers d'années. Sauf qu'il n'y avait personne en Islande avant le VIIème siècle... La citadelle sombre est en réalité le résultat d'une éruption volcanique. Selon les légendes, Dimmuborgir serait une porte vers l'enfer ou l'habitat des Jólasveinarnir, sorte de croisement entre le père-noël et les sept nains de Blanche-Neige...",
+    "content": "De loin, Dimmuborgir (\"sombres chateaux\") évoque les ruines d'une cité vieille de plusieurs milliers d'années. Sauf qu'il n'y avait personne en Islande avant le VIIIème siècle... La citadelle sombre est en réalité le résultat d'une éruption volcanique. Selon les légendes, Dimmuborgir serait une porte vers l'enfer ou l'habitat des Jólasveinarnir, sorte de croisement entre le père-noël et les sept nains de Blanche-Neige...",
     "photos": [
       {
         "id": "R1",
@@ -569,11 +569,11 @@
       },
       {
         "id": "R5",
-        "caption": "Une théorie veut que le site fut autrefois un lac de lave, dans lequel jets de vapeur d'eau aurait refroidie la lave, créant ces cheminées autour d'eux."
+        "caption": "Une théorie veut que le site fut autrefois un lac de lave, dans lequel les jets de vapeur d'eau auraient refroidi la lave, créant ces cheminées autour d'eux."
       },
       {
         "id": "R6",
-        "caption": "Les Jólasveinarnir, supposés autochtones, ont des noms évocateurs tels que \"Lécheur-de-cuillère\", \"Claqueur-de-porte\" ou \"Gobeur-de-skyr\". A Noël, ils amène des cadeaux aux enfants sages et des patates pourries aux autres."
+        "caption": "Les Jólasveinarnir, supposés autochtones, ont des noms évocateurs tels que \"Lécheur-de-cuillère\", \"Claqueur-de-porte\" ou \"Gobeur-de-skyr\". A Noël, ils amènent des cadeaux aux enfants sages et des patates pourries aux autres."
       },
       {
         "id": "R7",
@@ -590,7 +590,7 @@
     "title": "Les feux de Krafla",
     "date": "22 juillet - 16h",
     "coords": [ 65.72484013163663, -16.805992126464844 ],
-    "content": "Krafla est un volcan en activité dont le cratère peut se visiter. La chambre magmatique se trouve à 2 km de profondeur (contre 60 en moyenne). Aucune chance de tomber dans de la lave en fusion, donc, mais le sol est chaud au toucher et la pierre fume. Le site, extraordinaire, évoque le Mordor de Tolkien ou les terres brulées de Fallout.",
+    "content": "Krafla est un volcan en activité dont le cratère peut se visiter. La chambre magmatique se trouve à 2,1 km de profondeur (contre 60 en moyenne). Aucune chance, donc, de tomber dans de la lave en fusion, mais le sol est chaud au toucher et la pierre fume. Le site, extraordinaire, évoque le Mordor de Tolkien ou les terres brulées de Fallout.",
     "photos": [
       {
         "id": "S1",
@@ -602,7 +602,7 @@
       },
       {
         "id": "S3",
-        "caption": "Ces batiments construit sur les points chauds permettent de recueillir la vapeur d'eau brûlante qui s'échappent du sol."
+        "caption": "Ces batiments, construits sur les points chauds, permettent de recueillir la vapeur d'eau brûlante qui s'échappent du sol."
       },
       {
         "id": "S4",
