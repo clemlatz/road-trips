@@ -584,5 +584,46 @@
         "caption": "A l'extremité de Dimmuborgir, les champs de lave s'étendent à perte de vue, comme une mer fossilisée."
       }
     ]
+  },
+  {
+    "id": "S",
+    "title": "Les feux de Krafla",
+    "date": "22 juillet - 16h",
+    "coords": [ 65.72484013163663, -16.805992126464844 ],
+    "content": "Krafla est un volcan en activité dont le cratère peut se visiter. La chambre magmatique se trouve à 2 km de profondeur (contre 60 en moyenne). Aucune chance de tomber dans de la lave en fusion, donc, mais le sol est chaud au toucher et la pierre fume. Le site, extraordinaire, évoque le Mordor de Tolkien ou les terres brulées de Fallout.",
+    "photos": [
+      {
+        "id": "S1",
+        "caption": "Pour atteindre le cratère, il faut traverser le site de la centrale de Kafla qui exploite l'énergie géothermique du lieu pour produire de l'électricité."
+      },
+      {
+        "id": "S2",
+        "caption": "La vallée est parcourue de gros pipelines qui convoie la vapeur d'eau vers la centrale."
+      },
+      {
+        "id": "S3",
+        "caption": "Ces batiments construit sur les points chauds permettent de recueillir la vapeur d'eau brûlante qui s'échappent du sol."
+      },
+      {
+        "id": "S4",
+        "caption": "Le chemin de randonnée enjambent de nombreuses fissures. Lors des \"Feux de Krafla\" dans les années 1980, elles ont laissés échappés des flots de lave en fusion."
+      },
+      {
+        "id": "S5",
+        "caption": "Le cratère Leirhnjùkshraun"
+      },
+      {
+        "id": "S6",
+        "caption": "A l'intérieur du cratère"
+      },
+      {
+        "id": "S7",
+        "caption": "Un morceau de lave refroidie"
+      },
+      {
+        "id": "S8",
+        "caption": "Vue du sommet du Leirhnjùkshraun : les terres brulées"
+      }
+    ]
   }
 ]
