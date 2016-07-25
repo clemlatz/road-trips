@@ -625,5 +625,54 @@
         "caption": "Vue du sommet du Leirhnjùkshraun : les terres brulées"
       }
     ]
+  },
+  {
+    "id": "T",
+    "title": "La ferme de Glaumbær",
+    "date": "23 juillet - 15h",
+    "coords": [ 65.6159284575626, -19.51068878173828 ],
+    "content": "Sur la route de Sauðárkrókur, escale à Glaumbær, une ferme traditionnelle, aux murs et en toit de tourbe, datant du 18ème siècle et parfaitement conservée. Avant le 10ème siècle, le climat de l'Islande était plus doux et le pays recouvert à 25 % de forêts (contre 1 % aujourd'hui). Mais le rafraichissement du climat et la raréfaction du bois oblige durant la moyen-age à ruser, notamment en utilisant des briques de tourbe.",
+    "photos": [
+      {
+        "id": "T1",
+        "caption": "La ferme est constituée de treize maisons (en fait constituées chacune d'une seule pièce)."
+      },
+      {
+        "id": "T2",
+        "caption": "Un couloir de 22 mètres relie les treize maisons."
+      },
+      {
+        "id": "T3",
+        "caption": "La cuisine"
+      },
+      {
+        "id": "T4",
+        "caption": "Un garde-manger"
+      },
+      {
+        "id": "T5",
+        "caption": "Un des lits du dortir, couvert de cornes de bélier."
+      },
+      {
+        "id": "T6",
+        "caption": "De quoi se distraire pendant les longues nuits d'hiver à la ferme."
+      },
+      {
+        "id": "T7",
+        "caption": "La chambre du pasteur et de sa femme (qui ont chacun leur lit)."
+      },
+      {
+        "id": "T8",
+        "caption": "Les murs en brique de tourbe, un très bon isolant thermique."
+      },
+      {
+        "id": "T9",
+        "caption": ""
+      },
+      {
+        "id": "T10",
+        "caption": "Une maison plus récent, avec un toit de tourbe."
+      }
+    ]
   }
 ]
