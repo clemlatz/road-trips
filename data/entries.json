@@ -719,5 +719,62 @@
         "caption": "Une maison islandaise"
       }
     ]
+  },
+  {
+    "id": "V",
+    "title": "Lóndrangar : la forteresse et le parlement des oiseaux",
+    "date": "23 juillet - 19h",
+    "coords": [ 64.73334, -23.783331 ],
+    "content": "Lóndrangar est un autre exemple typique d'architecture islandaise... naturelle. L'apparente forteresse dressée contre la mer est née de l'érosion d'un ancien cratère volcanique. Du haut de 75 mètres, on l'aperçoit de très loin sur la route.",
+    "photos": [
+      {
+        "id": "V1",
+        "caption": "Au loin, Lóndrangar."
+      },
+      {
+        "id": "V2",
+        "caption": ""
+      },
+      {
+        "id": "V3",
+        "caption": ""
+      },
+      {
+        "id": "V4",
+        "caption": "Sur le chemin, une ancienne cabane de pêcheurs abandonnée."
+      },
+      {
+        "id": "V5",
+        "caption": "On y suspendait autrefois les morceaux de viande de requin pendant six pour les rendre comestibles."
+      },
+      {
+        "id": "V6",
+        "caption": "Des os de baleine."
+      },
+      {
+        "id": "V7",
+        "caption": "Clément a le pied marin, tant qu'il ne quitte pas la terre."
+      },
+      {
+        "id": "V8",
+        "caption": "Lóndrangar"
+      },
+      {
+        "id": "V9",
+        "caption": "Au sein de la forteresse"
+      },
+      {
+        "id": "V10",
+        "caption": "Plus loin sur la route, une falaise et un promontoire où nichent des centaines de goélands évoquent l'hémicycle d'un parlement des oiseaux."
+      },
+      {
+        "id": "V11",
+        "caption": "Comme dans nos assemblées, certains parlementaires roupillent au fond."
+      },
+      {
+        "id": "V12",
+        "caption": ""
+      }
+    ]
   }
 ]
