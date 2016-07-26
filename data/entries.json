@@ -598,15 +598,15 @@
       },
       {
         "id": "S2",
-        "caption": "La vallée est parcourue de gros pipelines qui convoie la vapeur d'eau vers la centrale."
+        "caption": "La vallée est parcourue de gros pipelines qui convoient la vapeur d'eau vers la centrale."
       },
       {
         "id": "S3",
-        "caption": "Ces batiments, construits sur les points chauds, permettent de recueillir la vapeur d'eau brûlante qui s'échappent du sol."
+        "caption": "Ces batiments, construits sur les points chauds, permettent de recueillir la vapeur d'eau brûlante qui s'échappe du sol."
       },
       {
         "id": "S4",
-        "caption": "Le chemin de randonnée enjambent de nombreuses fissures. Lors des \"Feux de Krafla\" dans les années 1980, elles ont laissés échappés des flots de lave en fusion."
+        "caption": "Le chemin de randonnée enjambe de nombreuses fissures. Lors des \"Feux de Krafla\" dans les années 1980, elles ont laissés échapper des flots de lave en fusion."
       },
       {
         "id": "S5",
@@ -671,7 +671,52 @@
       },
       {
         "id": "T10",
-        "caption": "Une maison plus récent, avec un toit de tourbe."
+        "caption": "Une maison plus récente, avec un toit de tourbe."
+      }
+    ]
+  },
+  {
+    "id": "U",
+    "title": "Hellnar, un petit coin de paradis",
+    "date": "23 juillet - 19h",
+    "coords": [ 64.74601725111455, -23.66455078125 ],
+    "content": "Après une longue journée de route, nous voici à la ferme d'Hellnar. Contrairement à ce que son nom pourrait laisser penser, Hellnar est un petit coin de paradis, entre la montagne et l'océan et au milieu des champs de lave colonisés par la mousse.",
+    "photos": [
+      {
+        "id": "U1",
+        "caption": ""
+      },
+      {
+        "id": "U2",
+        "caption": "Hellnar fut depuis le moyen-age important port de pêche jusqu'à ce que ces installations ne soit détruite par une tempête."
+      },
+      {
+        "id": "U3",
+        "caption": "Faute de pêcheurs, la petite crique est désormais l'habitat d'une colonie d'oiseaux."
+      },
+      {
+        "id": "U4",
+        "caption": ""
+      },
+      {
+        "id": "U5",
+        "caption": ""
+      },
+      {
+        "id": "U6",
+        "caption": "Les étonnantes formations rocheuses de la crique..."
+      },
+      {
+        "id": "U7",
+        "caption": "...évoquent une mer déchainée qui se serait subitement changée en pierre."
+      },
+      {
+        "id": "U8",
+        "caption": "Un sentier s'éloigne dans les champs de lave."
+      },
+      {
+        "id": "U9",
+        "caption": "Une maison islandaise"
       }
     ]
   }
