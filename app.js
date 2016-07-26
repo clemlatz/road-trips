@@ -61,7 +61,7 @@ class Map {
               new Pin(entry, map);
             }, delay);
           })(delay);
-          delay += 150;
+          delay += 100;
         });
       });
   }
