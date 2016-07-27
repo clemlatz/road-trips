@@ -677,22 +677,22 @@
   },
   {
     "id": "U",
-    "title": "Hellnar, un petit coin de paradis",
+    "title": "Húnaflói, la baie du petit ours",
     "date": "23 juillet - 19h",
-    "coords": [ 64.74601725111455, -23.66455078125 ],
-    "content": "Après une longue journée de route, nous voici à la ferme d'Hellnar. Contrairement à ce que son nom pourrait laisser penser, Hellnar est un petit coin de paradis, entre la montagne et l'océan et au milieu des champs de lave colonisés par la mousse.",
+    "coords": [ 65.59621895277296, -20.634384155273438 ],
+    "content": "Húnaflói (\"la baie du petit ours\") porte ce nom parce que des icebergs détachés de la banquise viennent y flotter avec, parfois, un ours polaire sur leur dos. Mais nous sommes heureux de n'avoir aperçu aucun de ces passagers clandestins, puisqu'ils sont systématiquement mis à mort par les autorités pour protéger la population. Par contre, la baie est habitée par des moutons, des chevaux... et des phoques !",
     "photos": [
       {
         "id": "U1",
-        "caption": ""
+        "caption": "De l'autre côté de la baie, une colonie de phoques."
       },
       {
         "id": "U2",
-        "caption": "Hellnar fut autrefois un important port de pêche, jusqu'à ce que ces installations ne soient détruites par une tempête."
+        "caption": ""
       },
       {
         "id": "U3",
-        "caption": "Faute de pêcheurs, la petite crique est désormais l'habitat d'une colonie d'oiseaux."
+        "caption": ""
       },
       {
         "id": "U4",
@@ -700,80 +700,60 @@
       },
       {
         "id": "U5",
-        "caption": ""
+        "caption": "Le fameux cheval islandais aux cinq allures."
       },
       {
         "id": "U6",
-        "caption": "Les étonnantes formations rocheuses de la crique..."
+        "caption": "Les moutons semblent vivre en bon entente avec leurs voisins les phoques."
       },
       {
         "id": "U7",
-        "caption": "...évoquent une mer déchainée qui se serait subitement changée en pierre."
-      },
-      {
-        "id": "U8",
-        "caption": "Un sentier s'éloigne dans les champs de lave."
-      },
-      {
-        "id": "U9",
-        "caption": "Une maison islandaise"
+        "caption": "Hvítserkur, un paysage de la baie du petit ours."
       }
     ]
   },
   {
     "id": "V",
-    "title": "Lóndrangar : la forteresse et le parlement des oiseaux",
+    "title": "Hellnar, un petit coin de paradis",
     "date": "23 juillet - 19h",
-    "coords": [ 64.73334, -23.783331 ],
-    "content": "Lóndrangar est un autre exemple typique d'architecture islandaise... naturelle. L'apparente forteresse dressée contre la mer est née de l'érosion d'un ancien cratère volcanique. Du haut de 75 mètres, on l'aperçoit de très loin sur la route.",
+    "coords": [ 64.74601725111455, -23.66455078125 ],
+    "content": "Après une longue journée de route, nous voici à la ferme d'Hellnar. Contrairement à ce que son nom pourrait laisser penser, Hellnar est un petit coin de paradis, entre la montagne et l'océan et au milieu des champs de lave colonisés par la mousse.",
     "photos": [
       {
         "id": "V1",
-        "caption": "Au loin, Lóndrangar."
+        "caption": ""
       },
       {
         "id": "V2",
-        "caption": ""
+        "caption": "Hellnar fut autrefois un important port de pêche, jusqu'à ce que ces installations ne soient détruites par une tempête."
       },
       {
         "id": "V3",
-        "caption": ""
+        "caption": "Faute de pêcheurs, la petite crique est désormais l'habitat d'une colonie d'oiseaux."
       },
       {
         "id": "V4",
-        "caption": "Sur le chemin, une ancienne cabane de pêcheurs abandonnée."
+        "caption": ""
       },
       {
         "id": "V5",
-        "caption": "On y suspendait autrefois les morceaux de viande de requin pendant six pour les rendre comestibles."
+        "caption": ""
       },
       {
         "id": "V6",
-        "caption": "Des os de baleine."
+        "caption": "Les étonnantes formations rocheuses de la crique..."
       },
       {
         "id": "V7",
-        "caption": "Clément a le pied marin, tant qu'il ne quitte pas la terre."
+        "caption": "...évoquent une mer déchainée qui se serait subitement changée en pierre."
       },
       {
         "id": "V8",
-        "caption": "Lóndrangar"
+        "caption": "Un sentier s'éloigne dans les champs de lave."
       },
       {
         "id": "V9",
-        "caption": "Au sein de la forteresse"
-      },
-      {
-        "id": "V10",
-        "caption": "Plus loin sur la route, une falaise et un promontoire où nichent des centaines de goélands évoquent l'hémicycle d'un parlement des oiseaux."
-      },
-      {
-        "id": "V11",
-        "caption": "Comme dans nos assemblées, certains parlementaires roupillent au fond."
-      },
-      {
-        "id": "V12",
-        "caption": ""
+        "caption": "Une maison islandaise"
       }
     ]
   }
