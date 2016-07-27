@@ -678,7 +678,7 @@
   {
     "id": "U",
     "title": "Húnaflói, la baie du petit ours",
-    "date": "23 juillet - 19h",
+    "date": "24 juillet - 19h",
     "coords": [ 65.59621895277296, -20.634384155273438 ],
     "content": "Húnaflói (\"la baie du petit ours\") porte ce nom parce que des icebergs détachés de la banquise viennent y flotter avec, parfois, un ours polaire sur leur dos. Mais nous sommes heureux de n'avoir aperçu aucun de ces passagers clandestins, puisqu'ils sont systématiquement mis à mort par les autorités pour protéger la population. Par contre, la baie est habitée par des moutons, des chevaux... et des phoques !",
     "photos": [
@@ -715,7 +715,7 @@
   {
     "id": "V",
     "title": "Hellnar, un petit coin de paradis",
-    "date": "23 juillet - 19h",
+    "date": "24 juillet - 19h",
     "coords": [ 64.74601725111455, -23.66455078125 ],
     "content": "Après une longue journée de route, nous voici à la ferme d'Hellnar. Contrairement à ce que son nom pourrait laisser penser, Hellnar est un petit coin de paradis, entre la montagne et l'océan et au milieu des champs de lave colonisés par la mousse.",
     "photos": [
@@ -760,7 +760,7 @@
   {
     "id": "W",
     "title": "Lóndrangar : la forteresse et le parlement des oiseaux",
-    "date": "23 juillet - 19h",
+    "date": "25 juillet - 12h",
     "coords": [ 64.73334, -23.783331 ],
     "content": "Lóndrangar est un autre exemple typique d'architecture islandaise... naturelle. L'apparente forteresse dressée contre la mer est née de l'érosion d'un ancien cratère volcanique. Du haut de 75 mètres, on l'aperçoit de très loin sur la route.",
     "photos": [
@@ -782,7 +782,7 @@
       },
       {
         "id": "W5",
-        "caption": "On y suspendait autrefois les morceaux de viande de requin pendant six pour les rendre comestibles."
+        "caption": "On y suspendait autrefois les morceaux de viande de requin pendant six mois pour les rendre comestibles."
       },
       {
         "id": "W6",
@@ -810,6 +810,59 @@
       },
       {
         "id": "W12",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "id": "X",
+    "title": "À l'assaut du mont Snæfellsjökull",
+    "date": "25 juillet - 16h",
+    "coords": [ 64.86060787816564, -23.873291015625 ],
+    "content": "Le mont Snæfellsjökull est bien connu des amateurs de Jules Verne : c'est à cet endroit que l'auteur français situe le point de départ de son Voyage au centre de la Terre. Parce que la piste qui gravit le mont n'est accessible qu'aux 4x4, nous nous lançons à pied dans une randonnée de 12 kilomètres !",
+    "photos": [
+      {
+        "id": "X1",
+        "caption": ""
+      },
+      {
+        "id": "X2",
+        "caption": "Un sentier de randonnée mène au sommet du cratère d'un ancien volcan."
+      },
+      {
+        "id": "X3",
+        "caption": "De là-haut, on peut apercevoir les cratères d'autres volcans."
+      },
+      {
+        "id": "X4",
+        "caption": "Au loin, la tour radio de Hellisandur, qui culmine à 412 mètres, serait la plus haute d'Europe. Elle servait autrefois au réseau LORAN-C, un ancêtre du GPS."
+      },
+      {
+        "id": "X5",
+        "caption": ""
+      },
+      {
+        "id": "X6",
+        "caption": "La chute de Klukkufoss et ses colonnes balsatiques."
+      },
+      {
+        "id": "X7",
+        "caption": ""
+      },
+      {
+        "id": "X8",
+        "caption": ""
+      },
+      {
+        "id": "X0",
+        "caption": "La calotte glaciaire du volcan Snæfellsjökull, qui lui vaut le surnom de Fujiyama islandais. Il serait lui aussi l'un des sept chakras de la planète."
+      },
+      {
+        "id": "X9",
+        "caption": "La linaigrette est une fleur que l'on trouve dans les endroits humides, qui ressemble à du coton, et qui était autrefois utilisée comme mèche dans les lampes à pétrole."
+      },
+      {
+        "id": "X10",
         "caption": ""
       }
     ]
