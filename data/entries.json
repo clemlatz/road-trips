@@ -866,5 +866,22 @@
         "caption": ""
       }
     ]
+  },
+  {
+    "id": "Y",
+    "title": "Pose longue à Kirkjufell",
+    "date": "25 juillet - 16h",
+    "coords": [ 64.92648814969809, -23.31024169921875 ],
+    "content": "Arrêt bref mais obligatoire durant notre route vers le sujet à Kirkjufell, le \"mont église\", carte postale ultime de l'Islande avec sa cascade et sa montagne en forme de clocher. L'occasion de s'essayer à la photographie de cascade avec pose longue, un autre cliché !",
+    "photos": [
+      {
+        "id": "Y1",
+        "caption": "Kirkjufellfoss et Kirkjufell"
+      },
+      {
+        "id": "Y2",
+        "caption": "Pose longue"
+      }
+    ]
   }
 ]
