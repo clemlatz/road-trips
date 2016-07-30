@@ -909,7 +909,7 @@
       },
       {
         "id": "Z4",
-        "caption": "La Bibliothèque de l'Eau : l'occasion de prendre conscience ne ressemble plus à un tube rempli d'eau qu'un autre tube rempli d'eau."
+        "caption": "La Bibliothèque de l'Eau : l'occasion de prendre conscience que rien ne ressemble plus à un tube rempli d'eau qu'un autre tube rempli d'eau."
       },
       {
         "id": "Z5",
@@ -917,6 +917,35 @@
       },
       {
         "id": "Z6",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "id": "Ð",
+    "title": "Les phoques d'Ytri-Tunga",
+    "date": "26 juillet - 17h",
+    "coords": [ 64.8027522595179, -23.080387115478516 ],
+    "content": "Après la ferme d'Ytri-Tunga au sud de la péninsule de Snæfellsnes, se trouve une plage où vit une colonie de phoques.",
+    "photos": [
+      {
+        "id": "Ð1",
+        "caption": "La ferme d'Ytri-Tunga, entre mer et montagne"
+      },
+      {
+        "id": "Ð2",
+        "caption": "La plage et sa colonie de phoques"
+      },
+      {
+        "id": "Ð3",
+        "caption": "Après la pêche, repus, les phoques se prélassent sur les rochers."
+      },
+      {
+        "id": "Ð4",
+        "caption": "La chasse (pour leur fourrure) et noyades dans les filets de pêche ont grandement contribués à réduire les colonies."
+      },
+      {
+        "id": "Ð5",
         "caption": ""
       }
     ]
