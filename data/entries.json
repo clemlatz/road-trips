@@ -870,9 +870,9 @@
   {
     "id": "Y",
     "title": "Pose longue à Kirkjufell",
-    "date": "25 juillet - 16h",
+    "date": "26 juillet - 11h",
     "coords": [ 64.92648814969809, -23.31024169921875 ],
-    "content": "Arrêt bref mais obligatoire durant notre route vers le sujet à Kirkjufell, le \"mont église\", carte postale ultime de l'Islande avec sa cascade et sa montagne en forme de clocher. L'occasion de s'essayer à la photographie de cascade avec pose longue, un autre cliché !",
+    "content": "Arrêt bref mais obligatoire à Kirkjufell, le \"mont église\", carte postale ultime de l'Islande avec sa cascade et sa montagne en forme de clocher. L'occasion de s'essayer à la photographie de cascade avec pose longue, un autre cliché !",
     "photos": [
       {
         "id": "Y1",
@@ -881,6 +881,43 @@
       {
         "id": "Y2",
         "caption": "Pose longue"
+      }
+    ]
+  },
+  {
+    "id": "Z",
+    "title": "Stykkishólmur et la bibliothèque de l'eau",
+    "date": "26 juillet - 13h",
+    "coords": [ 65.07806223275166, -22.723159790039062 ],
+    "content": "Stykkishólmur est un charmant petit port au nord de la péninsule de Snæfellsnes, où l'on s'arrête aussi pour son musée du volcan et sa Bibliothèque de l'Eau, étonnant projet artistique. L'artiste Roni Horn y a collecté l'eau de 24 glaciers islandais.",
+    "photos": [
+      {
+        "id": "Z1",
+        "caption": "Stykkishólmur"
+      },
+      {
+        "id": "Z2",
+        "caption": ""
+      },
+      {
+        "id": "Z3",
+        "caption": ""
+      },
+      {
+        "id": "Z3b",
+        "caption": "Une bien belle paire d'affiches de cinéma orne l'escalier du musée du volcan."
+      },
+      {
+        "id": "Z4",
+        "caption": "La Bibliothèque de l'Eau : l'occasion de prendre conscience ne ressemble plus à un tube rempli d'eau qu'un autre tube rempli d'eau."
+      },
+      {
+        "id": "Z5",
+        "caption": ""
+      },
+      {
+        "id": "Z6",
+        "caption": ""
       }
     ]
   }
