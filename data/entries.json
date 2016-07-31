@@ -949,5 +949,38 @@
         "caption": ""
       }
     ]
+  },
+  {
+    "id": "Þ",
+    "title": "La faille de Þingvellir",
+    "date": "27 juillet - 12h",
+    "coords": [ 64.25548306327258, -21.12499237060547 ],
+    "content": "Þingvellir est le site historique du parlement islandais, fondé en 930, sur l'emplacement de la faille qui sépare les plaques tectoniques nord-américaine et eurasienne. Aujourd'hui, le parlement se réunit à Rekjavik et Þingvellir est un parc national aux allures des Disneyland avec ses allées goudronnées bordées de main courante et ses parking tous les 500 mètres.",
+    "photos": [
+      {
+        "id": "Þ1",
+        "caption": "Þingvellir"
+      },
+      {
+        "id": "Þ2",
+        "caption": "Une facade de la faille qui atteint 40 mètres de profondeur"
+      },
+      {
+        "id": "Þ3",
+        "caption": ""
+      },
+      {
+        "id": "Þ4",
+        "caption": ""
+      },
+      {
+        "id": "Þ5",
+        "caption": "La cascade Öxarárfoss"
+      },
+      {
+        "id": "Þ6",
+        "caption": "Les allées bien propres de Þingvellir"
+      }
+    ]
   }
 ]
