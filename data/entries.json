@@ -953,7 +953,7 @@
   {
     "id": "Þ",
     "title": "La faille de Þingvellir",
-    "date": "27 juillet - 12h",
+    "date": "27 juillet",
     "coords": [ 64.25548306327258, -21.12499237060547 ],
     "content": "Þingvellir est le site historique du parlement islandais, fondé en 930, sur l'emplacement de la faille qui sépare les plaques tectoniques nord-américaine et eurasienne. Aujourd'hui, le parlement se réunit à Rekjavik et Þingvellir est un parc national aux allures des Disneyland avec ses allées goudronnées bordées de main courante et ses parking tous les 500 mètres.",
     "photos": [
@@ -980,6 +980,47 @@
       {
         "id": "Þ6",
         "caption": "Les allées bien propres de Þingvellir"
+      }
+    ]
+  },
+  {
+    "id": "Δ",
+    "title": "Þrihnukagigur, voyage au centre de la terre",
+    "date": "28 juillet",
+    "coords": [ 63.99975068170886, -21.657142639160156 ],
+    "content": "Þrihnukagigur, le \"cratère aux trois pics\", est un endroit unique au monde. Après une éruption, soit la lave se solidifie dans la chambre magmatique et le volcan devient une montagne, soit la lave s'écoule vers le bas, la chambre magmatique s'écroule, et le volcan devient un cratère. À Þrihnukagigur, c'est le deuxième cas qui s'est produit, sauf que la chambre magmatique ne s'est pas écroulée, permettant de la visiter.",
+    "photos": [
+      {
+        "id": "Δ1",
+        "caption": "Au loin, les trois pics. C'est dans celui de droite que nous allons descendre."
+      },
+      {
+        "id": "Δ3",
+        "caption": "En chemin, au sol, des \"cordes de lave\". Elles apparaissent lorsque la lave se solidifie en surface mais continue à s'écouler en-dessous."
+      },
+      {
+        "id": "Δ2",
+        "caption": "Le volcan dans lequel nous allons descendre."
+      },
+      {
+        "id": "Δ4",
+        "caption": "La nacelle permettant de descendre dans la chambre magmatique, 120 mètres plus bas."
+      },
+      {
+        "id": "Δ5",
+        "caption": ""
+      },
+      {
+        "id": "Δ6",
+        "caption": "En haut à gauche, la cheminée du volcan, juste assez grande pour laisser passer la nacelle."
+      },
+      {
+        "id": "Δ7",
+        "caption": ""
+      },
+      {
+        "id": "Δ8",
+        "caption": ""
       }
     ]
   }
