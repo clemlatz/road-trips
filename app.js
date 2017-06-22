@@ -233,7 +233,7 @@ class Lightbox {
 
     // Display image with low-res image for fast loading
     this.image = document.createElement('img');
-    this.image.style.backgroundImage = `url(/data/thumbs/${photo.id}.jpg)`;
+    this.image.style.backgroundImage = `url(data/thumbs/${photo.id}.jpg)`;
     this.element.appendChild(this.image);
 
     this.imageRatio = photo.ratio;
@@ -242,7 +242,7 @@ class Lightbox {
     this.overlay.style.opacity = 1;
 
     // Load high-res image
-    this.image.src = `/data/photos/${photo.id}.jpg`;
+    this.image.src = `data/photos/${photo.id}.jpg`;
   }
 
   hide() {
