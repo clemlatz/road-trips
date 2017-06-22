@@ -50,7 +50,7 @@ class Map {
    */
   getEntries() {
     const map = this.map;
-    fetch('/data/entries.json')
+    fetch('data/entries.json')
       .then(function(response) {
         return response.json();
       }).then(function(entries) {
