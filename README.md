@@ -9,6 +9,10 @@ All the source code is available under the
 All texts and photos (everything located in the data folder) are available under
 the [Creative Commons BY-NC-ND 4.0 License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
+## Build
+
+    npm install
+    npm run build
 
 ## TODO
 
