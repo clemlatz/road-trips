@@ -157,7 +157,7 @@ class Photo {
 
     const image = document.createElement('img');
     image.classList.add('thumbnail');
-    image.src = `/data/thumbs/${this.id}.jpg`;
+    image.src = `data/thumbs/${this.id}.jpg`;
     image.alt = this.caption;
     this.element.appendChild(image);
 
