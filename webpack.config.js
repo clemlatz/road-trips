@@ -1,9 +1,9 @@
 var path = require('path');
 
 module.exports = {
-  entry: './app.js',
+  entry: './src/app.js',
   output: {
-    path: './',
+    path: './public/',
     filename: 'bundle.js'
   },
   devtool: 'inline-source-map',
