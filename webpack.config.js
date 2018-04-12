@@ -1,20 +1,23 @@
 var path = require('path');
 
 module.exports = {
+  mode: 'production',
   entry: './src/app.js',
   output: {
-    path: './public/',
+    path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
   },
   devtool: 'inline-source-map',
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /(node_modules|bower_components)/,
-        loader: 'babel',
-        query: {
-          presets: ['es2015']
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['env']
+          }
         }
       }
     ]
