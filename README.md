@@ -18,8 +18,9 @@ https://roadtrips.iwazaru.fr/
 
 ## TODO
 
-* Markdown
-* Comments ?
+* Markdown / Front matter
+* Facebook Comments ?
 * React
-* Navigation history
+* Navigation history / Router
+* Analytics page send
 * Lightbox animation
