@@ -13,8 +13,13 @@ https://roadtrips.iwazaru.fr/
 
 ## Build
 
-    npm install
-    npm run build
+    yarn
+    yarn build
+
+## Run in development
+
+    yarn
+    yarn start
 
 ## TODO
 
