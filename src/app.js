@@ -5,27 +5,22 @@
 
 import 'whatwg-fetch';
 
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 import Lightbox from './Lightbox';
 import Page from './Page';
 import Map from './Map';
 
-document.addEventListener('DOMContentLoaded', function () {
-  const page = document.querySelector('#page');
-  if (page) {
-    window.page = new Page(page);
-  }
-  const lightbox = document.querySelector('#lightbox');
-  if (lightbox) {
-    window.lightbox = new Lightbox(lightbox);
-  }
-});
+const Header = () => (
+  <div id="header">
+    <h1 class="title">Road Trip
+      <br /> en Islande</h1>
+    <p class="subtitle">Mathilde &amp; Clément
+      <br /> sur les traces des macareux</p>
+  </div>
+)
 
-/**
- * Called by Google Maps API JS when loaded
- */
-google.maps.event.addDomListener(window, 'load', function () {
-  const map = document.querySelector('#map');
-  if (map) {
-    new Map(map);
-  }
-});
+ReactDOM.render(<Header />,
+  document.getElementById('root')
+);
