@@ -26,29 +26,6 @@ h1, p {
   height: 100%;
 }
 
-#header {
-  background: white;
-  color: #000;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
-  box-sizing: border-box;
-  max-width: 450px;
-  left: 50%;
-  padding: 1em;
-  position: relative;
-  text-align: center;
-  top: 1em;
-  transform: translate(-50%);
-  width: 90%;
-  z-index: 200;
-}
-
-#header h1 {
-  color: #c33d2b;
-  font-family: 'Montserrat';
-  margin-bottom: .15em;
-  text-transform: uppercase;
-}
-
 #page {
   background: white;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
@@ -148,11 +125,5 @@ h1, p {
 @media (min-width: 500px) {
   #header br {
     display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  #header {
-
   }
 }

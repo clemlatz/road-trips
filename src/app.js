@@ -8,19 +8,15 @@ import 'whatwg-fetch';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Header from './components/Header/Header';
 import Lightbox from './Lightbox';
 import Page from './Page';
 import Map from './Map';
 
-const Header = () => (
-  <div id="header">
-    <h1 class="title">Road Trip
-      <br /> en Islande</h1>
-    <p class="subtitle">Mathilde &amp; Clément
-      <br /> sur les traces des macareux</p>
-  </div>
+const App = () => (
+  <Header />
 )
 
-ReactDOM.render(<Header />,
+ReactDOM.render(<App />,
   document.getElementById('root')
 );
