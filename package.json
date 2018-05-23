@@ -7,7 +7,7 @@
     "start": "webpack-serve --content ./public/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "photos": "sips -Z 2500 data/photos/* && sips -Z 600 data/thumbs/*",
-    "build": "webpack"
+    "build": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
