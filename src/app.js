@@ -5,16 +5,22 @@
 
 import 'whatwg-fetch';
 
-import React from 'react';
+import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
 
 import Header from './components/Header/Header';
-import Lightbox from './Lightbox';
-import Page from './Page';
-import Map from './Map';
+import Map from './components/Map/Map';
 
 const App = () => (
-  <Header />
+  <Fragment>
+    <Header />
+    <Map
+      googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJik81y-N4dkBXFH9p5sW99blqkXXwLP8"
+      loadingElement={<div style={{ height: `100%` }} />}
+      containerElement={<div style={{ height: `400px` }} />}
+      mapElement={<div style={{ height: `100vh` }} />}
+    />
+  </Fragment>
 )
 
 ReactDOM.render(<App />,
