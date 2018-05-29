@@ -1,9 +1,12 @@
-export default [
+[
   {
     "id": "A",
     "title": "Aéroport de Keflavik",
     "date": "15 juillet - 9h",
-    "coords": [63.99282663400118, -22.6153564453125],
+    "coords": [
+      63.99282663400118,
+      -22.6153564453125
+    ],
     "content": "Arrivée au petit matin à l'aéroport international de Keflavik, après un vol sans encombre depuis Paris. L'air est frais est vivifiant. On récupère d'abord la voiture, l'occasion pour le loueur de nous informer des nombreux dangers qui guettent l'automobiliste amateur en Islande : tempêtes de sable, collines aveugles, routes de graviers, moutons en liberté... Il faut aussi toujours prendre soin de se garer face au vent, faute de quoi les portes peuvent être arrachées !",
     "photos": [
       {
@@ -16,7 +19,10 @@ export default [
     "id": "B",
     "title": "Hafnarfjödur",
     "date": "15 juillet - 10h",
-    "coords": [64.05177661560711, -21.985015869140625],
+    "coords": [
+      64.05177661560711,
+      -21.985015869140625
+    ],
     "content": "Arret bref mais inévitable à Hafnarfjödur, petite ville de pêcheurs à la périphérie de Reykjavik, où prend place l'intrigue d'Elliot du Néant, roman de David Calvo emporté dans les bagages !",
     "photos": [
       {
@@ -29,7 +35,10 @@ export default [
     "id": "C",
     "title": "Lac de Kleirfarvatn",
     "date": "15 juillet - 12h",
-    "coords": [63.94642140599408, -21.961669921875],
+    "coords": [
+      63.94642140599408,
+      -21.961669921875
+    ],
     "content": "C'est la route 1, celle qui fait le tour de l'île, que nous allons emprunter tout au long de notre voyage, mais pour rallier notre premier étape à Selfoss, on choisit d'emprunter la route 42 qui nous fera longer la côte. Bonne idée, puisque cela nous permet de nous arrêter aux abords du lac de Kleirfarvatn.",
     "photos": [
       {
@@ -62,7 +71,10 @@ export default [
     "id": "D",
     "title": "Les fumerolles de Seltùn",
     "date": "15 juillet - 14h",
-    "coords": [63.88724882293143, -22.054367065429688],
+    "coords": [
+      63.88724882293143,
+      -22.054367065429688
+    ],
     "content": "Deuxième arrêt impromptu sur la route de Selfoss lorsqu'on aperçoit des fumerolles. De l'eau chauffée à 200° par le magma qui remonte à la surface en dissolvant la roche et s'évapore en bouillonnant à la surface.",
     "photos": [
       {
@@ -95,7 +107,10 @@ export default [
     "id": "E",
     "title": "Le cratère de Kerið",
     "date": "16 juillet - 11h",
-    "coords": [64.0409583983354, -20.882606506347656],
+    "coords": [
+      64.0409583983354,
+      -20.882606506347656
+    ],
     "content": "Après une nuit à la ferme auberge Vatnsholt près de Selfoss (où Mathilde a tenté d'apprendre le français à un perroquet), direction le Cercle d'or, site le plus touristique d'Islande. Première escale à Kerið, un cratère formé par l'effondrement de la chambre magmatique d'un ancien volcan.",
     "photos": [
       {
@@ -120,7 +135,10 @@ export default [
     "id": "F",
     "title": "Geysir & Strokkur",
     "date": "16 juillet - 13h",
-    "coords": [64.31335755280075, -20.300374031066895],
+    "coords": [
+      64.31335755280075,
+      -20.300374031066895
+    ],
     "content": "Geysir a donné son nom au phénomène des geysers (et non gésiers comme dit Clément) et jaillit à 80 mètres trois fois par jour. Heureusement pour les touristes, son petit frère Strokkur jaillit à 25 mètres toutes les dix minutes.",
     "photos": [
       {
@@ -157,7 +175,10 @@ export default [
     "id": "G",
     "title": "Selfies à Gullfoss",
     "date": "16 juillet - 15h",
-    "coords": [64.327639889255, -20.124292373657227],
+    "coords": [
+      64.327639889255,
+      -20.124292373657227
+    ],
     "content": "Gullfoss (\"La Chute d'Or\") est une cascade haute de 32 mètres et large de 70. Selon la légende, elle doit son nom à un type riche et avare qui aurait préféré y jeter tout son or plutôt que de voir quelqu'un en hériter. Sympa ! Après avoir un nombre improbable de tentatives malheureuses, on abandonne l'idée du selfie devant les chutes.",
     "photos": [
       {
@@ -182,7 +203,10 @@ export default [
     "id": "H",
     "title": "Randonnée à Skógafoss",
     "date": "17 juillet - 12h",
-    "coords": [63.53172502888363, -19.50845718383789],
+    "coords": [
+      63.53172502888363,
+      -19.50845718383789
+    ],
     "content": "Skógafoss, sans doute notre plus beau moment jusqu'à présent. Les chutes sont impresionnantes, mais il faut surtout monter en haut et suivre le chemin de randonnée qui borde la rivière Skógá pour découvrir d'autres chutes et des paysages somptueux.",
     "photos": [
       {
@@ -215,7 +239,10 @@ export default [
     "id": "I",
     "title": "Les moutons de Reynisfjall",
     "date": "17 juillet - 17h",
-    "coords": [63.41196604278784, -19.02454376220703],
+    "coords": [
+      63.41196604278784,
+      -19.02454376220703
+    ],
     "content": "Arrivée à Vik, petite ville surplombée par les falaises de Reynisfjall, au sommet desquelles on grimpe pour faire une randonnée de 8 km.",
     "photos": [
       {
@@ -240,7 +267,10 @@ export default [
     "id": "J",
     "title": "Les colonnes de Reynisfjara",
     "date": "18 juillet - 11h",
-    "coords": [63.40351340012634, -19.05029296875],
+    "coords": [
+      63.40351340012634,
+      -19.05029296875
+    ],
     "content": "Avant de repartir de Vik pour l'ouest, petite escale à la plage de Reynisfjara, au pied des falaises gravies la veille, célèbre pour ses colonnes de basalte.",
     "photos": [
       {
@@ -265,7 +295,10 @@ export default [
     "id": "K",
     "title": "Les glaces de Jökulsárlón",
     "date": "18 juillet - 15h",
-    "coords": [64.04276172598884, -16.18011474609375],
+    "coords": [
+      64.04276172598884,
+      -16.18011474609375
+    ],
     "content": "Après une longue route à travers le Skeiðarársandur (désert de sable noir), sortie sur le Fjallsárlón et randonnée le long des rives de son grand-frère, le Jökulsárlón. Les deux lacs proglaciaires sont nés de la fonte du Vatnajökull, le plus grand glacier d'Islande. Les icebergs s'en détachent en craquant et glissent lentement vers la mer.",
     "photos": [
       {
@@ -314,7 +347,10 @@ export default [
     "id": "L",
     "title": "L'appel de Skaftafell",
     "date": "19 juillet - 10h",
-    "coords": [64.0229187084014, -16.972503662109375],
+    "coords": [
+      64.0229187084014,
+      -16.972503662109375
+    ],
     "content": "Après une nuit à Höfn, petit retour sur nos pas pour une randonnée de 8 km dans le parc naturel de Skaftafell, avant de reprendre la route pour rallier Egilstaðir à l'Est.",
     "photos": [
       {
@@ -339,7 +375,10 @@ export default [
     "id": "M",
     "title": "Moutons dans la brume",
     "date": "20 juillet",
-    "coords": [65.14669204324268, -13.680038452148438],
+    "coords": [
+      65.14669204324268,
+      -13.680038452148438
+    ],
     "content": "Une journée à sillonner les fjords de la côte Est en voiture. Pour les atteindre, il faut traverser des cols de montagne noyés dans la brume, d'où des moutons surgissent sur la route sans crier gare.",
     "photos": [
       {
@@ -388,7 +427,10 @@ export default [
     "id": "N",
     "title": "Les macareux de Borgarfjörður",
     "date": "21 juillet - 11h",
-    "coords": [65.54261585474393, -13.756427764892578],
+    "coords": [
+      65.54261585474393,
+      -13.756427764892578
+    ],
     "content": "Au bout de la route 94 qui mène au fjord de Borgarfjörður, à l'extrême Nord-Est de l'Islande, se trouve un tout petit port, ambiance bout du monde. Et surtout, à la sortie du port, se dresse une falaise où vivent des centaines d'oiseaux, dont une colonie de macareux !",
     "photos": [
       {
@@ -429,7 +471,10 @@ export default [
     "id": "O",
     "title": "Les paysages extraterrestres de Dettifoss",
     "date": "21 juillet - 16h",
-    "coords": [65.81431290777762, -16.381988525390625],
+    "coords": [
+      65.81431290777762,
+      -16.381988525390625
+    ],
     "content": "Large de 100 mètres et haute de 45, la cascade de Detifoss est la plus puissante d'Europe avec un débit de 600 mètres-cube par seconde. C'est le décor qu'a choisi Ridley Scott pour la scène d'introduction de son film Prometheus, où l'on voit un extraterrestres plonger dans une cascade aux eaux noires.",
     "photos": [
       {
@@ -470,7 +515,10 @@ export default [
     "id": "P",
     "title": "Les solfatares de Hverarönd",
     "date": "21 juillet - 18h",
-    "coords": [65.64088063577655, -16.80856704711914],
+    "coords": [
+      65.64088063577655,
+      -16.80856704711914
+    ],
     "content": "Dernière étape sur la route de Mývatn où nous passerons la nuit, le site de Hverarönd. Impossible de manquer, depuis la route, les fumerolles blanches qui s'élèvent dans le ciel. Mais au nord de l'Islande, on trouve aussi des solfatare, nom italien pour un type de fumerolle particulièrement puissant qui s'échappe du sol en sifflant.",
     "photos": [
       {
@@ -507,7 +555,10 @@ export default [
     "id": "Q",
     "title": "Mývatn, le lac aux mouches",
     "date": "22 juillet - 10h",
-    "coords": [65.59480042624011, -17.0068359375],
+    "coords": [
+      65.59480042624011,
+      -17.0068359375
+    ],
     "content": "Mývatn serait le plus grand rassemblement de canard d'Europe. On a surtout vu la plus grande concentration de moucheron au mètre-carré. Mais passés les murs d'insecte, et pour peu que le soleil soit au rendez-vous, se dévoilent des paysages bucoliques du lac Mývatn.",
     "photos": [
       {
@@ -548,7 +599,10 @@ export default [
     "id": "R",
     "title": "La citadelle sombre de Dimmuborgir",
     "date": "22 juillet - 13h",
-    "coords": [65.58600383388769, -16.911907196044922],
+    "coords": [
+      65.58600383388769,
+      -16.911907196044922
+    ],
     "content": "De loin, Dimmuborgir (\"sombres chateaux\") évoque les ruines d'une cité vieille de plusieurs milliers d'années. Sauf qu'il n'y avait personne en Islande avant le VIIIème siècle... La citadelle sombre est en réalité le résultat d'une éruption volcanique. Selon les légendes, Dimmuborgir serait une porte vers l'enfer ou l'habitat des Jólasveinarnir, sorte de croisement entre le père-noël et les sept nains de Blanche-Neige...",
     "photos": [
       {
@@ -589,7 +643,10 @@ export default [
     "id": "S",
     "title": "Les feux de Krafla",
     "date": "22 juillet - 16h",
-    "coords": [65.72484013163663, -16.805992126464844],
+    "coords": [
+      65.72484013163663,
+      -16.805992126464844
+    ],
     "content": "Krafla est un volcan en activité dont le cratère peut se visiter. La chambre magmatique se trouve à 2,1 km de profondeur (contre 60 en moyenne). Aucune chance, donc, de tomber dans de la lave en fusion, mais le sol est chaud au toucher et la pierre fume. Le site, extraordinaire, évoque le Mordor de Tolkien ou les terres brulées de Fallout.",
     "photos": [
       {
@@ -630,7 +687,10 @@ export default [
     "id": "T",
     "title": "La ferme de Glaumbær",
     "date": "23 juillet - 15h",
-    "coords": [65.6159284575626, -19.51068878173828],
+    "coords": [
+      65.6159284575626,
+      -19.51068878173828
+    ],
     "content": "Sur la route de Sauðárkrókur, escale à Glaumbær, une ferme traditionnelle, aux murs et en toit de tourbe, datant du 18ème siècle et parfaitement conservée. Avant le 10ème siècle, le climat de l'Islande était plus doux et le pays recouvert à 25 % de forêts (contre 1 % aujourd'hui). Mais le rafraichissement du climat et la raréfaction du bois oblige durant la moyen-age à ruser, notamment en utilisant des briques de tourbe.",
     "photos": [
       {
@@ -679,7 +739,10 @@ export default [
     "id": "U",
     "title": "Húnaflói, la baie du petit ours",
     "date": "24 juillet - 19h",
-    "coords": [65.59621895277296, -20.634384155273438],
+    "coords": [
+      65.59621895277296,
+      -20.634384155273438
+    ],
     "content": "Húnaflói (\"la baie du petit ours\") porte ce nom parce que des icebergs détachés de la banquise viennent y flotter avec, parfois, un ours polaire sur leur dos. Mais nous sommes heureux de n'avoir aperçu aucun de ces passagers clandestins, puisqu'ils sont systématiquement mis à mort par les autorités pour protéger la population. Par contre, la baie est habitée par des moutons, des chevaux... et des phoques !",
     "photos": [
       {
@@ -716,7 +779,10 @@ export default [
     "id": "V",
     "title": "Hellnar, un petit coin de paradis",
     "date": "24 juillet - 19h",
-    "coords": [64.74601725111455, -23.66455078125],
+    "coords": [
+      64.74601725111455,
+      -23.66455078125
+    ],
     "content": "Après une longue journée de route, nous voici à la ferme d'Hellnar. Contrairement à ce que son nom pourrait laisser penser, Hellnar est un petit coin de paradis, entre la montagne et l'océan et au milieu des champs de lave colonisés par la mousse.",
     "photos": [
       {
@@ -761,7 +827,10 @@ export default [
     "id": "W",
     "title": "Lóndrangar : la forteresse et le parlement des oiseaux",
     "date": "25 juillet - 12h",
-    "coords": [64.73334, -23.783331],
+    "coords": [
+      64.73334,
+      -23.783331
+    ],
     "content": "Lóndrangar est un autre exemple typique d'architecture islandaise... naturelle. L'apparente forteresse dressée contre la mer est née de l'érosion d'un ancien cratère volcanique. Du haut de 75 mètres, on l'aperçoit de très loin sur la route.",
     "photos": [
       {
@@ -818,7 +887,10 @@ export default [
     "id": "X",
     "title": "À l'assaut du mont Snæfellsjökull",
     "date": "25 juillet - 16h",
-    "coords": [64.86060787816564, -23.873291015625],
+    "coords": [
+      64.86060787816564,
+      -23.873291015625
+    ],
     "content": "Le mont Snæfellsjökull est bien connu des amateurs de Jules Verne : c'est à cet endroit que l'auteur français situe le point de départ de son Voyage au centre de la Terre. Parce que la piste qui gravit le mont n'est accessible qu'aux 4x4, nous nous lançons à pied dans une randonnée de 12 kilomètres !",
     "photos": [
       {
@@ -871,7 +943,10 @@ export default [
     "id": "Y",
     "title": "Pose longue à Kirkjufell",
     "date": "26 juillet - 11h",
-    "coords": [64.92648814969809, -23.31024169921875],
+    "coords": [
+      64.92648814969809,
+      -23.31024169921875
+    ],
     "content": "Arrêt bref mais obligatoire à Kirkjufell, le \"mont église\", carte postale ultime de l'Islande avec sa cascade et sa montagne en forme de clocher. L'occasion de s'essayer à la photographie de cascade avec pose longue, un autre cliché !",
     "photos": [
       {
@@ -888,7 +963,10 @@ export default [
     "id": "Z",
     "title": "Stykkishólmur et la bibliothèque de l'eau",
     "date": "26 juillet - 13h",
-    "coords": [65.07806223275166, -22.723159790039062],
+    "coords": [
+      65.07806223275166,
+      -22.723159790039062
+    ],
     "content": "Stykkishólmur est un charmant petit port au nord de la péninsule de Snæfellsnes, où l'on s'arrête aussi pour son musée du volcan et sa Bibliothèque de l'Eau, étonnant projet artistique. L'artiste Roni Horn y a collecté l'eau de 24 glaciers islandais.",
     "photos": [
       {
@@ -925,7 +1003,10 @@ export default [
     "id": "Ð",
     "title": "Les phoques d'Ytri-Tunga",
     "date": "26 juillet - 17h",
-    "coords": [64.8027522595179, -23.080387115478516],
+    "coords": [
+      64.8027522595179,
+      -23.080387115478516
+    ],
     "content": "Après la ferme d'Ytri-Tunga au sud de la péninsule de Snæfellsnes, se trouve une plage où vit une colonie de phoques.",
     "photos": [
       {
@@ -954,7 +1035,10 @@ export default [
     "id": "Þ",
     "title": "La faille de Þingvellir",
     "date": "27 juillet",
-    "coords": [64.25548306327258, -21.12499237060547],
+    "coords": [
+      64.25548306327258,
+      -21.12499237060547
+    ],
     "content": "Þingvellir est le site historique du parlement islandais, fondé en 930, sur l'emplacement de la faille qui sépare les plaques tectoniques nord-américaine et eurasienne. Aujourd'hui, le parlement se réunit à Rekjavik et Þingvellir est un parc national aux allures des Disneyland avec ses allées goudronnées bordées de main courante et ses parking tous les 500 mètres.",
     "photos": [
       {
@@ -987,7 +1071,10 @@ export default [
     "id": "Δ",
     "title": "Þrihnukagigur, voyage au centre de la terre",
     "date": "28 juillet",
-    "coords": [63.99975068170886, -21.657142639160156],
+    "coords": [
+      63.99975068170886,
+      -21.657142639160156
+    ],
     "content": "Þrihnukagigur, le \"cratère aux trois pics\", est un endroit unique au monde. Après une éruption, soit la lave se solidifie dans la chambre magmatique et le volcan devient une montagne, soit la lave s'écoule vers le bas, la chambre magmatique s'écroule, et le volcan devient un cratère. À Þrihnukagigur, c'est le deuxième cas qui s'est produit, sauf que la chambre magmatique ne s'est pas écroulée, permettant de la visiter.",
     "photos": [
       {
