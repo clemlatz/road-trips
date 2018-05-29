@@ -35,6 +35,7 @@
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-google-maps": "^9.4.5",
+    "react-router-dom": "^4.2.2",
     "style-loader": "^0.21.0",
     "whatwg-fetch": "^1.0.0"
   }
