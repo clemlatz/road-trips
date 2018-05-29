@@ -1,5 +1,6 @@
 import React from 'react';
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
+import { Link, withRouter } from 'react-router-dom';
 
 import { getZoomForWidth } from '../../utils';
 
@@ -8,11 +9,14 @@ import entries from '../../data/entries.json';
 const Map = (props) => {
 
   const markers = entries.map(({ id, coords, title }) => {
-    return <Marker key={id}
-      label={id}
-      position={{ lat: coords[0], lng: coords[1] }}
-      title={title}
-    />;
+    return (
+      <Marker
+        key={id}
+        label={id} title={title}
+        position={{ lat: coords[0], lng: coords[1] }}
+        onClick={() => props.history.push(`/entry/${id}`)}
+      />
+    );
   });
 
   return (
@@ -22,7 +26,7 @@ const Map = (props) => {
     >
       {markers}
     </GoogleMap>
-  )
+  );
 };
 
-export default withScriptjs(withGoogleMap(Map));
+export default withRouter(withScriptjs(withGoogleMap(Map)));
