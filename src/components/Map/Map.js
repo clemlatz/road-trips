@@ -3,7 +3,7 @@ import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-map
 
 import { getZoomForWidth } from '../../utils';
 
-import entries from '../../data/entries';
+import entries from '../../data/entries.json';
 
 const Map = (props) => {
 
