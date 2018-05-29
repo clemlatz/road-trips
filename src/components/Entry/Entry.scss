@@ -1,0 +1,51 @@
+.Entry {
+  background: white;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+  box-sizing: border-box;
+  margin: 2em auto;
+  max-width: 550px;
+  overflow: hidden;
+  padding: 1em;
+  position: relative;
+  width: 95%;
+  z-index: 200;
+
+  .Entry-id {
+    background-color: #c33d2b;
+    border-radius: 20px;
+    color: white;
+    float: left;
+    margin-right: 9px;
+    padding: 3px 9px 6px;
+    transform: translateY(8px);
+  }
+
+  .Entry-title {
+    color: #c33d2b;
+    margin: .25em 0 .5em;
+  }
+
+  .Entry-date {
+    background-color: #c33d2b;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+    color: #fff;
+    font-size: .8em;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 50px;
+  }
+
+  .Entry-close-button {
+    background: rgba(0, 0, 0, .15);
+    border-bottom-left-radius: 30px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    position: absolute;
+    top: 0;
+    transform: translate(8px, -8px);
+    right: 0;
+  }
+}
+
