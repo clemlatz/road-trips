@@ -18,7 +18,7 @@ const App = () => (
     <Fragment>
       <Header />
       <Map
-        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJik81y-N4dkBXFH9p5sW99blqkXXwLP8"
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBv8W4b5MznculFqFknQE79HJIDW5YXX9w"
         loadingElement={<div style={{ height: `100%` }} />}
         containerElement={<div style={{ height: '100vh', position: 'fixed', top: 0, width: '100vw' }} />}
         mapElement={<div style={{ height: `100vh` }} />}
