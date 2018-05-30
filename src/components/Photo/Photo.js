@@ -4,7 +4,7 @@ import './Photo.scss';
 
 export default ({ id, caption }) => (
   <div className="Photo">
-    <img className="Photo-image" src={`data/thumbs/${id}.jpg`} alt={caption} />
-    {caption && <p class="Photo-caption">{caption}</p>}
+    <img className="Photo-image" src={`/data/thumbs/${id}.jpg`} alt={caption} />
+    {caption && <p className="Photo-caption">{caption}</p>}
   </div>
 );

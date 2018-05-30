@@ -12,7 +12,7 @@ export default (props) => {
   const id = props.match.params.id;
   const entry = entries.find(entry => entry.id === id);
 
-  const photos = entry.photos.map(photo => <Photo {...photo} />)
+  const photos = entry.photos.map(photo => <Photo key={photo.id} {...photo} />)
 
   return (
     <article className="Entry">
