@@ -20,7 +20,7 @@ const App = () => (
       <Map
         googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJik81y-N4dkBXFH9p5sW99blqkXXwLP8"
         loadingElement={<div style={{ height: `100%` }} />}
-        containerElement={<div style={{ height: '100vh', position: 'absolute', top: 0, width: '100vw' }} />}
+        containerElement={<div style={{ height: '100vh', position: 'fixed', top: 0, width: '100vw' }} />}
         mapElement={<div style={{ height: `100vh` }} />}
       />
       <Switch>
