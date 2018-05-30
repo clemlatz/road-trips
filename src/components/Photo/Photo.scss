@@ -1,0 +1,18 @@
+.Photo {
+  margin-top: 1em;
+}
+
+.Photo-image {
+  border: 5px solid rgba(0, 0, 0, .05);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .15);
+  box-sizing: border-box;
+  cursor: zoom-in;
+  max-width: 100%;
+}
+
+.Photo-caption {
+  color: rgba(0, 0, 0, .75);
+  font-size: .9em;
+  font-style: italic;
+  margin-top: .25em;
+}
