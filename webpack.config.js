@@ -32,13 +32,12 @@ module.exports = {
         ]
       }
     ]
-  }
-};
-
-module.exports.serve = {
-  add: (app, middleware, options) => {
-    app.use(convert(history()));
   },
+  serve: {
+    add: (app, middleware, options) => {
+      app.use(convert(history()));
+    },
+  }
 };
 
 
