@@ -2,6 +2,7 @@ const path = require('path');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const history = require('connect-history-api-fallback');
 const convert = require('koa-connect');
 
@@ -36,6 +37,7 @@ module.exports = {
     ]
   },
   plugins: [
+    new CleanWebpackPlugin(['dist']),
     new CopyWebpackPlugin([{ from: 'public' }]),
     new HtmlWebpackPlugin({
       template: 'public/index.html',
