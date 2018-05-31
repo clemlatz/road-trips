@@ -24,9 +24,7 @@ https://roadtrips.iwazaru.fr/
 ## TODO
 
 * Lightbox (React)
-* React Helmet
+* Analytics page send
 * Markdown / Front matter
 * Facebook Comments ?
-* Navigation history / Router
-* Analytics page send
 * Lightbox animation
