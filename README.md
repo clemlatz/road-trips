@@ -1,7 +1,6 @@
 # Road Trips
 
-This repository contains the source code and content of our [Iceland
-travel blog](https://roadtrips.iwazaru.fr/).
+This repository contains the source code and content of our [travel blog](https://roadtrips.iwazaru.fr/).
 
 All the source code is available under the
 [MIT License](https://opensource.org/licenses/MIT).
