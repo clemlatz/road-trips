@@ -23,6 +23,8 @@ export default (props) => {
       <article className="Entry">
         <Helmet>
           <title>{entry.title} — Road Trip en Islande</title>
+          <meta name="description" content="Nested component" />
+          <meta property="og:title" content={entry.title} />
         </Helmet>
         <span className="Entry-date">{entry.date}</span>
         <span className="Entry-id">{entry.id}</span>

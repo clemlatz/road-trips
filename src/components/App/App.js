@@ -14,9 +14,6 @@ import './App.scss';
 export default hot(module)(() => (
   <Router>
     <Fragment>
-      <Helmet>
-        <title>Road trip en Islande</title>
-      </Helmet>
       <Header />
       <Map
         googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBv8W4b5MznculFqFknQE79HJIDW5YXX9w"
