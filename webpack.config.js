@@ -5,7 +5,7 @@ const convert = require('koa-connect');
 
 module.exports = {
   mode: 'development',
-  entry: './src/app.js',
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
