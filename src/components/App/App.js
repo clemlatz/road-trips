@@ -3,6 +3,7 @@ import 'whatwg-fetch';
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import { hot } from 'react-hot-loader'
 
 import Entry from '../Entry/Entry';
 import Header from '../Header/Header';
@@ -10,7 +11,7 @@ import Map from '../Map/Map';
 
 import './App.scss';
 
-export default () => (
+export default hot(module)(() => (
   <Router>
     <Fragment>
       <Helmet>
@@ -28,4 +29,4 @@ export default () => (
       </Switch>
     </Fragment>
   </Router>
-);
+));
