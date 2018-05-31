@@ -8,6 +8,7 @@ import 'whatwg-fetch';
 import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import Entry from './components/Entry/Entry';
 import Header from './components/Header/Header';
@@ -16,6 +17,9 @@ import Map from './components/Map/Map';
 const App = () => (
   <Router>
     <Fragment>
+      <Helmet>
+        <title>Road trip en Islande</title>
+      </Helmet>
       <Header />
       <Map
         googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBv8W4b5MznculFqFknQE79HJIDW5YXX9w"

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import Photo from '../Photo/Photo';
 
@@ -16,6 +17,9 @@ export default (props) => {
 
   return (
     <article className="Entry">
+      <Helmet>
+        <title>{entry.title} — Road Trip en Islande</title>
+      </Helmet>
       <span className="Entry-date">{entry.date}</span>
       <span className="Entry-id">{entry.id}</span>
       <Link to="/">
