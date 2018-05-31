@@ -1,5 +1,7 @@
 const path = require('path');
 
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const history = require('connect-history-api-fallback');
 const convert = require('koa-connect');
 
@@ -7,8 +9,8 @@ module.exports = {
   mode: 'development',
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'public'),
-    filename: 'bundle.js'
+    path: path.resolve(__dirname, 'dist'),
+    filename: '[name].[hash].js'
   },
   devtool: 'inline-source-map',
   module: {
@@ -33,6 +35,12 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new CopyWebpackPlugin([{ from: 'public' }]),
+    new HtmlWebpackPlugin({
+      template: 'public/index.html',
+    }),
+  ],
   serve: {
     add: (app, middleware, options) => {
       app.use(convert(history()));
