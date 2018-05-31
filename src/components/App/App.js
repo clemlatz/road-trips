@@ -1,20 +1,14 @@
-/* global google */
-/* exported initMap */
-
-'use strict';
-
 import 'whatwg-fetch';
 
 import React, { Fragment } from 'react';
-import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
-import Entry from './components/Entry/Entry';
-import Header from './components/Header/Header';
-import Map from './components/Map/Map';
+import Entry from '../Entry/Entry';
+import Header from '../Header/Header';
+import Map from '../Map/Map';
 
-const App = () => (
+export default () => (
   <Router>
     <Fragment>
       <Helmet>
@@ -32,8 +26,4 @@ const App = () => (
       </Switch>
     </Fragment>
   </Router>
-)
-
-ReactDOM.render(<App />,
-  document.getElementById('root')
 );
