@@ -8,6 +8,8 @@ import Entry from '../Entry/Entry';
 import Header from '../Header/Header';
 import Map from '../Map/Map';
 
+import './App.scss';
+
 export default () => (
   <Router>
     <Fragment>
