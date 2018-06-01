@@ -31,7 +31,7 @@ export default (props) => {
         <Link to="/">
           <span className="Entry-close-button">×</span>
         </Link>
-        <h1 className="Entry-title">{entry.title}!</h1>
+        <h1 className="Entry-title">{entry.title}</h1>
         <p className="Entry-content">{entry.content}</p>
         {photos}
       </article>
