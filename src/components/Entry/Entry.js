@@ -25,6 +25,8 @@ export default (props) => {
           <title>{entry.title} — Road Trip en Islande</title>
           <meta name="description" content="Nested component" />
           <meta property="og:title" content={entry.title} />
+          <meta property="og:url" 
+            content={`https://roadtrips.iwazaru.fr/entry/${entry.id}`} />
         </Helmet>
         <span className="Entry-date">{entry.date}</span>
         <span className="Entry-id">{entry.id}</span>
