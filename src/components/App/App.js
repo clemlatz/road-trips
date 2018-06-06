@@ -1,9 +1,9 @@
 import 'whatwg-fetch';
 
 import React, { Fragment } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
-import { hot } from 'react-hot-loader'
+import { Router, Switch, Route } from 'react-router-dom';
+import { hot } from 'react-hot-loader';
+import { createBrowserHistory } from 'history';
 
 import Entry from '../Entry/Entry';
 import Header from '../Header/Header';
@@ -11,8 +11,14 @@ import Map from '../Map/Map';
 
 import './App.scss';
 
+const history = createBrowserHistory();
+history.listen(function (location) {
+  window.ga('set', 'page', location.pathname + location.search);
+  window.ga('send', 'pageview', location.pathname + location.search);
+});
+
 export default hot(module)(() => (
-  <Router>
+  <Router history={history}>
     <Fragment>
       <Header />
       <Map
