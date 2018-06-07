@@ -15,6 +15,8 @@ export default function Entry(props) {
   const entry = entries.find(entry => entry.id === id);
 
   const photos = entry.photos.map(photo => <Photo key={photo.id} {...photo} />);
+  const previewPhoto = entry.photos[0];
+  const previewPhotoUrl = `https://roadtrips.iwazaru.fr/data/photos/${previewPhoto.id}.jpg`;
 
   const onOverlayClick = () => props.history.push('/');
 
@@ -28,6 +30,7 @@ export default function Entry(props) {
           <meta property="og:title" content={entry.title} />
           <meta property="og:url"
             content={`https://roadtrips.iwazaru.fr/entry/${entry.id}`} />
+          <meta property="og:image" content={previewPhotoUrl} />
         </Helmet>
         <span className="Entry-date">{entry.date}</span>
         <span className="Entry-id">{entry.id}</span>
