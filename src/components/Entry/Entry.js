@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 
 import Thumbnail from '../Thumbnail/Thumbnail';
+import Overlay from '../Overlay/Overlay';
 
 import './Entry.scss';
 
@@ -22,7 +23,7 @@ export default function Entry(props) {
 
   return (
     <Fragment>
-      <div className="Entry-overlay" onClick={onOverlayClick}></div>
+      <Overlay onClick={onOverlayClick} />
       <article className="Entry">
         <Helmet>
           <title>{entry.title} — Road Trip en Islande</title>
