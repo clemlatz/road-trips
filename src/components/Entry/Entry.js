@@ -27,7 +27,8 @@ export default function Entry(props) {
         <Helmet>
           <title>{entry.title} — Road Trip en Islande</title>
           <meta name="description" content="Nested component" />
-          <meta property="og:title" content={entry.title} />
+          <meta property="og:title"
+            content={`${entry.title} - Road Trip en Islande`} />
           <meta property="og:url"
             content={`https://roadtrips.iwazaru.fr/entry/${entry.id}`} />
           <meta property="og:image" content={previewPhotoUrl} />
