@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 
-import Photo from '../Photo/Photo';
+import Thumbnail from '../Thumbnail/Thumbnail';
 
 import './Entry.scss';
 
@@ -14,9 +14,9 @@ export default function Entry(props) {
   const id = props.match.params.id;
   const entry = entries.find(entry => entry.id === id);
 
-  const photos = entry.photos.map(photo => <Photo key={photo.id} {...photo} />);
-  const previewPhoto = entry.photos[0];
-  const previewPhotoUrl = `https://roadtrips.iwazaru.fr/data/photos/${previewPhoto.id}.jpg`;
+  const thumbnails = entry.photos.map(photo => <Thumbnail key={photo.id} {...photo} />);
+  const previewThumbnail = entry.photos[0];
+  const previewThumbnailUrl = `https://roadtrips.iwazaru.fr/data/Thumbnails/${previewThumbnail.id}.jpg`;
 
   const onOverlayClick = () => props.history.push('/');
 
@@ -31,7 +31,7 @@ export default function Entry(props) {
             content={`${entry.title} - Road Trip en Islande`} />
           <meta property="og:url"
             content={`https://roadtrips.iwazaru.fr/entry/${entry.id}`} />
-          <meta property="og:image" content={previewPhotoUrl} />
+          <meta property="og:image" content={previewThumbnailUrl} />
         </Helmet>
         <span className="Entry-date">{entry.date}</span>
         <span className="Entry-id">{entry.id}</span>
@@ -40,7 +40,7 @@ export default function Entry(props) {
         </Link>
         <h1 className="Entry-title">{entry.title}</h1>
         <p className="Entry-content">{entry.content}</p>
-        {photos}
+        {thumbnails}
       </article>
     </Fragment>
   );
