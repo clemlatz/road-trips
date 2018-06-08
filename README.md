@@ -22,8 +22,8 @@ https://roadtrips.iwazaru.fr/
 
 ## TODO
 
+* Multiple trips
 * Lightbox (React)
-* Analytics page send
 * Markdown / Front matter
 * Facebook Comments ?
 * Lightbox animation
