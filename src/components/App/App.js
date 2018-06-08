@@ -10,6 +10,7 @@ import { createBrowserHistory } from 'history';
 import Entry from '../Entry/Entry';
 import Header from '../Header/Header';
 import Map from '../Map/Map';
+import Photo from '../Photo/Photo';
 
 import './App.scss';
 
@@ -30,7 +31,8 @@ export default hot(module)(() => (
         mapElement={<div style={{ height: '100vh' }} />}
       />
       <Switch>
-        <Route path="/entry/:id" component={Entry} />
+        <Route exact path="/entry/:id" component={Entry} />
+        <Route exact path="/entry/:entryId/photo/:photoId" component={Photo} />
       </Switch>
     </Fragment>
   </Router>
