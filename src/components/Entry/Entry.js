@@ -15,7 +15,11 @@ export default function Entry(props) {
   const id = props.match.params.id;
   const entry = entries.find(entry => entry.id === id);
 
-  const thumbnails = entry.photos.map(photo => <Thumbnail key={photo.id} {...photo} />);
+  const thumbnails = entry.photos.map(photo => {
+    return (<Link key={photo.id} to={`/entry/${id}/photo/${photo.id}`}>
+      <Thumbnail {...photo} />
+    </Link>);
+  });
   const previewThumbnail = entry.photos[0];
   const previewThumbnailUrl = `https://roadtrips.iwazaru.fr/data/Thumbnails/${previewThumbnail.id}.jpg`;
 
