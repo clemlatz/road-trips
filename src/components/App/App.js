@@ -1,8 +1,7 @@
-import 'whatwg-fetch';
-
-import React, { Fragment } from 'react';
 /* global module */
 
+import 'whatwg-fetch';
+import React, { Fragment } from 'react';
 import { Router, Switch, Route } from 'react-router-dom';
 import { hot } from 'react-hot-loader';
 import { createBrowserHistory } from 'history';
@@ -27,12 +26,15 @@ export default hot(module)(() => (
       <Map
         googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBv8W4b5MznculFqFknQE79HJIDW5YXX9w"
         loadingElement={<div style={{ height: '100%' }} />}
-        containerElement={<div style={{ height: '100vh', position: 'fixed', top: 0, width: '100vw' }} />}
+        containerElement={<div style={{
+          height: '100vh', position: 'fixed', top: 0, width: '100vw'
+        }} />}
         mapElement={<div style={{ height: '100vh' }} />}
       />
       <Switch>
-        <Route exact path="/entry/:id" component={Entry} />
-        <Route exact path="/entry/:entryId/photo/:photoId" component={Photo} />
+        <Route exact path="/:tripId/:entryId" component={Entry} />
+        <Route exact path="/:tripId/:entryId/:photoId"
+          component={Photo} />
       </Switch>
     </Fragment>
   </Router>

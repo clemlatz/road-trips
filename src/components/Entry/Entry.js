@@ -8,15 +8,16 @@ import Overlay from '../Overlay/Overlay';
 
 import './Entry.scss';
 
-import entries from '../../data/entries.json';
+import trips from '../../trips/trips.json';
 
 export default function Entry(props) {
 
-  const id = props.match.params.id;
-  const entry = entries.find(entry => entry.id === id);
+  const { tripId, entryId } = props.match.params;
+  const trip = trips.find(trip => trip.id === tripId);
+  const entry = trip.entries.find(entry => entry.id === entryId);
 
   const thumbnails = entry.photos.map(photo => {
-    return (<Link key={photo.id} to={`/entry/${id}/photo/${photo.id}`}>
+    return (<Link key={photo.id} to={`/${tripId}/${entryId}/${photo.id}`}>
       <Thumbnail {...photo} />
     </Link>);
   });

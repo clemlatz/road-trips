@@ -4,17 +4,25 @@ import { withRouter } from 'react-router-dom';
 
 import { getZoomForWidth } from '../../utils';
 
-import entries from '../../data/entries.json';
+import trips from '../../trips/trips.json';
 
 const Map = (props) => {
 
-  const markers = entries.map(({ id, coords, title }) => {
+  // Merge entries for all trips in on array
+  const entries = [].concat.apply([], trips.map(trip => {
+    return trip.entries.map(entry => {
+      entry.trip = trip.id;
+      return entry;
+    });
+  }));
+
+  const markers = entries.map(({ id, coords, title, trip }) => {
     return (
       <Marker
         key={id}
         label={id} title={title}
         position={{ lat: coords[0], lng: coords[1] }}
-        onClick={() => props.history.push(`/entry/${id}`)}
+        onClick={() => props.history.push(`/${trip}/${id}`)}
       />
     );
   });
