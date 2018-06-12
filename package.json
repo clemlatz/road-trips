@@ -42,11 +42,11 @@
   "dependencies": {
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
+    "google-map-react": "^1.0.4",
     "history": "^4.7.2",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-google-maps": "^9.4.5",
     "react-helmet": "^5.2.0",
     "react-hot-loader": "^4.2.0",
     "react-router-dom": "^4.2.2",
