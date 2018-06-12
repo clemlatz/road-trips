@@ -1,10 +1,16 @@
 import React from 'react';
-import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
 import { withRouter } from 'react-router-dom';
+import GoogleMapReact from 'google-map-react';
 
 import { getZoomForWidth } from '../../utils';
 
 import trips from '../../trips/trips.json';
+
+import './Map.scss';
+
+const Marker = ({ children }) => {
+  return <div className="Pin">{children}</div>;
+};
 
 const Map = (props) => {
 
@@ -16,25 +22,25 @@ const Map = (props) => {
     });
   }));
 
-  const markers = entries.map(({ id, coords, title, trip }) => {
+  const pins = entries.map(entry => {
     return (
-      <Marker
-        key={id}
-        label={id} title={title}
-        position={{ lat: coords[0], lng: coords[1] }}
-        onClick={() => props.history.push(`/${trip}/${id}`)}
-      />
+      <Marker key={entry.id} lat={entry.coords[0]} lng={entry.coords[1]}>
+        {entry.id}
+      </Marker>
     );
   });
 
   return (
-    <GoogleMap
-      defaultZoom={getZoomForWidth()}
-      defaultCenter={{ lat: 64.9313, lng: -19.0212 }}
-    >
-      {markers}
-    </GoogleMap>
+    <div className="Map">
+      <GoogleMapReact
+        bootstrapURLKeys={{ key: 'AIzaSyBv8W4b5MznculFqFknQE79HJIDW5YXX9w' }}
+        defaultZoom={getZoomForWidth()}
+        defaultCenter={{ lat: 64.9313, lng: -19.0212 }}
+      >
+        {pins}
+      </GoogleMapReact>
+    </div>
   );
 };
 
-export default withRouter(withScriptjs(withGoogleMap(Map)));
+export default Map;
