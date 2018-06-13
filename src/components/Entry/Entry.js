@@ -32,7 +32,7 @@ export default function Entry(props) {
       <Overlay onClick={onOverlayClick} />
       <article className="Entry">
         <Helmet>
-          <title>{entry.title} — Road Trip en Islande</title>
+          <title>{entry.title} — {trip.title}</title>
           <meta name="description" content="Nested component" />
           <meta property="og:title"
             content={`${entry.title} - Road Trip en Islande`} />
