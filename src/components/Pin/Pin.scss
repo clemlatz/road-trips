@@ -1,0 +1,25 @@
+.Pin {
+  background-color: #c33d2b;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.25em;
+  font-family: 'Montserrat';
+  height: 21px;
+  padding-top: 3px;
+  position: relative;
+  text-align: center;
+  transform: translate(-12px, -36px);
+  width: 24px;
+
+  &::after {
+    border: 10px solid transparent;
+    border-top: 17px solid #c33d2b;
+    content: '';
+    bottom: -21px;
+    left: 2px;
+    position: absolute;
+  }
+}
+
+

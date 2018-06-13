@@ -1,6 +1,9 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import GoogleMapReact from 'google-map-react';
+import { withRouter } from 'react-router-dom';
+
+import Pin from '../Pin/Pin';
 
 import { getZoomForWidth } from '../../utils';
 
@@ -8,11 +11,7 @@ import trips from '../../trips/trips.json';
 
 import './Map.scss';
 
-const Marker = ({ children }) => {
-  return <div className="Pin">{children}</div>;
-};
-
-const Map = (props) => {
+const Map = ({ history }) => {
 
   // Merge entries for all trips in on array
   const entries = [].concat.apply([], trips.map(trip => {
@@ -24,9 +23,10 @@ const Map = (props) => {
 
   const pins = entries.map(entry => {
     return (
-      <Marker key={entry.id} lat={entry.coords[0]} lng={entry.coords[1]}>
+      <Pin key={entry.id} lat={entry.coords[0]} lng={entry.coords[1]}
+        onClick={() => history.push(`/${entry.trip}/${entry.id}`)}>
         {entry.id}
-      </Marker>
+      </Pin>
     );
   });
 
@@ -43,4 +43,8 @@ const Map = (props) => {
   );
 };
 
-export default Map;
+Map.propTypes = {
+  history: PropTypes.object.isRequired,
+};
+
+export default withRouter(Map);
