@@ -32,7 +32,7 @@ const Map = ({ history }) => {
 
   return (
     <div className="Map">
-      <GoogleMapReact
+      <GoogleMapReact options={() => ({ fullscreenControl: false })}
         bootstrapURLKeys={{ key: 'AIzaSyBv8W4b5MznculFqFknQE79HJIDW5YXX9w' }}
         defaultZoom={getZoomForWidth()}
         defaultCenter={{ lat: 64.9313, lng: -19.0212 }}
