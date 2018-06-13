@@ -2,17 +2,22 @@
   background-color: #c33d2b;
   border-radius: 25px;
   color: white;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-family: 'Montserrat';
-  height: 21px;
-  padding-top: 3px;
+  height: 20px;
+  padding-top: 4px;
   position: relative;
   text-align: center;
   transform: translate(-12px, -36px);
   width: 24px;
 
-  .clickable {
+  &.clickable {
     cursor: pointer;
+    transition: all 100ms;
+
+    &:hover {
+      transform: translate(-12px, -43px) scale(1.25);
+    }
   }
 
   &::after {
