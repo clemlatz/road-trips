@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 
 import Thumbnail from '../Thumbnail/Thumbnail';
 import Overlay from '../Overlay/Overlay';
+import Pin from '../Pin/Pin';
 
 import './Entry.scss';
 
@@ -40,7 +41,9 @@ export default function Entry(props) {
           <meta property="og:image" content={previewThumbnailUrl} />
         </Helmet>
         <span className="Entry-date">{entry.date}</span>
-        <span className="Entry-id">{entry.id}</span>
+        <div className="Entry-id">
+          <Pin>{entry.id}</Pin>
+        </div>
         <Link to="/">
           <span className="Entry-close-button">×</span>
         </Link>
