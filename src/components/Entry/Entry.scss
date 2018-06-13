@@ -11,13 +11,14 @@
   z-index: 200;
 
   .Entry-id {
-    background-color: #c33d2b;
     border-radius: 20px;
     color: white;
     float: left;
-    margin-right: 9px;
-    padding: 3px 9px 6px;
-    transform: translateY(8px);
+    margin-right: 6px;
+
+    .Pin {
+      transform: translateY(6px);
+    }
   }
 
   .Entry-title {
