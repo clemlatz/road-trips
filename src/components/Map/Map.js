@@ -30,9 +30,19 @@ const Map = ({ history }) => {
     );
   });
 
+  const onClick = ({ lat, lng }) => {
+    const copy = document.createElement('input');
+    copy.value = `[${lat}, ${lng}]`;
+    document.body.appendChild(copy);
+    copy.select();
+    document.execCommand('copy');
+    document.body.removeChild(copy);
+  };
+
   return (
     <div className="Map">
-      <GoogleMapReact options={() => ({ fullscreenControl: false })}
+      <GoogleMapReact onClick={onClick}
+        options={() => ({ fullscreenControl: false })}
         bootstrapURLKeys={{ key: 'AIzaSyBv8W4b5MznculFqFknQE79HJIDW5YXX9w' }}
         defaultZoom={getZoomForWidth()}
         defaultCenter={{ lat: 64.9313, lng: -19.0212 }}
