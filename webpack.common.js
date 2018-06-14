@@ -36,7 +36,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new CleanWebpackPlugin(['dist'], { exclude: ['data', 'favicon.png'] }),
+    new CleanWebpackPlugin(['dist'], { exclude: ['images', 'favicon.png'] }),
     new HtmlWebpackPlugin({
       template: 'public/index.html',
     }),

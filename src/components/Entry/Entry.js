@@ -19,11 +19,11 @@ export default function Entry(props) {
 
   const thumbnails = entry.photos.map(photo => {
     return (<Link key={photo.id} to={`/${tripId}/${entryId}/${photo.id}`}>
-      <Thumbnail {...photo} />
+      <Thumbnail tripId={tripId} {...photo} />
     </Link>);
   });
   const previewThumbnail = entry.photos[0];
-  const previewThumbnailUrl = `https://roadtrips.iwazaru.fr/data/Thumbnails/${previewThumbnail.id}.jpg`;
+  const previewThumbnailUrl = `https://roadtrips.iwazaru.fr/images/${tripId}/thumbs/${previewThumbnail.id}.jpg`;
 
   const onOverlayClick = () => props.history.push('/');
 
@@ -37,7 +37,7 @@ export default function Entry(props) {
           <meta property="og:title"
             content={`${entry.title} - Road Trip en Islande`} />
           <meta property="og:url"
-            content={`https://roadtrips.iwazaru.fr/entry/${entry.id}`} />
+            content={`https://roadtrips.iwazaru.fr/${tripId}/${entry.id}`} />
           <meta property="og:image" content={previewThumbnailUrl} />
         </Helmet>
         <span className="Entry-date">{entry.date}</span>

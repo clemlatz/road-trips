@@ -7,7 +7,7 @@ import './Photo.scss';
 
 export default function Photo(props) {
 
-  const { photoId } = props.match.params;
+  const { tripId, photoId } = props.match.params;
 
   const onClick = props.history.goBack;
 
@@ -15,7 +15,7 @@ export default function Photo(props) {
     <Fragment>
       <Overlay onClick={onClick} />
       <img onClick={onClick} className="Photo"
-        src={`/data/photos/${photoId}.jpg`} />
+        src={`/images/${tripId}/photos/${photoId}.jpg`} />
     </Fragment>
   );
 }
