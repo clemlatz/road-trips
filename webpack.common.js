@@ -21,7 +21,7 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['env', 'react'],
-            plugins: ['react-hot-loader/babel'],
+            plugins: ['react-hot-loader/babel', 'transform-class-properties'],
           }
         }
       },
