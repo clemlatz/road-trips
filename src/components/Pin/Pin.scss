@@ -17,6 +17,7 @@
 
     &:hover {
       transform: translate(-12px, -43px) scale(1.25);
+      z-index: 500;
     }
   }
 
