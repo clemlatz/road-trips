@@ -22,8 +22,9 @@ export default function Entry(props) {
       <Thumbnail tripId={tripId} {...photo} />
     </Link>);
   });
-  const previewThumbnail = entry.photos[0];
-  const previewThumbnailUrl = `https://roadtrips.iwazaru.fr/images/${tripId}/thumbs/${previewThumbnail.id}.jpg`;
+
+  let previewPhoto = entry.previewPhoto || entry.photos[0].id;
+  const previewThumbnailUrl = `https://roadtrips.iwazaru.fr/images/${tripId}/thumbs/${previewPhoto}.jpg`;
 
   const onOverlayClick = () => props.history.push('/');
 
