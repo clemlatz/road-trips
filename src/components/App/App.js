@@ -32,7 +32,7 @@ export default hot(module)(() => (
         mapElement={<div style={{ height: '100vh' }} />}
       />
       <Switch>
-        <Route exact path="/:tripId/:entryId" component={Entry} />
+        <Route exact path="/:tripId/:entryId-:entrySlug" component={Entry} />
         <Route exact path="/:tripId/:entryId/:photoId"
           component={Photo} />
       </Switch>

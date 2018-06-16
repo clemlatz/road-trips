@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import GoogleMapReact from 'google-map-react';
 import { withRouter } from 'react-router-dom';
+import slugify from 'slugify';
 
 import Pin from '../Pin/Pin';
 
@@ -13,7 +14,7 @@ import './Map.scss';
 
 const Map = ({ history }) => {
 
-  // Merge entries for all trips in on array
+  // Merge entries for all trips in one array
   const entries = [].concat.apply([], trips.map(trip => {
     return trip.entries.map(entry => {
       entry.trip = trip.id;
@@ -22,9 +23,10 @@ const Map = ({ history }) => {
   }));
 
   const pins = entries.map(entry => {
+    const entrySlug = slugify(entry.title, { lower: true, remove: /[:,]/ });
     return (
       <Pin key={entry.id} lat={entry.coords[0]} lng={entry.coords[1]}
-        onClick={() => history.push(`/${entry.trip}/${entry.id}`)}>
+        onClick={() => history.push(`/${entry.trip}/${entry.id}-${entrySlug}`)}>
         {entry.id}
       </Pin>
     );
