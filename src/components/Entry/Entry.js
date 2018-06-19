@@ -13,12 +13,12 @@ import trips from '../../trips/trips.json';
 
 export default function Entry(props) {
 
-  const { tripId, entryId } = props.match.params;
+  const { tripId, entryId, entrySlug } = props.match.params;
   const trip = trips.find(trip => trip.id === tripId);
   const entry = trip.entries.find(entry => entry.id === entryId);
 
   const thumbnails = entry.photos.map(photo => {
-    return (<Link key={photo.id} to={`/${tripId}/${entryId}/${photo.id}`}>
+    return (<Link key={photo.id} to={`/${tripId}/${entryId}-${entrySlug}/${photo.id}`}>
       <Thumbnail tripId={tripId} {...photo} />
     </Link>);
   });
@@ -26,7 +26,7 @@ export default function Entry(props) {
   let previewPhoto = entry.previewPhoto || entry.photos[0].id;
   const previewThumbnailUrl = `https://roadtrips.iwazaru.fr/images/${tripId}/thumbs/${previewPhoto}.jpg`;
 
-  const onOverlayClick = () => props.history.push('/');
+  const onOverlayClick = () => props.history.push(`/${trip.id}/`);
 
   return (
     <Fragment>
