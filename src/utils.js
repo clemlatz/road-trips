@@ -2,11 +2,11 @@
 /** 
  * Returns best zoom level for current window width
 */
-export function getZoomForWidth() {
+export function getZoomForWidth({ desktop, mobile }) {
   let width = window.innerWidth || document.documentElement.clientWidth
     || document.body.clientWidth;
   if (width < 768) {
-    return 5;
+    return mobile;
   }
-  return 7;
+  return desktop;
 }

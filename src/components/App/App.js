@@ -2,7 +2,8 @@
 
 import 'whatwg-fetch';
 import React, { Fragment } from 'react';
-import { Router, Switch, Route } from 'react-router-dom';
+import PropTypes from 'prop-types';
+import { Router, Route } from 'react-router-dom';
 import { hot } from 'react-hot-loader';
 import { createBrowserHistory } from 'history';
 
@@ -19,23 +20,50 @@ history.listen(function (location) {
   window.ga('send', 'pageview', location.pathname + location.search);
 });
 
-export default hot(module)(() => (
-  <Router history={history}>
-    <Fragment>
-      <Header />
-      <Map
-        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBv8W4b5MznculFqFknQE79HJIDW5YXX9w"
-        loadingElement={<div style={{ height: '100%' }} />}
-        containerElement={<div style={{
-          height: '100vh', position: 'fixed', top: 0, width: '100vw'
-        }} />}
-        mapElement={<div style={{ height: '100vh' }} />}
-      />
-      <Switch>
-        <Route exact path="/:tripId/:entryId-:entrySlug" component={Entry} />
-        <Route exact path="/:tripId/:entryId/:photoId"
-          component={Photo} />
-      </Switch>
-    </Fragment>
-  </Router>
-));
+class TripSelector extends React.Component {
+  componentDidMount() {
+    this.props.onLoad(this.props.match.params.tripId);
+  }
+
+  render() {
+    return null;
+  }
+}
+
+TripSelector.propTypes = {
+  match: PropTypes.object.isRequired,
+  onLoad: PropTypes.func.isRequired,
+};
+
+class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      selectedTrip: null,
+    };
+  }
+
+  onTripLoad(selectedTrip) {
+    this.setState({ selectedTrip });
+    return null;
+  }
+
+  render() {
+    return (
+      <Router history={history}>
+        <Fragment>
+          <Header />
+          <Map selectedTrip={this.state.selectedTrip} />
+          <Route path="/:tripId/"
+            render={(props) => <TripSelector {...props}
+              onLoad={trip => this.onTripLoad(trip)} />} />
+          <Route path="/:tripId/:entryId-:entrySlug" component={Entry} />
+          <Route path="/:tripId/:entryId-:entrySlug/:photoId" component={Photo} />
+        </Fragment>
+      </Router>
+    );
+  }
+}
+
+export default hot(module)(App);

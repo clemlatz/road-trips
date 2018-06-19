@@ -12,7 +12,15 @@ import trips from '../../trips/trips.json';
 
 import './Map.scss';
 
-const Map = ({ history }) => {
+const Map = ({ history, selectedTrip }) => {
+
+  let center = { lat: 63.08843, lng: -7.66545 };
+  let zoomLevels = { desktop: 4, mobile: 2 };
+  if (selectedTrip) {
+    const trip = trips.find(trip => trip.id === selectedTrip);
+    center = trip.mapCenter;
+    zoomLevels = trip.mapZoomLevels;
+  }
 
   // Merge entries for all trips in one array
   const entries = [].concat.apply([], trips.map(trip => {
@@ -46,8 +54,8 @@ const Map = ({ history }) => {
       <GoogleMapReact onClick={onClick}
         options={() => ({ fullscreenControl: false })}
         bootstrapURLKeys={{ key: 'AIzaSyBv8W4b5MznculFqFknQE79HJIDW5YXX9w' }}
-        defaultZoom={getZoomForWidth()}
-        defaultCenter={{ lat: 64.9313, lng: -19.0212 }}
+        zoom={getZoomForWidth(zoomLevels)}
+        center={center}
       >
         {pins}
       </GoogleMapReact>
@@ -57,6 +65,7 @@ const Map = ({ history }) => {
 
 Map.propTypes = {
   history: PropTypes.object.isRequired,
+  selectedTrip: PropTypes.string,
 };
 
 export default withRouter(Map);
