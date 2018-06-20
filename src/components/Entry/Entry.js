@@ -17,13 +17,13 @@ export default function Entry(props) {
   const trip = trips.find(trip => trip.id === tripId);
   const entry = trip.entries.find(entry => entry.id === entryId);
 
-  const thumbnails = entry.photos.map(photo => {
+  const thumbnails = entry.photos && entry.photos.map(photo => {
     return (<Link key={photo.id} to={`/${tripId}/${entryId}-${entrySlug}/${photo.id}`}>
       <Thumbnail tripId={tripId} {...photo} />
     </Link>);
   });
 
-  let previewPhoto = entry.previewPhoto || entry.photos[0].id;
+  let previewPhoto = entry.previewPhoto || entry.photos && entry.photos[0].id;
   const previewThumbnailUrl = `https://roadtrips.iwazaru.fr/images/${tripId}/thumbs/${previewPhoto}.jpg`;
 
   const onOverlayClick = () => props.history.push(`/${trip.id}/`);
