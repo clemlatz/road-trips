@@ -45,7 +45,7 @@ export default function Entry(props) {
         <div className="Entry-id">
           <Pin>{entry.id}</Pin>
         </div>
-        <Link to="/">
+        <Link to={`/${trip.id}/`}>
           <span className="Entry-close-button">×</span>
         </Link>
         <h1 className="Entry-title">{entry.title}</h1>
