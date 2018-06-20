@@ -38,7 +38,7 @@ class App extends React.Component {
     return (
       <Router history={history}>
         <Fragment>
-          <Header />
+          <Header selectedTrip={this.state.selectedTrip} />
           <Map selectedTrip={this.state.selectedTrip} />
           <Route path="/:tripId/"
             render={(props) => <TripSelector {...props}
