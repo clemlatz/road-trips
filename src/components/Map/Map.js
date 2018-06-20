@@ -17,9 +17,8 @@ const Map = ({ history, selectedTrip }) => {
   let center = { lat: 63.08843, lng: -7.66545 };
   let zoomLevels = { desktop: 4, mobile: 2 };
   if (selectedTrip) {
-    const trip = trips.find(trip => trip.id === selectedTrip);
-    center = trip.mapCenter;
-    zoomLevels = trip.mapZoomLevels;
+    center = selectedTrip.mapCenter;
+    zoomLevels = selectedTrip.mapZoomLevels;
   }
 
   // Merge entries for all trips in one array
@@ -66,7 +65,7 @@ const Map = ({ history, selectedTrip }) => {
 
 Map.propTypes = {
   history: PropTypes.object.isRequired,
-  selectedTrip: PropTypes.string,
+  selectedTrip: PropTypes.object,
 };
 
 export default withRouter(Map);
