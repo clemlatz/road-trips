@@ -33,7 +33,8 @@ const Map = ({ history, selectedTrip }) => {
   const pins = entries.map(entry => {
     const entrySlug = slugify(entry.title, { lower: true, remove: /[:,]/ });
     return (
-      <Pin key={entry.id} lat={entry.coords[0]} lng={entry.coords[1]}
+      <Pin key={`${entry.trip}-${entry.id}`}
+        lat={entry.coords[0]} lng={entry.coords[1]}
         onClick={() => history.push(`/${entry.trip}/${entry.id}-${entrySlug}`)}>
         {entry.id}
       </Pin>
