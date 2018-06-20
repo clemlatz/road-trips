@@ -38,7 +38,7 @@ export default function Entry(props) {
           <meta property="og:title"
             content={`${entry.title} - Road Trip en Islande`} />
           <meta property="og:url"
-            content={`https://roadtrips.iwazaru.fr/${tripId}/${entry.id}`} />
+            content={`https://roadtrips.iwazaru.fr/${tripId}/${entry.id}-${entrySlug}`} />
           <meta property="og:image" content={previewThumbnailUrl} />
         </Helmet>
         <span className="Entry-date">{entry.date}</span>
