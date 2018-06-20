@@ -35,14 +35,17 @@ class App extends React.Component {
   }
 
   render() {
+
+    const tripSelector = (props) => <TripSelector {...props}
+      onLoad={(trip) => this.onTripLoad(trip)} />;
+
     return (
       <Router history={history}>
         <Fragment>
           <Header selectedTrip={this.state.selectedTrip} />
           <Map selectedTrip={this.state.selectedTrip} />
-          <Route path="/:tripId/"
-            render={(props) => <TripSelector {...props}
-              onLoad={trip => this.onTripLoad(trip)} />} />
+          <Route exact path="/" render={tripSelector} />
+          <Route path="/:tripId/" render={tripSelector} />
           <Route path="/:tripId/:entryId-:entrySlug" component={Entry} />
           <Route path="/:tripId/:entryId-:entrySlug/:photoId" component={Photo} />
         </Fragment>
