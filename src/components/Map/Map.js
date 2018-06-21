@@ -5,6 +5,7 @@ import { withRouter } from 'react-router-dom';
 import slugify from 'slugify';
 
 import Pin from '../Pin/Pin';
+import TripLink from '../TripLink/TripLink';
 
 import { getZoomForWidth } from '../../utils';
 
@@ -29,16 +30,29 @@ const Map = ({ history, selectedTrip }) => {
     });
   }));
 
-  const pins = entries.map(entry => {
-    const entrySlug = slugify(entry.title, { lower: true, remove: /[:,]/ });
-    return (
-      <Pin key={`${entry.trip}-${entry.id}`}
-        lat={entry.coords[0]} lng={entry.coords[1]}
-        onClick={() => history.push(`/${entry.trip}/${entry.id}-${entrySlug}`)}>
-        {entry.id}
-      </Pin>
-    );
-  });
+  let markers;
+  if (selectedTrip) {
+    markers = entries.map(entry => {
+      const entrySlug = slugify(entry.title, { lower: true, remove: /[:,]/ });
+      return (
+        <Pin key={`${entry.trip}-${entry.id}`}
+          lat={entry.coords[0]} lng={entry.coords[1]}
+          onClick={() => history.push(`/${entry.trip}/${entry.id}-${entrySlug}`)}>
+          {entry.id}
+        </Pin>
+      );
+    });
+  } else {
+    markers = trips.map(trip => {
+      const { lat, lng } = trip.mapCenter;
+      return (
+        <TripLink key={`${trip.id}`} lat={lat} lng={lng} trip={trip}
+          onClick={() => history.push(`/${trip.id}/`)}>
+          {trip.id}
+        </TripLink>
+      );
+    });
+  }
 
   const onClick = ({ lat, lng }) => {
     const copy = document.createElement('input');
@@ -57,7 +71,7 @@ const Map = ({ history, selectedTrip }) => {
         zoom={getZoomForWidth(zoomLevels)}
         center={center}
       >
-        {pins}
+        {markers}
       </GoogleMapReact>
     </div>
   );
