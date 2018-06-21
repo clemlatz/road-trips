@@ -13,7 +13,7 @@ export default function Photo(props) {
 
   return (
     <Fragment>
-      <Overlay onClick={onClick} />
+      <Overlay onClick={onClick} zIndex={300} />
       <img onClick={onClick} className="Photo"
         src={`/images/${tripId}/photos/${photoId}.jpg`} />
     </Fragment>
