@@ -5,10 +5,13 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './src/index.js',
+  entry: [
+    './src/index.js'
+  ],
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].[hash].js',
+    filename: 'bundle.[name].[hash:6].js',
+    chunkFilename: 'bundle.[name].[chunkhash:6].js',
     publicPath: '/',
   },
   devtool: 'inline-source-map',
@@ -40,7 +43,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'public/index.html',
     }),
-  ]
+  ],
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+    }
+  }
 };
 
 
