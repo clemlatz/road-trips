@@ -1,11 +1,19 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
-import Header from '../Header/Header';
+import './TripLink.scss';
 
-export default function TripLink({ onClick, children, trip }) {
+export default function TripLink({ trip }) {
   return (
-    <div onClick={onClick}>
-      {trip.title}
-    </div>
+    <Link to={`/${trip.id}/`}>
+      <div className="TripLink">
+        {trip.linkTitle}
+      </div>
+    </Link>
   );
 }
+
+TripLink.propTypes = {
+  trip: PropTypes.object.isRequired,
+};

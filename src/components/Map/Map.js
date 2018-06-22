@@ -46,10 +46,7 @@ const Map = ({ history, selectedTrip }) => {
     markers = trips.map(trip => {
       const { lat, lng } = trip.mapCenter;
       return (
-        <TripLink key={`${trip.id}`} lat={lat} lng={lng} trip={trip}
-          onClick={() => history.push(`/${trip.id}/`)}>
-          {trip.id}
-        </TripLink>
+        <TripLink key={`${trip.id}`} lat={lat} lng={lng} trip={trip} />
       );
     });
   }
