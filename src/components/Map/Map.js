@@ -4,7 +4,7 @@ import GoogleMapReact from 'google-map-react';
 import { Link, withRouter } from 'react-router-dom';
 import slugify from 'slugify';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons/faGlobe';
 
 import Pin from '../Pin/Pin';
 import TripLink from '../TripLink/TripLink';
