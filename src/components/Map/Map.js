@@ -35,7 +35,7 @@ const Map = ({ history, trips, selectedTrip }) => {
       return (
         <Pin key={`${entry.trip}-${entry.id}`}
           lat={entry.coords[0]} lng={entry.coords[1]}
-          onClick={() => history.push(`/${entry.trip}/${entry.id}-${entrySlug}`)}>
+          onClick={() => history.push(`/${selectedTrip.id}/${entry.id}-${entrySlug}`)}>
           {entry.id}
         </Pin>
       );
@@ -80,6 +80,7 @@ const Map = ({ history, trips, selectedTrip }) => {
 Map.propTypes = {
   history: PropTypes.object.isRequired,
   selectedTrip: PropTypes.object,
+  trips: PropTypes.array,
 };
 
 export default withRouter(Map);
