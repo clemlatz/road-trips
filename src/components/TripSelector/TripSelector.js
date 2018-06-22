@@ -7,7 +7,8 @@ class TripSelector extends React.Component {
   componentDidMount() {
     const { tripId } = this.props.match.params;
     const trip = trips.find(trip => trip.id === tripId);
-    this.props.onLoad(trip);
+
+    this.props.onLoad(trips, trip);
   }
 
   render() {

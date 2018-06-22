@@ -11,11 +11,9 @@ import TripLink from '../TripLink/TripLink';
 
 import { getZoomForWidth } from '../../utils';
 
-import trips from '../../trips/trips.json';
-
 import './Map.scss';
 
-const Map = ({ history, selectedTrip }) => {
+const Map = ({ history, trips, selectedTrip }) => {
 
   let center = { lat: 63.08843, lng: -7.66545 };
   let zoomLevels = { desktop: 4, mobile: 2 };
@@ -23,14 +21,6 @@ const Map = ({ history, selectedTrip }) => {
     center = selectedTrip.mapCenter;
     zoomLevels = selectedTrip.mapZoomLevels;
   }
-
-  // Merge entries for all trips in one array
-  const entries = [].concat.apply([], trips.map(trip => {
-    return trip.entries.map(entry => {
-      entry.trip = trip.id;
-      return entry;
-    });
-  }));
 
   let markers;
   let homeButton;
@@ -40,7 +30,7 @@ const Map = ({ history, selectedTrip }) => {
         <div className="homeButton"><FontAwesomeIcon icon={faGlobe} /></div>
       </Link>
     );
-    markers = entries.map(entry => {
+    markers = selectedTrip.entries.map(entry => {
       const entrySlug = slugify(entry.title, { lower: true, remove: /[:,]/ });
       return (
         <Pin key={`${entry.trip}-${entry.id}`}
@@ -50,7 +40,9 @@ const Map = ({ history, selectedTrip }) => {
         </Pin>
       );
     });
-  } else {
+  }
+  
+  else if (trips) {
     markers = trips.map(trip => {
       const { lat, lng } = trip.mapCenter;
       return (
