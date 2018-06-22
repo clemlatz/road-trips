@@ -25,25 +25,26 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      trips: null,
       selectedTrip: null,
     };
   }
 
-  onTripLoad(selectedTrip) {
-    this.setState({ selectedTrip });
+  onTripLoad(trips, selectedTrip) {
+    this.setState({ trips, selectedTrip });
     return null;
   }
 
   render() {
 
     const tripSelector = (props) => <TripSelector {...props}
-      onLoad={(trip) => this.onTripLoad(trip)} />;
+      onLoad={(trips, trip) => this.onTripLoad(trips, trip)} />;
 
     return (
       <Router history={history}>
         <Fragment>
           <Header selectedTrip={this.state.selectedTrip} />
-          <Map selectedTrip={this.state.selectedTrip} />
+          <Map {...this.state} />
           <Route exact path="/" render={tripSelector} />
           <Route path="/:tripId/" render={tripSelector} />
           <Route path="/:tripId/:entryId-:entrySlug" component={Entry} />
