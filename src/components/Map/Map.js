@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import GoogleMapReact from 'google-map-react';
-import { withRouter } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import slugify from 'slugify';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 import Pin from '../Pin/Pin';
 import TripLink from '../TripLink/TripLink';
@@ -31,7 +33,13 @@ const Map = ({ history, selectedTrip }) => {
   }));
 
   let markers;
+  let homeButton;
   if (selectedTrip) {
+    homeButton = (
+      <Link to="/">
+        <div className="homeButton"><FontAwesomeIcon icon={faGlobe} /></div>
+      </Link>
+    );
     markers = entries.map(entry => {
       const entrySlug = slugify(entry.title, { lower: true, remove: /[:,]/ });
       return (
@@ -61,16 +69,19 @@ const Map = ({ history, selectedTrip }) => {
   };
 
   return (
-    <div className="Map">
-      <GoogleMapReact onClick={onClick}
-        options={() => ({ fullscreenControl: false })}
-        bootstrapURLKeys={{ key: 'AIzaSyBv8W4b5MznculFqFknQE79HJIDW5YXX9w' }}
-        zoom={getZoomForWidth(zoomLevels)}
-        center={center}
-      >
-        {markers}
-      </GoogleMapReact>
-    </div>
+    <Fragment>
+      {homeButton}
+      <div className="Map">
+        <GoogleMapReact onClick={onClick}
+          options={() => ({ fullscreenControl: false })}
+          bootstrapURLKeys={{ key: 'AIzaSyBv8W4b5MznculFqFknQE79HJIDW5YXX9w' }}
+          zoom={getZoomForWidth(zoomLevels)}
+          center={center}
+        >
+          {markers}
+        </GoogleMapReact>
+      </div>
+    </Fragment>
   );
 };
 
