@@ -3,9 +3,8 @@ import PropTypes from 'prop-types';
 import GoogleMapReact from 'google-map-react';
 import { Link, withRouter } from 'react-router-dom';
 import slugify from 'slugify';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons/faGlobe';
 
+import HomeButton from '../HomeButton/HomeButton';
 import Pin from '../Pin/Pin';
 import TripLink from '../TripLink/TripLink';
 
@@ -22,11 +21,10 @@ const Map = ({ history, trips, selectedTrip }) => {
     zoomLevels = selectedTrip.mapZoomLevels;
   }
 
-  
-  const homeButtonClasses = ['homeButton'];
-
   let markers;
+  let homeButtonShown = false;
   if (selectedTrip) {
+    homeButtonShown = true;
     markers = selectedTrip.entries.map(entry => {
       const entrySlug = slugify(entry.title, { lower: true, remove: /[:,]/ });
       return (
@@ -40,7 +38,6 @@ const Map = ({ history, trips, selectedTrip }) => {
   }
   
   else if (trips) {
-    homeButtonClasses.push('hidden');
     markers = trips.map(trip => {
       const { lat, lng } = trip.mapCenter;
       return (
@@ -60,11 +57,7 @@ const Map = ({ history, trips, selectedTrip }) => {
 
   return (
     <Fragment>
-      <Link to="/">
-        <div className={homeButtonClasses.join(' ')}>
-          <FontAwesomeIcon icon={faGlobe} />
-        </div>
-      </Link>
+      <HomeButton shown={homeButtonShown} />
       <div className="Map">
         <GoogleMapReact onClick={onClick}
           options={() => ({ fullscreenControl: false })}
