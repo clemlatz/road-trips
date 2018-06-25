@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .Photo {
   border: 2.5vh solid white;
   cursor: zoom-out;
@@ -7,6 +9,6 @@
   position: fixed;
   top: 50%;
   transform: translate(-50%, -50%);
-  z-index: 400;
+  z-index: $zIndexPhoto;
 }
 

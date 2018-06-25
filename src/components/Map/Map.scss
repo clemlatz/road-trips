@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .Map {
   height: 100vh;
   position: fixed;
@@ -13,5 +15,5 @@
   top: 0;
   left: 0;
   transform: rotate(45deg) translate(-30px, -7px);
-  z-index: 100;
+  z-index: $zIndexHomeButton;
 }
