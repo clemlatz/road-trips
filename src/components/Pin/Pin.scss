@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .Pin {
   background-color: #c33d2b;
   border-radius: 25px;
@@ -17,7 +19,7 @@
 
     &:hover {
       transform: translate(-12px, -43px) scale(1.25);
-      z-index: 500;
+      z-index: $zIndexPinHover;
     }
   }
 
