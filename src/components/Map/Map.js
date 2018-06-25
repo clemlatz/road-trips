@@ -22,14 +22,11 @@ const Map = ({ history, trips, selectedTrip }) => {
     zoomLevels = selectedTrip.mapZoomLevels;
   }
 
+  
+  const homeButtonClasses = ['homeButton'];
+
   let markers;
-  let homeButton;
   if (selectedTrip) {
-    homeButton = (
-      <Link to="/">
-        <div className="homeButton"><FontAwesomeIcon icon={faGlobe} /></div>
-      </Link>
-    );
     markers = selectedTrip.entries.map(entry => {
       const entrySlug = slugify(entry.title, { lower: true, remove: /[:,]/ });
       return (
@@ -43,6 +40,7 @@ const Map = ({ history, trips, selectedTrip }) => {
   }
   
   else if (trips) {
+    homeButtonClasses.push('hidden');
     markers = trips.map(trip => {
       const { lat, lng } = trip.mapCenter;
       return (
@@ -62,7 +60,11 @@ const Map = ({ history, trips, selectedTrip }) => {
 
   return (
     <Fragment>
-      {homeButton}
+      <Link to="/">
+        <div className={homeButtonClasses.join(' ')}>
+          <FontAwesomeIcon icon={faGlobe} />
+        </div>
+      </Link>
       <div className="Map">
         <GoogleMapReact onClick={onClick}
           options={() => ({ fullscreenControl: false })}
