@@ -3,15 +3,13 @@ import PropTypes from 'prop-types';
 
 import './Overlay.scss';
 
-export default function Overlay({ onClick, zIndex }) {
-  return <div style={{ zIndex }} onClick={onClick} className="Overlay"></div>;
+export default function Overlay({ onClick, className }) {
+  const classes = ['Overlay'];
+  classes.push(className);
+  return <div onClick={onClick} className={classes.join(' ')}></div>;
 }
 
-Overlay.defaultProps = {
-  zIndex: 100,
-};
-
 Overlay.propTypes = {
+  className: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired,
-  zIndex: PropTypes.number,
 };

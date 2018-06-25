@@ -51,3 +51,7 @@
     right: 0;
   }
 }
+
+.Entry-overlay {
+  z-index: $zIndexEntryOverlay;
+}
