@@ -30,7 +30,7 @@ export default function Entry(props) {
 
   return (
     <Fragment>
-      <Overlay onClick={onOverlayClick} />
+      <Overlay onClick={onOverlayClick} className="Entry-overlay" />
       <article className="Entry">
         <Helmet>
           <title>{entry.title} — {trip.title}</title>
