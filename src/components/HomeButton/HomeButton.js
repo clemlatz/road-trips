@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { faGlobe } from '@fortawesome/free-solid-svg-icons/faGlobe'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons/faArrowLeft';
 
 import './HomeButton.scss';
 
 export default function HomeButton({ shown }) {
-  
+
   const homeButtonClasses = ['homeButton'];
 
   if (!shown) {
@@ -18,11 +18,11 @@ export default function HomeButton({ shown }) {
   return (
     <Link to="/">
       <div className={homeButtonClasses.join(' ')}>
-        <FontAwesomeIcon icon={faGlobe} />
+        <FontAwesomeIcon icon={faArrowLeft} />
       </div>
     </Link>
   );
-};
+}
 
 HomeButton.defaultProps = {
   shown: false,

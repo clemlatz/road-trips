@@ -6,23 +6,3 @@
   top: 0;
   width: 100vw;
 }
-
-.homeButton {
-  background: #c33d2b;
-  color: white;
-  padding: 25px 5px 25px 25px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: rotate(45deg) translate(-30px, -7px);
-  transition: all 500ms;
-  z-index: $zIndexHomeButton;
-
-  &.hidden {
-    transform: rotate(45deg) translate(-63px, -10px); 
-  }
-
-  svg {
-    transform: rotate(-45deg);
-  }
-}
