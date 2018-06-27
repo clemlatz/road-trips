@@ -15,11 +15,18 @@
   width: 90%;
   z-index: $zIndexHeader;
 
-  h1 {
+  .title {
+    align-items: center;
     color: #c33d2b;
+    display: flex;
     font-family: 'Montserrat';
+    justify-content: center;
     margin-bottom: .15em;
     text-transform: uppercase;
+  }
+
+  .logo {
+    margin-right: 8px;
   }
 
   a {
