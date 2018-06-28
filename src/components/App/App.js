@@ -30,21 +30,28 @@ class App extends React.Component {
     };
   }
 
-  onTripLoad(trips, selectedTrip) {
+  _onTripLoad(trips, selectedTrip) {
     this.setState({ trips, selectedTrip });
     return null;
+  }
+
+  _onMapZoomChange(zoom) {
+    if (zoom <= 5) {
+      history.push('/');
+    }
   }
 
   render() {
 
     const tripSelector = (props) => <TripSelector {...props}
-      onLoad={(trips, trip) => this.onTripLoad(trips, trip)} />;
+      onLoad={(trips, trip) => this._onTripLoad(trips, trip)} />;
 
     return (
       <Router history={history}>
         <Fragment>
           <Header selectedTrip={this.state.selectedTrip} />
-          <Map {...this.state} />
+          <Map {...this.state}
+            onZoomChange={zoom => this._onMapZoomChange(zoom)} />
           <Route exact path="/" render={tripSelector} />
           <Route path="/:tripId/" render={tripSelector} />
           <Route path="/:tripId/:entryId-:entrySlug" component={Entry} />

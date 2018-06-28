@@ -12,7 +12,7 @@ import { getZoomForWidth } from '../../utils';
 
 import './Map.scss';
 
-const Map = ({ history, trips, selectedTrip }) => {
+const Map = ({ history, onZoomChange, trips, selectedTrip }) => {
 
   let center = { lat: 63.08843, lng: -7.66545 };
   let zoomLevels = { desktop: 4, mobile: 2 };
@@ -55,6 +55,10 @@ const Map = ({ history, trips, selectedTrip }) => {
     document.body.removeChild(copy);
   };
 
+  const onBoundsChange = (center, zoom) => {
+    onZoomChange(zoom);
+  };
+
   const githubButton = (
     <a href="https://github.com/iwazaru/road-trips/" className="github-corner" aria-label="View source on Github">
       <svg width="50" height="50" viewBox="0 0 250 250" className="github-corner-image" aria-hidden="true">
@@ -77,6 +81,7 @@ const Map = ({ history, trips, selectedTrip }) => {
           bootstrapURLKeys={{ key: 'AIzaSyBv8W4b5MznculFqFknQE79HJIDW5YXX9w' }}
           zoom={getZoomForWidth(zoomLevels)}
           center={center}
+          onBoundsChange={onBoundsChange}
         >
           {markers}
         </GoogleMapReact>
@@ -87,6 +92,7 @@ const Map = ({ history, trips, selectedTrip }) => {
 
 Map.propTypes = {
   history: PropTypes.object.isRequired,
+  onZoomChange: PropTypes.func.isRequired,
   selectedTrip: PropTypes.object,
   trips: PropTypes.array,
 };
