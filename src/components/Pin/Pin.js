@@ -1,15 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 import './Pin.scss';
 
-export default function Pin({ onClick, children }) {
+export default function Pin({ href, children }) {
   const classes = ['Pin'];
-  if (onClick) {
+  if (href) {
     classes.push('clickable');
   }
 
-  return <div onClick={onClick} className={classes.join(' ')}>{children}</div>;
+  const pin = <div className={classes.join(' ')}>{children}</div>;
+
+  if (href) {
+    return <Link to={href}>{pin}</Link>;
+  }
+
+  return pin;
 }
 
 Pin.defaultProps = {
@@ -18,5 +25,5 @@ Pin.defaultProps = {
 
 Pin.propTypes = {
   children: PropTypes.string.isRequired,
-  onClick: PropTypes.func,
+  href: PropTypes.string,
 };

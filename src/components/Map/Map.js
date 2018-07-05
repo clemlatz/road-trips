@@ -12,7 +12,7 @@ import { getZoomForWidth } from '../../utils';
 
 import './Map.scss';
 
-const Map = ({ history, onZoomChange, trips, selectedTrip }) => {
+const Map = ({ onZoomChange, trips, selectedTrip }) => {
 
   let center = { lat: 63.08843, lng: -7.66545 };
   let zoomLevels = { desktop: 4, mobile: 2 };
@@ -30,7 +30,8 @@ const Map = ({ history, onZoomChange, trips, selectedTrip }) => {
       return (
         <Pin key={`${entry.trip}-${entry.id}`}
           lat={entry.coords[0]} lng={entry.coords[1]}
-          onClick={() => history.push(`/${selectedTrip.id}/${entry.id}-${entrySlug}`)}>
+          href={`/${selectedTrip.id}/${entry.id}-${entrySlug}`}
+        >
           {entry.id}
         </Pin>
       );
