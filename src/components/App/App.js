@@ -27,6 +27,7 @@ class App extends React.Component {
     this.state = {
       trips: null,
       selectedTrip: null,
+      currentZoom: null,
     };
   }
 
@@ -36,9 +37,10 @@ class App extends React.Component {
   }
 
   _onMapZoomChange(zoom) {
-    if (zoom <= 5) {
+    if (zoom <= 5 && this.state.currentZoom && zoom != this.state.currentZoom) {
       history.push('/');
     }
+    this.setState({ currentZoom: 5 });
   }
 
   render() {
