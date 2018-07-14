@@ -36,7 +36,7 @@ export default function Entry(props) {
           <title>{entry.title} — {trip.title}</title>
           <meta name="description" content="Nested component" />
           <meta property="og:title"
-            content={`${entry.title} - Road Trip en Islande`} />
+            content={`${entry.title} - ${trip.title}`} />
           <meta property="og:url"
             content={`https://roadtrips.iwazaru.fr/${tripId}/${entry.id}-${entrySlug}`} />
           <meta property="og:image" content={previewThumbnailUrl} />
