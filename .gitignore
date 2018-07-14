@@ -1,4 +1,5 @@
 node_modules
-dist/
-!dist/images
 yarn-error.log
+dist/bundle*
+dist/index.html
+dist/sitemap*
