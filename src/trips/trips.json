@@ -137,6 +137,67 @@
             "caption": "La pompe à feu (\"atmospheric engine\") inventée par Thomas Newcomen en 1712 utilisait la pression atomsphérique créé par la condensation de l'eau pour actionner le piston et extraire de l'eau des mines. C'est la première utilisation d'une machine à vapeur pour du travail mécanique."
           }
         ]
+      },
+      {
+        "id": "3",
+        "title": "À l'assaut de Castle Rock",
+        "date": "14 juillet",
+        "coords": [
+          "55.94855349076701",
+          "-3.2007221142578146"
+        ],
+        "previewPhoto": "3-6",
+        "content": "L'après-midi, nous prenons la direction du château d'Edimbourg. Après avoir esquivé de peu une part de pizza lâchée par une mouette au-dessus de nos têtes et traversé une manifestation de protestation contre la venue de Trump en Écosse, nous parvenons aux abords de la forteresse.",
+        "photos": [
+          {
+            "id": "3-1",
+            "caption": "En chemin, des manifestants anti-Trump."
+          },
+          {
+            "id": "3-2",
+            "caption": "High Street, la rue qui remonte vers le château."
+          },
+          {
+            "id": "3-3",
+            "caption": "Une boutique de Noël ouverte en juillet : parce qu'il n'est jamais trop tôt."
+          },
+          {
+            "id": "3-4",
+            "caption": "The Hub, anciennement une église baptisée Victoria Hall, abrite aujourd'hui des festivals, des conférences ou des mariages."
+          },
+          {
+            "id": "3-5",
+            "caption": ""
+          },
+          {
+            "id": "3-6",
+            "caption": "L'entrée du château. On ne connaît pas la date de sa construction, mais la plus ancienne référence documentée remonte au XIVème siècle. Il a connu de très nombreuses modifications au cours des siècles."
+          },
+          {
+            "id": "3-7",
+            "caption": "Le château offre une vue spectaculaire sur la capitale."
+          },
+          {
+            "id": "3-8",
+            "caption": "Le château, régulièrement assailli lors des guerres d'indépendances écossaises, permet de bombarder quiconque s'en approche. Chaque assaillant qui a réussi à s'emparer du château a rajouté sa propre rangée de canon."
+          },
+          {
+            "id": "3-9",
+            "caption": "Dans ce batîment sont entreposés les joyaux de la couronne écossaise (qu'on n'a pas le droit de photographier) : la couronne, l'épée et le sceptre."
+          },
+          {
+            "id": "3-10",
+            "caption": "C'est aussi dans le château que Marie Stuart, reine d'Écosse au destin tragique, donna naissance à James IV, premier roi à régner à la fois sur l'Angleterre et l'Écosse, mettant fin aux veilleités d'indépendance des écossais."
+          },
+          {
+            "id": "3-11",
+            "caption": "Après la visite, shopping. Mathilde sort de l'une des nombreuses boutiques de la ville entièrement consacré à l'univers d'Harry Potter."
+          },
+          {
+            "id": "3-12",
+            "caption": "Pour finir la journée, bière, fish and chips et concert acoustique au bar The World's End. Mathilde, qui connait bien le sujet (de l'éducation), approuve ce slogan."
+          }
+        ]
       }
     ]
   },
