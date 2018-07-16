@@ -76,7 +76,7 @@
       {
         "id": "2",
         "title": "Une matinée au musée",
-        "date": "14 juillet",
+        "date": "14 juillet - 10h",
         "coords": [
           "55.94707735252899",
           "-3.189586265183152"
@@ -141,7 +141,7 @@
       {
         "id": "3",
         "title": "À l'assaut de Castle Rock",
-        "date": "14 juillet",
+        "date": "14 juillet - 15h",
         "coords": [
           "55.94855349076701",
           "-3.2007221142578146"
@@ -202,7 +202,7 @@
       {
         "id": "4",
         "title": "Dans les jardins de Sa Majesté",
-        "date": "15 juillet",
+        "date": "15 juillet - 11h",
         "coords": [
           "55.965250664786225",
           "-3.2086185375976584"
@@ -260,6 +260,71 @@
           },
           {
             "id": "4-13",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Embarquer pour l'Antarctique à Dundee",
+        "date": "15 juillet - 15h",
+        "coords": [
+          "56.45693282876388",
+          "-2.967954246807267"
+        ],
+        "previewPhoto": "1-1",
+        "content": "En chemin pour Pitlochry, nous faisons un détour par Dundee à l'est, où l'on peut visiter le RRS Discovery, un navire de recherche scientifique conçu au début du XXème siècle pour l'exploration de l'Antarctique.",
+        "photos": [
+          {
+            "id": "5-1",
+            "caption": "Le Discovery qu'Arthur C. Clarke a visité dans les années 60 lorsqu'il était amarré à Londre, lui aurait inspiré le nom du vaisseau spatial en route pour Jupiter dans 2001, l'odyssée de l'espace."
+          },
+          {
+            "id": "5-2",
+            "caption": "Les lunettes en bois du Capitaine Scott permettaient de protéger des reflets aveuglants du soleil sur la neige. Plus pratique que les lunettes en verre qui se couvraient rapidement de buée."
+          },
+          {
+            "id": "5-3",
+            "caption": "Le navire fut pris dans les glaces pendant deux ans, et il fut envisager de l'abandonner, avant qu'on ne réussise finalement à le libérer à coup d'explosifs en février 1904."
+          },
+          {
+            "id": "5-4",
+            "caption": "Si Robert Falcon Scott a l'air un peu bougon sur cette photo, c'est parce qu'il vient d'arriver au Pôle Sud en pensant être le premier, pour découvrir que le norvégien Amundsen l'a battu de 33 jours. Il mourra de froid et de faim peu après, sur le chemin du retour."
+          },
+          {
+            "id": "5-5",
+            "caption": ""
+          },
+          {
+            "id": "5-6",
+            "caption": "Le Discovery était aussi équipé d'un moteur à vapeur de 450 chevaux. Comme la place pour le charbon était chère, il n'était utilisé qu'en cas d'absolue nécessité."
+          },
+          {
+            "id": "5-7",
+            "caption": "De quoi ne pas perdre le nord."
+          },
+          {
+            "id": "5-8",
+            "caption": "Lors de sa première expédition, le Discovery a du embarquer des vivres pour 3 ans."
+          },
+          {
+            "id": "5-9",
+            "caption": "Ne vous fiez pas à l'air jovial de ce marin écossais : il n'a daigné répondre à aucune de nos questions."
+          },
+          {
+            "id": "5-10",
+            "caption": "Le bureau du biologiste."
+          },
+          {
+            "id": "5-11",
+            "caption": "Le laboratoire."
+          },
+          {
+            "id": "5-12",
+            "caption": ""
+          },
+          {
+            "id": "5-13",
             "caption": ""
           }
         ]
