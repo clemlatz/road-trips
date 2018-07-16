@@ -198,6 +198,71 @@
             "caption": "Pour finir la journée, bière, fish and chips et concert acoustique au bar The World's End. Mathilde, qui connait bien le sujet (de l'éducation), approuve ce slogan."
           }
         ]
+      },
+      {
+        "id": "4",
+        "title": "Dans les jardins de Sa Majesté",
+        "date": "15 juillet",
+        "coords": [
+          "55.965250664786225",
+          "-3.2086185375976584"
+        ],
+        "previewPhoto": "4-6",
+        "content": "Avant de prendre la route vers le nord, nous faisons un arrêt au Royal Botanic Garden d'Edimbourg. Installé à 2 km du centre-ville sur 28 hectares depuis 1820, il propose une collection de 15.000 plantes, soit 5% des espèces végétales connues. C'est un endroit paisible, loin de la foule de la ville, où l'on effectue des recherches sur la biodiversité écossaise et le changement climatique.",
+        "photos": [
+          {
+            "id": "4-1",
+            "caption": ""
+          },
+          {
+            "id": "4-2",
+            "caption": "Le jardin botanique fut d'abord un jardin de plantes médicinales près de Holyrood Palace créé en 1670. Il a déménagé plusieurs fois pour fuir la pollution de la ville."
+          },
+          {
+            "id": "4-3",
+            "caption": ""
+          },
+          {
+            "id": "4-4",
+            "caption": "Les pots de fleurs sont cultivés sur place et récoltés à maturité."
+          },
+          {
+            "id": "4-5",
+            "caption": ""
+          },
+          {
+            "id": "4-6",
+            "caption": "Le palmarium, construit en 1864, donne accès aux serres."
+          },
+          {
+            "id": "4-7",
+            "caption": ""
+          },
+          {
+            "id": "4-8",
+            "caption": ""
+          },
+          {
+            "id": "4-9",
+            "caption": "Les serres reproduisent le climat tropical, chaud et humide. On y sue à grosses gouttes."
+          },
+          {
+            "id": "4-10",
+            "caption": ""
+          },
+          {
+            "id": "4-11",
+            "caption": "Le Victoria Longwood Hybrid est issu d'un croisement entre deux espèces de nénuphars."
+          },
+          {
+            "id": "4-12",
+            "caption": ""
+          },
+          {
+            "id": "4-13",
+            "caption": ""
+          }
+        ]
       }
     ]
   },
