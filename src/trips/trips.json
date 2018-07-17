@@ -328,6 +328,47 @@
             "caption": ""
           }
         ]
+      },
+      {
+        "id": "6",
+        "title": "Par-delà la vallée de Glenshee",
+        "date": "16 juillet, matin",
+        "coords": [
+          "56.901037453544745",
+          "-3.409204856567385"
+        ],
+        "previewPhoto": "6-1",
+        "content": "Nous commençons notre journée en remontant Glenshee, très belle vallée qui traverse le sud du parc national des Cairngorms. Au bout de la route, au coeur du parc, le charmant village de Braemar et son château.",
+        "photos": [
+          {
+            "id": "6-1",
+            "caption": "Glen est un mot issue du galéique gleann, qui signifie vallée."
+          },
+          {
+            "id": "6-2",
+            "caption": "Un glen est une vallée d'origine glaciaire, ou en auge, qui a été creusée par la formation puis la fonte d'un glacier."
+          },
+          {
+            "id": "6-3",
+            "caption": ""
+          },
+          {
+            "id": "6-4",
+            "caption": "Au centre de la vallée, coule la rivière Clunie Water."
+          },
+          {
+            "id": "6-5",
+            "caption": "La rivière Clunie Water, depuis un pont du village de Braemar."
+          },
+          {
+            "id": "6-6",
+            "caption": "Le château de Braemar, dont la construction a commencé en 1628 a été attaqué et brûlé en 1689 par John Faquharson, dit le Colonel Noir. Il fut laissé en ruine jusqu'en 1748 date où, après restauration, il devint le siège du clan Faquharson."
+          },
+          {
+            "id": "6-7",
+            "caption": ""
+          }
+        ]
       }
     ]
   },
