@@ -410,6 +410,63 @@
             "caption": "Retour à Pitlochry par la vallée de Glenshee."
           }
         ]
+      },
+      {
+        "id": "8",
+        "title": "Du Loch Morlich à la passe de Ryvoan",
+        "date": "17 juillet, après-midi",
+        "coords": [
+          "57.16421590352775",
+          "-3.6713827411460898"
+        ],
+        "previewPhoto": "8-3",
+        "content": "Il est temps de quitter Pitlochry et de reprendre la route pour notre prochaine destination : Inverness, au nord. La route traverse le parc national des Cairngorms, et nous en profitons pour faire un arrêt à la réserve naturelle du Glenmore Forest Park, où un chemin de randonnée relie le Loch Morlich au An Lochan Uaine (Loch Vert).",
+        "photos": [
+          {
+            "id": "8-1",
+            "caption": ""
+          },
+          {
+            "id": "8-2",
+            "caption": "Les forêts calédoniennes couvraient autrefois une vaste partie de l'Écosse, il en reste aujourd'hui 1%, en raison de la déforestation menée depuis le néolithique."
+          },
+          {
+            "id": "8-3",
+            "caption": "Le chemin de randonnée monte du Loch Morlich jusqu'au sommet d'une colline, avant de redescendre dans la vallée pour atteindre le An Lochan Uaine."
+          },
+          {
+            "id": "8-4",
+            "caption": ""
+          },
+          {
+            "id": "8-5",
+            "caption": ""
+          },
+          {
+            "id": "8-6",
+            "caption": "Les forêts calédoniennes abriterait une grande variété d'animaux, dont des chats sauvages, des mésanges huppées et des chevaliers aboyeurs (un oiseau). Nous, on a juste croisé une musaraigne."
+          },
+          {
+            "id": "8-7",
+            "caption": "An Loch Uaine, ou Loch Vert. Sur un banc sont gravés les vers d'un poète anonyme : \"And again in the dusk of the evening, I shall find once more alone. The dark water of the green loch, and the pass beyond Ryvoan\"."
+          },
+          {
+            "id": "8-8",
+            "caption": ""
+          },
+          {
+            "id": "8-9",
+            "caption": ""
+          },
+          {
+            "id": "8-10",
+            "caption": ""
+          },
+          {
+            "id": "8-11",
+            "caption": ""
+          }
+        ]
       }
     ]
   },
