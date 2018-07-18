@@ -369,6 +369,47 @@
             "caption": ""
           }
         ]
+      },
+      {
+        "id": "7",
+        "title": "Le long du lit de la rivière Dee",
+        "date": "16 juillet, après-midi",
+        "coords": [
+          "56.988092413519354",
+          "-3.545931235695548"
+        ],
+        "previewPhoto": "7-6",
+        "content": "Après une pause déjeuner à Braemar, nous repartons 7 miles vers l'ouest, jusqu'à un très joli endroit baptisé Linn of Dee. La rivière Dee y dévale 300 mètres de gorges rocheuses jusqu'à une cascade où sautent des saumons.",
+        "photos": [
+          {
+            "id": "7-1",
+            "caption": "Un chemin descend à travers la forêt jusqu'à la rivière."
+          },
+          {
+            "id": "7-2",
+            "caption": "La reine Victoria appréciait particulièrement les paysages de Linn of Dee lors de ses séjours à Balmoral. Elle y inaugura un pont en 1857."
+          },
+          {
+            "id": "7-3",
+            "caption": "La rivière Dee."
+          },
+          {
+            "id": "7-4",
+            "caption": "Le chemin de randonnée s'éloigne de la rivière pour traverser une forêt calédonienne habitée par des rennes."
+          },
+          {
+            "id": "7-5",
+            "caption": ""
+          },
+          {
+            "id": "7-6",
+            "caption": ""
+          },
+          {
+            "id": "7-7",
+            "caption": "Retour à Pitlochry par la vallée de Glenshee."
+          }
+        ]
       }
     ]
   },
