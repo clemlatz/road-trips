@@ -467,6 +467,47 @@
             "caption": ""
           }
         ]
+      },
+      {
+        "id": "9",
+        "title": "Qu'importe le flacon, pourvu qu'on ait Inverness",
+        "date": "17 juillet, soirée",
+        "coords": [
+          "57.476225334697745",
+          "-4.225502983741762"
+        ],
+        "previewPhoto": "9-4",
+        "content": "En soirée, nous arrivons à Inverness, capitale autoproclamée des Highlands. Après avoir posé nos bagages à l'hôtel et dîné dans un restaurant de la ville, petite promenade digestive dans la ville.",
+        "photos": [
+          {
+            "id": "9-1",
+            "caption": "L'église Saint Mary, au bord de la Ness."
+          },
+          {
+            "id": "9-2",
+            "caption": "Gregg Street Bridge."
+          },
+          {
+            "id": "9-3",
+            "caption": ""
+          },
+          {
+            "id": "9-4",
+            "caption": "Le château. Lors de la visite de la reine Mary en 1562, le gouverneur d'Inverness avait confié le château à son capitaine, qui refusa l'entrée à la reine, causant un grand affront. Le capitaine fut exécuté et sa tête exposée devant le château à la vue de tous."
+          },
+          {
+            "id": "9-5",
+            "caption": "Flora MacDonald, héroïne jacobite, aida le prince Charles Edward Steward à s'échapper   après la défaite écossaise à Culloden."
+          },
+          {
+            "id": "9-6",
+            "caption": "La cathédrale Saint-Andrew, vue du château. Elle a été construite de 1866 à 1869."
+          },
+          {
+            "id": "9-7",
+            "caption": "Symbole de pureté et d'innocence dans la mythologie celte, présente sur les armoiries royales de William 1er dès le 12ème siècle, la licorne est l'animal national de l'Écosse."
+          }
+        ]
       }
     ]
   },
