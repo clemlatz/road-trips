@@ -508,6 +508,67 @@
             "caption": "Symbole de pureté et d'innocence dans la mythologie celte, présente sur les armoiries royales de William 1er dès le 12ème siècle, la licorne est l'animal national de l'Écosse."
           }
         ]
+      },
+      {
+        "id": "10",
+        "title": "Urquhart, le château qui domine le Loch Ness",
+        "date": "18 juillet, matin",
+        "coords": [
+          "57.324090897938106",
+          "-4.4420055310058615"
+        ],
+        "previewPhoto": "10-6",
+        "content": "Nous profitons de notre séjour à Inverness pour explorer les environs, en particulier le très célèbre Loch Ness, le deuxième plus grand d'Écosse. Notre première destination, les ruines du château d'Urquhart, seraient aussi l'un des lieux favoris d'apparition de Nessie, le fameux monstre du Loch Ness.",
+        "photos": [
+          {
+            "id": "10-1",
+            "caption": "Le Loch Ness, vue sur Urquhart Bay."
+          },
+          {
+            "id": "10-2",
+            "caption": "Quand soudain, une ombre surgit dans le viseur de l'appareil photo. Mais ?!... Serait-ce... ?!"
+          },
+          {
+            "id": "10-3",
+            "caption": "Ah non, c'est juste Mathilde qui a mis son doigt devant l'objectif."
+          },
+          {
+            "id": "10-4",
+            "caption": "Le château d'Urquhart, bâti au 13ème siècle, fut un haut lieu des guerres d'indépendance écossaises."
+          },
+          {
+            "id": "10-5",
+            "caption": "Comme tous les lieux historiques écossais, Urquhart connait son lot d'histoires sanglantes. L'une d'elle conte l'amour de la fille du laird, Mary Grant, pour un barde gaélique et voleur de bétail, Dómhnall Donn. Le laird (seigneur en gaélique) qui ne l'entendait pas de cette oreille le fit emprisonner et finalement décapiter."
+          },
+          {
+            "id": "10-6",
+            "caption": "Le château fut finalement détruit à l'explosif durant le 17ème siècle par ses occupants qui craignaient de le voir tomber entre les mains des Jacobites."
+          },
+          {
+            "id": "10-7",
+            "caption": "La tour Grant, au nord du château."
+          },
+          {
+            "id": "10-8",
+            "caption": ""
+          },
+          {
+            "id": "10-9",
+            "caption": "Vue depuis la tour Grant."
+          },
+          {
+            "id": "10-10",
+            "caption": "Au-dessus de la porte, les appartements du connétable, qui gérait le château en l'absence du laird."
+          },
+          {
+            "id": "10-11",
+            "caption": "Le four du château, ou ce qu'il en reste."
+          },
+          {
+            "id": "10-12",
+            "caption": "Le trébuchet pouvait projeter des charges de 100 kg à 300 mètres, mais seulement une à deux fois par heure."
+          }
+        ]
       }
     ]
   },
