@@ -622,6 +622,43 @@
             "caption": ""
           }
         ]
+      },
+      {
+        "id": "12",
+        "title": "Les fantômes de la bataille de Culloden",
+        "date": "19 juillet, matin",
+        "coords": [
+          "57.47556052589661",
+          "-4.096322433166506"
+        ],
+        "previewPhoto": "12-4",
+        "content": "Le 16 avril 1746, la bataille de Culloden oppose 5000 highlanders jacobites fidèles au Price Charles Edward Stuart, prétendant aux couronnes anglaises et écossaises, et les 9000 soldats de l'armée hanovrienne du Duc de Cumberland. Ce dernier, victorieux, ordonnera à ses hommes d'achever blessés, prisonniers et même spectateurs assistant à la bataille, ce qui lui vaudra sur le surnom de Butcher Cumberland. La défaite de Culloden marquera pour les écossais la fin des espoirs de restauration de la lignée des Stuart sur les trônes d'Angleterre et d'Écosse.",
+        "photos": [
+          {
+            "id": "12-1",
+            "caption": "Des outils de chirurgie utilisés sur le champ de bataille."
+          },
+          {
+            "id": "12-2",
+            "caption": "\"Chaque homme est son propre docteur\", un manuel de médecine populaire datant du début du 18ème siècle."
+          },
+          {
+            "id": "12-3",
+            "caption": "Monument aux morts de la bataille."
+          },
+          {
+            "id": "12-4",
+            "caption": "Une pierre marque l'emplacement des fosses communes où sont enterrés les guerriers de chaque clan. L'emplacement des fosses communes des soldats hanovriens est toujours inconnu à ce jour."
+          },
+          {
+            "id": "12-5",
+            "caption": "Le cottage de Leanach fut probablement utilisé comme un hôpital de campagne par l'armée hanovrienne."
+          },
+          {
+            "id": "12-6",
+            "caption": "\"Dark, dark was the day when we looked on Culloden / And chill was the mist drop that clung to the tree, / The oats of the harvest hung heavy and sodden, / No light on the land and no wind on the sea.\" (Andrew Lang, Culloden)"
+          }
+        ]
       }
     ]
   },
