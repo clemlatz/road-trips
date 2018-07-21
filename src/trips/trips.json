@@ -569,6 +569,59 @@
             "caption": "Le trébuchet pouvait projeter des charges de 100 kg à 300 mètres, mais seulement une à deux fois par heure."
           }
         ]
+      },
+      {
+        "id": "11",
+        "title": "Out of Affric",
+        "date": "18 juillet, après-midi",
+        "coords": [
+          "57.31206400524772",
+          "-4.852147475891115"
+        ],
+        "previewPhoto": "11-10",
+        "content": "Après les ruines d'Urquhart, nous poussons à l'ouest jusqu'au Glen Affric, qui promet de belles randonnées dans l'une des plus grandes anciennes forêts calédoniennes d'Écosse.",
+        "photos": [
+          {
+            "id": "11-1",
+            "caption": "La rivière Affric traverse le loch Beinn a’ Mheadhoin et, un peu plus loin, le glen Affric."
+          },
+          {
+            "id": "11-2",
+            "caption": ""
+          },
+          {
+            "id": "11-3",
+            "caption": "Le chemin est bordé de digitales pourpres. Le genre de fleurs avec lesquelles on prépare une tisane pour son pire ennemi."
+          },
+          {
+            "id": "11-4",
+            "caption": "Le chemin de randonnée monte jusqu'à un point de vue sur le loch Beinn a’ Mheadhoin au loin."
+          },
+          {
+            "id": "11-5",
+            "caption": ""
+          },
+          {
+            "id": "11-6",
+            "caption": ""
+          },
+          {
+            "id": "11-7",
+            "caption": "La rivière traverse des gorges rocheuses et les chutes de Dog Falls."
+          },
+          {
+            "id": "11-8",
+            "caption": "Coire Loch, vu des hauteurs."
+          },
+          {
+            "id": "11-9",
+            "caption": ""
+          },
+          {
+            "id": "11-10",
+            "caption": ""
+          }
+        ]
       }
     ]
   },
