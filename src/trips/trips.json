@@ -659,6 +659,47 @@
             "caption": "\"Dark, dark was the day when we looked on Culloden / And chill was the mist drop that clung to the tree, / The oats of the harvest hung heavy and sodden, / No light on the land and no wind on the sea.\" (Andrew Lang, Culloden)"
           }
         ]
+      },
+      {
+        "id": "13",
+        "title": "Paysages de Wester Ross",
+        "date": "19 juillet, après-midi",
+        "coords": [
+          "57.6759126357386",
+          "-5.498795882873537"
+        ],
+        "previewPhoto": "13-1",
+        "content": "Après avoir quitté Inverness, nous poursuivons notre exploration des Highlands vers l'ouest et la région de Wester Ross. Ça vous rappelle quelque chose ? De fait, George R. R. Martin s'est inspiré de l'endroit pour le nom et les décors de son univers de fantasy.",
+        "photos": [
+          {
+            "id": "13-1",
+            "caption": "Le Loch Luichart, photobombé par un train de la Scotrail (l'équivalent écossais de notre SNCF)."
+          },
+          {
+            "id": "13-2",
+            "caption": "Un peu plus loin sur la route, le Loch a' Chuilinn."
+          },
+          {
+            "id": "13-3",
+            "caption": ""
+          },
+          {
+            "id": "13-4",
+            "caption": "Au bout de la vallée, notre destination : le Loch Maree."
+          },
+          {
+            "id": "13-5",
+            "caption": ""
+          },
+          {
+            "id": "13-6",
+            "caption": "Notre hôtel, sur la rive du Loch Maree."
+          },
+          {
+            "id": "13-7",
+            "caption": ""
+          }
+        ]
       }
     ]
   },
