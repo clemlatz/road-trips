@@ -700,6 +700,71 @@
             "caption": ""
           }
         ]
+      },
+      {
+        "id": "14",
+        "title": "Parler la langue des oiseaux à Eilean Donan",
+        "date": "20 juillet",
+        "coords": [
+          "57.27390647601237",
+          "-5.5161444107818625"
+        ],
+        "previewPhoto": "14-2",
+        "content": "Après avoir atteint le point le plus au nord de notre voyage, nous reprenons la route vers le sud et, à l'ouest, l'île de Skye. Avant de passer le pont qui relie l'île au continent, nous profitons du beau temps pour faire un détour par Eilean Donan, le château carte postale ultime de l'Écosse.",
+        "photos": [
+          {
+            "id": "14-1",
+            "caption": "Eilean Donan se situe sur une île (eilean signifie île en gaélique) à la croisée de trois lochs : Duich au sud-est, Long au nord-est et Alsh à l'ouest."
+          },
+          {
+            "id": "14-2",
+            "caption": "Eilean Donan devrait son nom à Donnán d'Eigg un évèque irlandais qui vécut en ermite sur l'île à la fin du 7ème siècle. Une communauté picte y aurait été également vécu."
+          },
+          {
+            "id": "14-3",
+            "caption": "Le château lui-même commence à être édifié au 13ème siècle. Situé à une position stratégique, il est choisi pour abriter un ouvrage défensif contre les raids viking."
+          },
+          {
+            "id": "14-4",
+            "caption": "Autrefois, on ne pouvait accéder à pied au château qu'à marée basse. Le pont en pierre date du début du 20ème siècle."
+          },
+          {
+            "id": "14-5",
+            "caption": "Au 18ème siècle, le lieu sert d'abri à la resistance jacobite. Le gouvernement britannique y dépêche trois frégates qui bombardent le château pendant trois jours. À l'issue de quoi, Eilean Donan est abandonné à l'état de ruine et l'île restera inhabitée pendant 200 ans."
+          },
+          {
+            "id": "14-6",
+            "caption": ""
+          },
+          {
+            "id": "14-7",
+            "caption": "Un chemin de ronde fait le tour du château."
+          },
+          {
+            "id": "14-8",
+            "caption": "En 1912 commence la restauration moderne du château, qui ne s'achèvera qu'en 1932, après vingt ans de travaux."
+          },
+          {
+            "id": "14-9",
+            "caption": "L'entrée du château."
+          },
+          {
+            "id": "14-10",
+            "caption": "Vue sur le loch Duich depuis les remparts."
+          },
+          {
+            "id": "14-11",
+            "caption": "La cour intérieure, où l'on réalise que le château n'est pas seulement construit sur le rocher, mais aussi autour de lui."
+          },
+          {
+            "id": "14-12",
+            "caption": "Une vingtaine d'espèces d'oiseaux fréquentent Eilean Donan. Ici, un cormoran. "
+          },
+          {
+            "id": "14-13",
+            "caption": "Une légende du 12ème siècle raconte l'histoire du fils d'un chef de clan qui parlait la langue des oiseaux. Ceux-ci prophétisèrent que son père le servirait un jour, comme un serviteur sert son roi. Apprenant cela, le père bannit son fils. Celui-ci ne revint que des années plus tard, après de nombreuses aventures, ayant fait fortune grâce à ses pouvoirs magiques. Le père ne reconnaissant pas son fils, il lui offrit l'hospitalité et lui servit un repas, réalisant ainsi la prophétie. Plus tard, le fils obtint les faveurs du roi Alexandre II, qui le chargea de bâtir le château d'Eilean Donan pour défendre son royaume."
+          }
+        ]
       }
     ]
   },
