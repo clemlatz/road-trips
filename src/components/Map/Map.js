@@ -49,7 +49,7 @@ const Map = ({ onZoomChange, trips, selectedTrip }) => {
 
   const onClick = ({ lat, lng }) => {
     const copy = document.createElement('input');
-    copy.value = `[${lat}, ${lng}]`;
+    copy.value = `["${lat}", "${lng}"]`;
     document.body.appendChild(copy);
     copy.select();
     document.execCommand('copy');
