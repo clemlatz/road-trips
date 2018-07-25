@@ -765,6 +765,71 @@
             "caption": "Une légende du 12ème siècle raconte l'histoire du fils d'un chef de clan qui parlait la langue des oiseaux. Ceux-ci prophétisèrent que son père le servirait un jour, comme un serviteur sert son roi. Apprenant cela, le père bannit son fils. Celui-ci ne revint que des années plus tard, après de nombreuses aventures, ayant fait fortune grâce à ses pouvoirs magiques. Le père ne reconnaissant pas son fils, il lui offrit l'hospitalité et lui servit un repas, réalisant ainsi la prophétie. Plus tard, le fils obtint les faveurs du roi Alexandre II, qui le chargea de bâtir le château d'Eilean Donan pour défendre son royaume."
           }
         ]
+      },
+      {
+        "id": "15",
+        "title": "Storr : le vieil homme et la pluie",
+        "date": "21 juillet",
+        "coords": [
+          "57.50711250210446",
+          "-6.183079121352193"
+        ],
+        "previewPhoto": "15-1",
+        "content": "Pour notre premier jour sur l'île de Skye, nous choisissons d'explorer la péninsule de Trotternish au nord et en particulier de faire l'ascension de Storr, colline rocheuse qui culmine à 674 mètres.",
+        "photos": [
+          {
+            "id": "15-1",
+            "caption": "Home sweet home : notre cottage au sud de l'île."
+          },
+          {
+            "id": "15-2",
+            "caption": "Le sommet de Storr dans la brûme vu du départ de la randonnée."
+          },
+          {
+            "id": "15-3",
+            "caption": ""
+          },
+          {
+            "id": "15-4",
+            "caption": "Le clou du spectacle, The Old Man of Storr, est un monolithe haut de 55 mètres, formé suite à l'érosion de la montagne."
+          },
+          {
+            "id": "15-5",
+            "caption": "A mi-chemin de l'ascension, vu sur un petit Loch sans nom."
+          },
+          {
+            "id": "15-6",
+            "caption": "Dans notre dos, vue sur le Loch Leathan, le détroit de Raasay et l'île du même nom."
+          },
+          {
+            "id": "15-7",
+            "caption": "The Old Man of Storr a servi de décor au film Prometheus (qui décidément, après l'Islande, nous suit dans nos voyages). C'est ici que, dans l'introduction du film, des chercheurs découvrent une carte stellaire vers la planète LV-223."
+          },
+          {
+            "id": "15-8",
+            "caption": "The Old Man of Storr, vu du plus haut point accessible à pied (480 m), où nous sommes accueillis par des vents violents et de la pluie battante."
+          },
+          {
+            "id": "15-9",
+            "caption": "Après être redescendus, trempés jusqu'aux os, nous reprenons la route vers le nord de l'île, pour faire le tour de la péninsule de Trotternish. Ici, vue sur la chaine du Quiraing."
+          },
+          {
+            "id": "15-10",
+            "caption": ""
+          },
+          {
+            "id": "15-11",
+            "caption": ""
+          },
+          {
+            "id": "15-12",
+            "caption": ""
+          },
+          {
+            "id": "15-13",
+            "caption": ""
+          }
+        ]
       }
     ]
   },
