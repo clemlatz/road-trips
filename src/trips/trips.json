@@ -830,6 +830,79 @@
             "caption": ""
           }
         ]
+      },
+      {
+        "id": "16",
+        "title": "Dunvegan : un après-midi chez les McLeod",
+        "date": "22 juillet",
+        "coords": [
+          "57.448386464308356",
+          "-6.590296959154216"
+        ],
+        "previewPhoto": "16-3",
+        "content": "Pour notre deuxième jour sur l'île de Skye, le beau temps n'étant toujours pas au rendez-vous, nous décidons de visiter le château de Dunvegan, foyer du clan McLeod depuis le 13ème siècle.",
+        "photos": [
+          {
+            "id": "16-1",
+            "caption": ""
+          },
+          {
+            "id": "16-2",
+            "caption": ""
+          },
+          {
+            "id": "16-3",
+            "caption": "La Highland, une race bovine locale connue pour ses coiffures très tendances."
+          },
+          {
+            "id": "16-4",
+            "caption": "Le château de Dunvegan domine le loch du même nom, un loch marin."
+          },
+          {
+            "id": "16-5",
+            "caption": ""
+          },
+          {
+            "id": "16-6",
+            "caption": "Dunvegan est également connu pour ses jardins."
+          },
+          {
+            "id": "16-7",
+            "caption": ""
+          },
+          {
+            "id": "16-8",
+            "caption": ""
+          },
+          {
+            "id": "16-9",
+            "caption": ""
+          },
+          {
+            "id": "16-10",
+            "caption": ""
+          },
+          {
+            "id": "16-11",
+            "caption": "La corne à boire de Sir Rory Mor. Selon la tradition, chaque héritier du clan McLeod doit boire le contenu (1,5 litre de vin rouge) d'un trait, \"sans tomber ni la poser\". John McLeod, 29ème chef de clan, est le dernier à avoir réussi le défi (en 1 minute et 57 secondes)."
+          },
+          {
+            "id": "16-12",
+            "caption": "La \"Great Sword of Dunvegan\", une claymore."
+          },
+          {
+            "id": "16-13",
+            "caption": "L'escalier menant aux cuisines longe le cachot. Une petite ouverture permettaient aux prisonniers de sentir l'odeur de la nourriture tandis qu'ils mouraient lentement de faim."
+          },
+          {
+            "id": "16-14",
+            "caption": "Une chambre de domestique."
+          },
+          {
+            "id": "16-15",
+            "caption": ""
+          }
+        ]
       }
     ]
   },
