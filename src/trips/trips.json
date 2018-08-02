@@ -1021,6 +1021,71 @@
             "caption": ""
           }
         ]
+      },
+      {
+        "id": "19",
+        "title": "Coire Gabhail : la vallée perdue de Glen Coe",
+        "date": "25 juillet",
+        "coords": [
+          "56.660758491304335",
+          "-5.069256828041489"
+        ],
+        "previewPhoto": "19-1",
+        "content": "Après une nuit à Fort William, nous reprenons notre exploration du sud des Highlands. Pour atteindre notre prochaine destination, Arrochar, il faut traverser la très belle vallée de Glen Coe et le site des \"Three Sisters\". Nous choisissons pour la découvrir la populaire randonnée qui mène à la \"Lost Valley\", en fait un col entre deux des trois \"Sisters\".",
+        "photos": [
+          {
+            "id": "19-1",
+            "caption": "La vallée de Glen Coe."
+          },
+          {
+            "id": "19-3",
+            "caption": "Deux des montagnes qui forment les \"Three Sisters\"."
+          },
+          {
+            "id": "19-2",
+            "caption": "Entre deux \"Sisters\", le chemin de randonnée menant au col."
+          },
+          {
+            "id": "19-6",
+            "caption": "Le chemin de randonnée suit la rivière Coe, et longe de nombreuses cascades."
+          },
+          {
+            "id": "19-7",
+            "caption": ""
+          },
+          {
+            "id": "19-8",
+            "caption": "Quand soudain, au bout du chemin, derrière un arbre..,"
+          },
+          {
+            "id": "19-9",
+            "caption": "Coire Gabhail, ou la vallée perdue. C'est ici que le clan McDonald cachait leur bétail pour ne pas se le faire voler (ou cachait le bétail qu'il volait aux autres clans, selon les sources)."
+          },
+          {
+            "id": "19-10",
+            "caption": ""
+          },
+          {
+            "id": "19-11",
+            "caption": ""
+          },
+          {
+            "id": "19-4",
+            "caption": "La vallée de Glen Coe a servi de décor a de nombreux films dont Harry Potter et le Prisonier d'Azkaban et Skyfall."
+          },
+          {
+            "id": "19-12",
+            "caption": "Plus loin sur la route, le Lochan na h-Achlaise."
+          },
+          {
+            "id": "19-13",
+            "caption": ""
+          },
+          {
+            "id": "19-14",
+            "caption": ""
+          }
+        ]
       }
     ]
   },
