@@ -1030,7 +1030,7 @@
           "56.660758491304335",
           "-5.069256828041489"
         ],
-        "previewPhoto": "19-1",
+        "previewPhoto": "20-1",
         "content": "Après une nuit à Fort William, nous reprenons notre exploration du sud des Highlands. Pour atteindre notre prochaine destination, Arrochar, il faut traverser la très belle vallée de Glen Coe et le site des \"Three Sisters\". Nous choisissons pour la découvrir la populaire randonnée qui mène à la \"Lost Valley\", en fait un col entre deux des trois \"Sisters\".",
         "photos": [
           {
@@ -1084,6 +1084,51 @@
           {
             "id": "19-14",
             "caption": ""
+          }
+        ]
+      },
+      {
+        "id": "20",
+        "title": "Finnich Glen : devant la chaire du diable",
+        "date": "25 juillet",
+        "coords": [
+          "56.033256164636214",
+          "-4.415902272872927"
+        ],
+        "previewPhoto": "20-6",
+        "content": "Pour notre dernier jour en Écosse, avant le retour à Edimbourg et le vol pour Paris, nous choisissons une ballade dans Finnich Glen. Ces magnifiques gorges recouvertes de mousse vertes sont aussi connues sous le nom de Devil's Pulpit (la chaire du diable) en raison d'une formation rocheuse qui évoque la chaire d'une église.",
+        "photos": [
+          {
+            "id": "20-1",
+            "caption": ""
+          },
+          {
+            "id": "20-2",
+            "caption": ""
+          },
+          {
+            "id": "20-3",
+            "caption": ""
+          },
+          {
+            "id": "20-7",
+            "caption": "La chaire, d'accord, mais pourquoi du diable ? La raison en serait la terre rouge sur laquelle coule la rivière."
+          },
+          {
+            "id": "20-4",
+            "caption": ""
+          },
+          {
+            "id": "20-5",
+            "caption": ""
+          },
+          {
+            "id": "20-6",
+            "caption": ""
+          },
+          {
+            "id": "20-8",
+            "caption": "Le château de Stirling où nous faisons un bref arrêt avant de rejoindre Édimbourg."
           }
         ]
       }
