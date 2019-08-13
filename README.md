@@ -5,8 +5,10 @@ This repository contains the source code and content of our [travel blog](https:
 All the source code is available under the
 [MIT License](https://opensource.org/licenses/MIT).
 
-All texts and photos (everything located in the data folder) are available under
-the [Creative Commons BY-NC-ND 4.0 License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+The blog content, including:
+- texts in the `src/components/trips.json` files
+- photos in the `dist/images/` folder
+is available under the [Creative Commons BY-NC-ND 4.0 License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 ## Build for production
 
