@@ -44,7 +44,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
-    "@fortawesome/react-fontawesome": "^0.1.0-11",
+    "@fortawesome/react-fontawesome": "^0.1.8",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^3.0.0",
     "google-map-react": "^1.1.5",
