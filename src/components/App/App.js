@@ -1,6 +1,5 @@
 /* global module */
 
-import 'whatwg-fetch';
 import React, { Fragment } from 'react';
 import { Router, Route } from 'react-router-dom';
 import { hot } from 'react-hot-loader';
