@@ -56,7 +56,7 @@ const Map = ({ onZoomChange, trips, selectedTrip }) => {
     document.body.removeChild(copy);
   };
 
-  const onBoundsChange = (center, zoom) => {
+  const onChange = ({ zoom }) => {
     onZoomChange(zoom);
   };
 
@@ -82,7 +82,7 @@ const Map = ({ onZoomChange, trips, selectedTrip }) => {
           bootstrapURLKeys={{ key: 'AIzaSyBv8W4b5MznculFqFknQE79HJIDW5YXX9w' }}
           zoom={getZoomForWidth(zoomLevels)}
           center={center}
-          onBoundsChange={onBoundsChange}
+          onChange={onChange}
         >
           {markers}
         </GoogleMapReact>
