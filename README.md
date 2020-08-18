@@ -34,10 +34,12 @@ you started.
 
 ### Fork and clone
 
-1. Fork this repository and clone your fork
-2. Install dependencies using `yarn`
-3. [Get a Google Maps API key](https://developers.google.com/maps/documentation/javascript/get-api-key) 
-   and replace mine in `src/components/Map/Map.js`
+1.  Fork this repository and clone your fork
+
+2.  Install dependencies using `yarn`
+
+3.  [Get a Google Maps API key](https://developers.google.com/maps/documentation/javascript/get-api-key) 
+    and replace mine in `src/components/Map/Map.js`
 
 Now you should be able to run *my* travel blog locally using `yarn start`.
 
@@ -63,7 +65,7 @@ objects, each of those object representing a trip.
 ]
 ```
 
-#### Trip object specs:
+#### Trip object specs
 
 ```jsonc
 {
