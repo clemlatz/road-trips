@@ -1,7 +1,7 @@
 const merge = require('webpack-merge');
-const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const SitemapPlugin = require('sitemap-webpack-plugin').default;
 const slugify = require('slugify');
+const TerserPlugin = require('terser-webpack-plugin');
 
 const common = require('./webpack.common.js');
 
@@ -20,7 +20,10 @@ module.exports = merge(common, {
   mode: 'production',
   devtool: 'source-map',
   plugins: [
-    new UglifyJSPlugin({ sourceMap: true }),
     new SitemapPlugin('https://roadtrips.iwazaru.fr', sitemapPaths),
-  ]
+  ],
+  optimization: {
+    minimize: true,
+    minimizer: [new TerserPlugin()],
+  },
 });
