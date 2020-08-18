@@ -4,7 +4,7 @@
   "description": "A Travel Blog",
   "private": true,
   "scripts": {
-    "start": "webpack-serve --config webpack.dev.js --content dist --open",
+    "start": "webpack-dev-server --config webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "photos": "sips -Z 2500 dist/images/scotland/photos/* && sips -Z 600 dist/images/scotland/thumbs/*",
     "build": "webpack --config webpack.prod.js",
@@ -38,8 +38,8 @@
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
-    "webpack-merge": "^4.2.2",
-    "webpack-serve": "^3.2.0"
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
