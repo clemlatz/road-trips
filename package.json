@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/iwazaru/iceland-road-trip#readme",
   "devDependencies": {
+    "@hot-loader/react-dom": "^16.8.6",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-plugin-transform-class-properties": "^6.24.1",

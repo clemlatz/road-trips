@@ -16,7 +16,11 @@ module.exports = merge(common, {
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
+    hot: true,
     port: 8080,
     historyApiFallback: true,
-  }
+  },
+  resolve: {
+    alias: { 'react-dom': '@hot-loader/react-dom' }
+  },
 });
