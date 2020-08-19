@@ -1,0 +1,29 @@
+id: scotland
+title: Road-Trip en Écosse
+subtitle: Mathilde & Clément à la recherche du poney perdu
+linkTitle: Écosse, juillet 2018
+mapCenter:
+  lat: 56.98220
+  lng: -4.89193
+mapZoomLevels:
+  desktop: 7
+  mobile: 7
+entries:
+  - id: 1
+    title: Randonnée surprise à Holyrood Park
+    date: 13 juillet
+    coords:
+      - "55.94529675574091"
+      - "-3.1670421592712046"
+    content: "Nos valises à peine posées au Salisbury Green Hotel, nous décidons de terminer cettte première journée par une petite promenade de le parc voisin de Holyrood. Naïf que nous sommes : dans les parcs de la capitale — en tout cas à Holyrood Park —, il y a des montagnes et on peut randonner pendant des heures. Bien entendu, nous avions laissé les chaussures et l'équipement de randonnée dans les valises. Malgré cela, une belle balade, avec à la clé une vue panoramique sur Edimbourg, l'occasion idéale de faire connaissance avec la capitaine écossaise."
+    photos:
+      - id: "1-2"
+        caption: "Notre hôtel, le Salisbury Green, en bordure de Holyrood Park."
+      - id: "1-14"
+        caption: "La vue sur Holyrood Park depuis les rues d'Edimbourg."
+  - id: 2
+    title: "Une matinée au musée"
+    date: "14 juillet - 10h"
+    coords:
+      - "55.94707735252899
+      - "-3.189586265183152"
