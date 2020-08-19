@@ -30,6 +30,7 @@ module.exports = {
       },
       {
         test: /\.yaml$/,
+        type: 'json',
         use: [
           { loader: 'yaml-loader' }
         ]
