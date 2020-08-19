@@ -1,10 +1,11 @@
+---
 id: scotland
 title: Road-Trip en Écosse
 subtitle: Mathilde & Clément à la recherche du poney perdu
 linkTitle: Écosse, juillet 2018
 mapCenter:
-  lat: 56.98220
-  lng: -4.89193
+  lat: "56.98220"
+  lng: "-4.89193"
 mapZoomLevels:
   desktop: 7
   mobile: 7
@@ -25,5 +26,39 @@ entries:
     title: "Une matinée au musée"
     date: "14 juillet - 10h"
     coords:
-      - "55.94707735252899
+      - "55.94707735252899"
       - "-3.189586265183152"
+---
+id: iceland
+title: Road-Trip en Islande
+subtitle: Mathilde & Clément sur les traces des macareux
+linkTitle: Islande, juillet 2016
+mapCenter:
+  lat: "64.9313"
+  lng: "-19.0212"
+mapZoomLevels:
+  desktop: 7
+  mobile: 7
+entries:
+  - id: 1
+    title: Aéroport de Keflavik
+    date: 15 juillet - 9h
+    coords:
+      - "63.99282663400118"
+      - "-22.6153564453125"
+    content: "Arrivée au petit matin à l'aéroport international de Keflavik, après un vol sans encombre depuis Paris. L'air est frais est vivifiant. On récupère d'abord la voiture, l'occasion pour le loueur de nous informer des nombreux dangers qui guettent l'automobiliste amateur en Islande : tempêtes de sable, collines aveugles, routes de graviers, moutons en liberté... Il faut aussi toujours prendre soin de se garer face au vent, faute de quoi les portes peuvent être arrachées !"
+    photos:
+      - id: "A"
+        caption: "Un élément indispensable au road-trip réussi : la voiture !"
+  - id: 2
+    title: "Hafnarfjödur"
+    date: "15 juillet - 10h"
+    coords:
+      - "64.05177661560711"
+      - "-21.985015869140625"
+    content:  "Arret bref mais inévitable à Hafnarfjödur, petite ville de pêcheurs à la périphérie de Reykjavik, où prend place l'intrigue d'Elliot du Néant, roman de David Calvo emporté dans les bagages !"
+    photos:
+      - id: "B"
+        caption: ""
+      - id: "3"
+

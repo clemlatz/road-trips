@@ -31,9 +31,9 @@ module.exports = {
       {
         test: /\.yaml$/,
         type: 'json',
-        use: [
-          { loader: 'yaml-loader' }
-        ]
+        resourceQuery: /stream/,
+        options: { asStream: true },
+        loader: 'yaml-loader'
       },
       {
         test: /\.scss$/,
