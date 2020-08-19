@@ -4,61 +4,1628 @@ title: Road-Trip en Écosse
 subtitle: Mathilde & Clément à la recherche du poney perdu
 linkTitle: Écosse, juillet 2018
 mapCenter:
-  lat: "56.98220"
-  lng: "-4.89193"
+  lat: 56.9822
+  lng: -4.89193
 mapZoomLevels:
   desktop: 7
   mobile: 7
 entries:
-  - id: 1
-    title: Randonnée surprise à Holyrood Park
-    date: 13 juillet
-    coords:
-      - "55.94529675574091"
-      - "-3.1670421592712046"
-    content: "Nos valises à peine posées au Salisbury Green Hotel, nous décidons de terminer cettte première journée par une petite promenade de le parc voisin de Holyrood. Naïf que nous sommes : dans les parcs de la capitale — en tout cas à Holyrood Park —, il y a des montagnes et on peut randonner pendant des heures. Bien entendu, nous avions laissé les chaussures et l'équipement de randonnée dans les valises. Malgré cela, une belle balade, avec à la clé une vue panoramique sur Edimbourg, l'occasion idéale de faire connaissance avec la capitaine écossaise."
-    photos:
-      - id: "1-2"
-        caption: "Notre hôtel, le Salisbury Green, en bordure de Holyrood Park."
-      - id: "1-14"
-        caption: "La vue sur Holyrood Park depuis les rues d'Edimbourg."
-  - id: 2
-    title: "Une matinée au musée"
-    date: "14 juillet - 10h"
-    coords:
-      - "55.94707735252899"
-      - "-3.189586265183152"
+- id: '1'
+  title: Randonnée surprise à Holyrood Park
+  date: 13 juillet
+  coords:
+  - '55.94529675574091'
+  - "-3.1670421592712046"
+  content: 'Nos valises à peine posées au Salisbury Green Hotel, nous décidons de
+    terminer cettte première journée par une petite promenade de le parc voisin
+    de Holyrood. Naïf que nous sommes : dans les parcs de la capitale — en tout
+    cas à Holyrood Park —, il y a des montagnes et on peut randonner pendant des
+    heures. Bien entendu, nous avions laissé les chaussures et l''équipement de
+    randonnée dans les valises. Malgré cela, une belle balade, avec à la clé une
+    vue panoramique sur Edimbourg, l''occasion idéale de faire connaissance avec
+    la capitaine écossaise.'
+  photos:
+  - id: 1-2
+    caption: Notre hôtel, le Salisbury Green, en bordure de Holyrood Park.
+  - id: 1-14
+    caption: La vue sur Holyrood Park depuis les rues d'Edimbourg.
+  - id: 1-3
+    caption: 'L''entrée de Holyrood Park : à gauche, le sommet de Arthur''s Seat,
+      notre destination.'
+  - id: 1-4
+    caption: ''
+  - id: 1-5
+    caption: Un autochtone sur le bord du chemin.
+  - id: 1-6
+    caption: Sous les falaises qui bordent l'un des flancs d'Arthur's Seat, les
+      éboulements sont fréquents.
+  - id: 1-7
+    caption: Les deux reliefs de Holyrood Park, Arthur's Seat et les Salsbury Crags
+      (ici) sont d'origine volcanique.
+  - id: 1-8
+    caption: Au loin, le Chateau d'Edimbourg.
+  - id: 1-9
+    caption: Vue depuis les hauteurs sur Holyrood Palace.
+  - id: 1-11
+    caption: L'ascension vers le sommet d'Arthur's Seat.
+  - id: 1-12
+    caption: La vue depuis le sommet.
+  - id: 1-13
+    caption: ''
+- id: '2'
+  title: Une matinée au musée
+  date: 14 juillet - 10h
+  coords:
+  - '55.94707735252899'
+  - "-3.189586265183152"
+  previewPhoto: 2-11
+  content: 'De Holyrood Park au centre-ville, un petite demi-heure de marche nous
+    permet de faire plus ample connaissance avec la ville. Notre première destination
+    : le National Museum of Scotland. Celui-ci regroupe en réalité deux musées :
+    l''historique Royal Museum of Scotland, qui présente des trésors éclectiques
+    du monde entier ramenés par les écossais de leurs voyages, et le plus récent
+    et le Museum of Scotland consacré à l''histoire et à la culture de l''Écosse.
+    C''est surtout ce dernier qui a retenu notre attention.'
+  photos:
+  - id: 2-1
+    caption: En chemin, un bâtiment typique de l'architecture edimbourgeoise.
+  - id: 2-3
+    caption: Une devanture de bar.
+  - id: 2-4
+    caption: Les rues d'Edimbourg.
+  - id: 2-5
+    caption: Greyfriars Bobby (1856-1872) est un chien célèbre pour avoir survécu
+      à son maître et veillé sa tombe pendant 14 ans, ne s'absentant qu'une fois
+      par jour pour aller déjeuner dans son restaurant préféré. Une statue lui est
+      dédiée, un bar porte son nom et son histoire a été racontée dans un film Disney.
+  - id: 2-6
+    caption: Le hall du National Museum of Scotland.
+  - id: 2-7
+    caption: La Columbia Printing Press est une presse typographique fabriquée en
+      1860 et qui a fonctionné jusqu'en 1964 (pas d'obsolescence programmée à l'époque
+      !). Elle est décorée par des dauphins symbolisant la sagesse et le baton d'Hermès,
+      messager des dieux.
+  - id: 2-8
+    caption: Les broches servaient aux femmes à tenir leur plaid, tandis que les
+      hommes utilisaient de simples épingles. En bas, le sporran, sacoche accrochée
+      à la ceinture qui permettaient de pallier l'absence de poches du kilt.
+  - id: 2-9
+    caption: Au 17ème siècle, ces cornes de vache aplaties et gravée permettait
+      de transporter de la poudre à canon et de la garder au sec.
+  - id: 2-10
+    caption: Une importante tradition orale, essentiellement pratiquée par des bardes
+      femmes, permettaient d'entretenir le souvenir des exploits des ancètres. En
+      bas, des carnets contenant des louanges vantant les mérites des chefs de clans.
+  - id: 2-11
+    caption: The Lewis Chesspieces, un jeu d'échec en ivoire sculpté dans des défenses
+      de morse, découvert à Lewis en 1831. Fabriqué en Scandinavie au 12ème siècle,
+      il aurait été amené par les vikings avant d'appartenir au Roi de Lewis.
+  - id: 2-12
+    caption: Des outres à Whisky datant du 17ème siècle.
+  - id: 2-13
+    caption: Une "quaich", du gaélique "cuach" qui signifie "coupe", en bois et
+      en argent, gravé de la date 1692, des initiales JR (pour le roi James VII)
+      et HR (son propriétaire). Traditionnellement utilisée pour boire du whisky.
+  - id: 2-14
+    caption: La pompe à feu ("atmospheric engine") inventée par Thomas Newcomen
+      en 1712 utilisait la pression atomsphérique créé par la condensation de l'eau
+      pour actionner le piston et extraire de l'eau des mines. C'est la première
+      utilisation d'une machine à vapeur pour du travail mécanique.
+- id: '3'
+  title: À l'assaut de Castle Rock
+  date: 14 juillet - 15h
+  coords:
+  - '55.94855349076701'
+  - "-3.2007221142578146"
+  previewPhoto: 3-6
+  content: L'après-midi, nous prenons la direction du château d'Edimbourg. Après
+    avoir esquivé de peu une part de pizza lâchée par une mouette au-dessus de nos
+    têtes et traversé une manifestation de protestation contre la venue de Trump
+    en Écosse, nous parvenons aux abords de la forteresse.
+  photos:
+  - id: 3-1
+    caption: En chemin, des manifestants anti-Trump.
+  - id: 3-2
+    caption: High Street, la rue qui remonte vers le château.
+  - id: 3-3
+    caption: 'Une boutique de Noël ouverte en juillet : parce qu''il n''est jamais
+      trop tôt.'
+  - id: 3-4
+    caption: The Hub, anciennement une église baptisée Victoria Hall, abrite aujourd'hui
+      des festivals, des conférences ou des mariages.
+  - id: 3-5
+    caption: ''
+  - id: 3-6
+    caption: L'entrée du château. On ne connaît pas la date de sa construction,
+      mais la plus ancienne référence documentée remonte au XIVème siècle. Il a
+      connu de très nombreuses modifications au cours des siècles.
+  - id: 3-7
+    caption: Le château offre une vue spectaculaire sur la capitale.
+  - id: 3-8
+    caption: Le château, régulièrement assailli lors des guerres d'indépendances
+      écossaises, permet de bombarder quiconque s'en approche. Chaque assaillant
+      qui a réussi à s'emparer du château a rajouté sa propre rangée de canon.
+  - id: 3-9
+    caption: 'Dans ce batîment sont entreposés les joyaux de la couronne écossaise
+      (qu''on n''a pas le droit de photographier) : la couronne, l''épée et le sceptre.'
+  - id: 3-10
+    caption: C'est aussi dans le château que Marie Stuart, reine d'Écosse au destin
+      tragique, donna naissance à James IV, premier roi à régner à la fois sur l'Angleterre
+      et l'Écosse, mettant fin aux veilleités d'indépendance des écossais.
+  - id: 3-11
+    caption: Après la visite, shopping. Mathilde sort de l'une des nombreuses boutiques
+      de la ville entièrement consacré à l'univers d'Harry Potter.
+  - id: 3-12
+    caption: Pour finir la journée, bière, fish and chips et concert acoustique
+      au bar The World's End. Mathilde, qui connait bien le sujet (de l'éducation),
+      approuve ce slogan.
+- id: '4'
+  title: Dans les jardins de Sa Majesté
+  date: 15 juillet - 11h
+  coords:
+  - '55.965250664786225'
+  - "-3.2086185375976584"
+  previewPhoto: 4-6
+  content: Avant de prendre la route vers le nord, nous faisons un arrêt au Royal
+    Botanic Garden d'Edimbourg. Installé à 2 km du centre-ville sur 28 hectares
+    depuis 1820, il propose une collection de 15.000 plantes, soit 5% des espèces
+    végétales connues. C'est un endroit paisible, loin de la foule de la ville,
+    où l'on effectue des recherches sur la biodiversité écossaise et le changement
+    climatique.
+  photos:
+  - id: 4-1
+    caption: ''
+  - id: 4-2
+    caption: Le jardin botanique fut d'abord un jardin de plantes médicinales près
+      de Holyrood Palace créé en 1670. Il a déménagé plusieurs fois pour fuir la
+      pollution de la ville.
+  - id: 4-3
+    caption: ''
+  - id: 4-4
+    caption: Les pots de fleurs sont cultivés sur place et récoltés à maturité.
+  - id: 4-5
+    caption: ''
+  - id: 4-6
+    caption: Le palmarium, construit en 1864, donne accès aux serres.
+  - id: 4-7
+    caption: ''
+  - id: 4-8
+    caption: ''
+  - id: 4-9
+    caption: Les serres reproduisent le climat tropical, chaud et humide. On y sue
+      à grosses gouttes.
+  - id: 4-10
+    caption: ''
+  - id: 4-11
+    caption: Le Victoria Longwood Hybrid est issu d'un croisement entre deux espèces
+      de nénuphars.
+  - id: 4-12
+    caption: ''
+  - id: 4-13
+    caption: ''
+- id: '5'
+  title: Embarquer pour l'Antarctique à Dundee
+  date: 15 juillet - 15h
+  coords:
+  - '56.45693282876388'
+  - "-2.967954246807267"
+  previewPhoto: 5-1
+  content: En chemin pour Pitlochry, nous faisons un détour par Dundee à l'est,
+    où l'on peut visiter le RRS Discovery, un navire de recherche scientifique conçu
+    au début du XXème siècle pour l'exploration de l'Antarctique.
+  photos:
+  - id: 5-1
+    caption: Le Discovery qu'Arthur C. Clarke a visité dans les années 60 lorsqu'il
+      était amarré à Londres, lui aurait inspiré le nom du vaisseau spatial en route
+      pour Jupiter dans 2001, l'odyssée de l'espace.
+  - id: 5-2
+    caption: Les lunettes en bois du Capitaine Scott permettaient de protéger des
+      reflets aveuglants du soleil sur la neige. Plus pratique que les lunettes
+      en verre qui se couvraient rapidement de buée.
+  - id: 5-3
+    caption: Le navire fut pris dans les glaces pendant deux ans, et il fut envisager
+      de l'abandonner, avant qu'on ne réussise finalement à le libérer à coup d'explosifs
+      en février 1904.
+  - id: 5-4
+    caption: Si Robert Falcon Scott a l'air un peu bougon sur cette photo, c'est
+      parce qu'il vient d'arriver au Pôle Sud en pensant être le premier, pour découvrir
+      que le norvégien Amundsen l'a battu de 33 jours. Il mourra de froid et de
+      faim peu après, sur le chemin du retour.
+  - id: 5-5
+    caption: ''
+  - id: 5-6
+    caption: Le Discovery était aussi équipé d'un moteur à vapeur de 450 chevaux.
+      Comme la place pour le charbon était chère, il n'était utilisé qu'en cas d'absolue
+      nécessité.
+  - id: 5-7
+    caption: De quoi ne pas perdre le nord.
+  - id: 5-8
+    caption: Lors de sa première expédition, le Discovery a du embarquer des vivres
+      pour 3 ans.
+  - id: 5-9
+    caption: 'Ne vous fiez pas à l''air jovial de ce marin écossais : il n''a daigné
+      répondre à aucune de nos questions.'
+  - id: 5-10
+    caption: Le bureau du biologiste.
+  - id: 5-11
+    caption: Le laboratoire.
+  - id: 5-12
+    caption: ''
+  - id: 5-13
+    caption: ''
+- id: '6'
+  title: Par-delà la vallée de Glenshee
+  date: 16 juillet, matin
+  coords:
+  - '56.901037453544745'
+  - "-3.409204856567385"
+  previewPhoto: 6-1
+  content: Nous commençons notre journée en remontant Glenshee, très belle vallée
+    qui traverse le sud du parc national des Cairngorms. Au bout de la route, au
+    coeur du parc, le charmant village de Braemar et son château.
+  photos:
+  - id: 6-1
+    caption: Glen est un mot issue du galéique gleann, qui signifie vallée.
+  - id: 6-2
+    caption: Un glen est une vallée d'origine glaciaire, ou en auge, qui a été creusée
+      par la formation puis la fonte d'un glacier.
+  - id: 6-3
+    caption: ''
+  - id: 6-4
+    caption: Au centre de la vallée, coule la rivière Clunie Water.
+  - id: 6-5
+    caption: La rivière Clunie Water, depuis un pont du village de Braemar.
+  - id: 6-6
+    caption: Le château de Braemar, dont la construction a commencé en 1628 a été
+      attaqué et brûlé en 1689 par John Faquharson, dit le Colonel Noir. Il fut
+      laissé en ruine jusqu'en 1748 date où, après restauration, il devint le siège
+      du clan Faquharson.
+  - id: 6-7
+    caption: ''
+- id: '7'
+  title: Le long du lit de la rivière Dee
+  date: 16 juillet, après-midi
+  coords:
+  - '56.988092413519354'
+  - "-3.545931235695548"
+  previewPhoto: 7-6
+  content: Après une pause déjeuner à Braemar, nous repartons 7 miles vers l'ouest,
+    jusqu'à un très joli endroit baptisé Linn of Dee. La rivière Dee y dévale 300
+    mètres de gorges rocheuses jusqu'à une cascade où sautent des saumons.
+  photos:
+  - id: 7-1
+    caption: Un chemin descend à travers la forêt jusqu'à la rivière.
+  - id: 7-2
+    caption: La reine Victoria appréciait particulièrement les paysages de Linn
+      of Dee lors de ses séjours à Balmoral. Elle y inaugura un pont en 1857.
+  - id: 7-3
+    caption: La rivière Dee.
+  - id: 7-4
+    caption: Le chemin de randonnée s'éloigne de la rivière pour traverser une forêt
+      calédonienne habitée par des rennes.
+  - id: 7-5
+    caption: ''
+  - id: 7-6
+    caption: ''
+  - id: 7-7
+    caption: Retour à Pitlochry par la vallée de Glenshee.
+- id: '8'
+  title: Du Loch Morlich à la passe de Ryvoan
+  date: 17 juillet, après-midi
+  coords:
+  - '57.16421590352775'
+  - "-3.6713827411460898"
+  previewPhoto: 8-3
+  content: 'Il est temps de quitter Pitlochry et de reprendre la route pour notre
+    prochaine destination : Inverness, au nord. La route traverse le parc national
+    des Cairngorms, et nous en profitons pour faire un arrêt à la réserve naturelle
+    du Glenmore Forest Park, où un chemin de randonnée relie le Loch Morlich au
+    An Lochan Uaine (Loch Vert).'
+  photos:
+  - id: 8-1
+    caption: ''
+  - id: 8-2
+    caption: Les forêts calédoniennes couvraient autrefois une vaste partie de l'Écosse,
+      il en reste aujourd'hui 1%, en raison de la déforestation menée depuis le
+      néolithique.
+  - id: 8-3
+    caption: Le chemin de randonnée monte du Loch Morlich jusqu'au sommet d'une
+      colline, avant de redescendre dans la vallée pour atteindre le An Lochan Uaine.
+  - id: 8-4
+    caption: ''
+  - id: 8-5
+    caption: ''
+  - id: 8-6
+    caption: Les forêts calédoniennes abriterait une grande variété d'animaux, dont
+      des chats sauvages, des mésanges huppées et des chevaliers aboyeurs (un oiseau).
+      Nous, on a juste croisé une musaraigne.
+  - id: 8-7
+    caption: 'An Loch Uaine, ou Loch Vert. Sur un banc sont gravés les vers d''un
+      poète anonyme : "And again in the dusk of the evening, I shall find once more
+      alone. The dark water of the green loch, and the pass beyond Ryvoan".'
+  - id: 8-8
+    caption: ''
+  - id: 8-9
+    caption: ''
+  - id: 8-10
+    caption: ''
+  - id: 8-11
+    caption: ''
+- id: '9'
+  title: Qu'importe le flacon, pourvu qu'on ait Inverness
+  date: 17 juillet, soirée
+  coords:
+  - '57.476225334697745'
+  - "-4.225502983741762"
+  previewPhoto: 9-4
+  content: En soirée, nous arrivons à Inverness, capitale autoproclamée des Highlands.
+    Après avoir posé nos bagages à l'hôtel et dîné dans un restaurant de la ville,
+    petite promenade digestive dans la ville.
+  photos:
+  - id: 9-1
+    caption: L'église Saint Mary, au bord de la Ness.
+  - id: 9-2
+    caption: Gregg Street Bridge.
+  - id: 9-3
+    caption: ''
+  - id: 9-4
+    caption: Le château. Lors de la visite de la reine Mary en 1562, le gouverneur
+      d'Inverness avait confié le château à son capitaine, qui refusa l'entrée à
+      la reine, causant un grand affront. Le capitaine fut exécuté et sa tête exposée
+      devant le château à la vue de tous.
+  - id: 9-5
+    caption: Flora MacDonald, héroïne jacobite, aida le prince Charles Edward Steward
+      à s'échapper   après la défaite écossaise à Culloden.
+  - id: 9-6
+    caption: La cathédrale Saint-Andrew, vue du château. Elle a été construite de
+      1866 à 1869.
+  - id: 9-7
+    caption: Symbole de pureté et d'innocence dans la mythologie celte, présente
+      sur les armoiries royales de William 1er dès le 12ème siècle, la licorne est
+      l'animal national de l'Écosse.
+- id: '10'
+  title: Des rives du Loch Ness aux ruines d'Urquhart
+  date: 18 juillet, matin
+  coords:
+  - '57.324090897938106'
+  - "-4.4420055310058615"
+  previewPhoto: 10-6
+  content: Nous profitons de notre séjour à Inverness pour explorer les environs,
+    en particulier le très célèbre Loch Ness, le deuxième plus grand d'Écosse. Notre
+    première destination, les ruines du château d'Urquhart, seraient aussi l'un
+    des lieux favoris d'apparition de Nessie, le fameux monstre du Loch Ness.
+  photos:
+  - id: 10-1
+    caption: Le Loch Ness, vue sur Urquhart Bay.
+  - id: 10-2
+    caption: Quand soudain, une ombre surgit dans le viseur de l'appareil photo.
+      Mais ?!... Serait-ce... ?!
+  - id: 10-3
+    caption: Ah non, c'est juste Mathilde qui a mis son doigt devant l'objectif.
+  - id: 10-4
+    caption: Le château d'Urquhart, bâti au 13ème siècle, fut un haut lieu des guerres
+      d'indépendance écossaises.
+  - id: 10-5
+    caption: Comme tous les lieux historiques écossais, Urquhart connait son lot
+      d'histoires sanglantes. L'une d'elle conte l'amour de la fille du laird, Mary
+      Grant, pour un barde gaélique et voleur de bétail, Dómhnall Donn. Le laird
+      (seigneur en gaélique) qui ne l'entendait pas de cette oreille le fit emprisonner
+      et finalement décapiter.
+  - id: 10-6
+    caption: Le château fut finalement détruit à l'explosif durant le 17ème siècle
+      par ses occupants qui craignaient de le voir tomber entre les mains des Jacobites.
+  - id: 10-7
+    caption: La tour Grant, au nord du château.
+  - id: 10-8
+    caption: ''
+  - id: 10-9
+    caption: Vue depuis la tour Grant.
+  - id: 10-10
+    caption: Au-dessus de la porte, les appartements du connétable, qui gérait le
+      château en l'absence du laird.
+  - id: 10-11
+    caption: Le four du château, ou ce qu'il en reste.
+  - id: 10-12
+    caption: Le trébuchet pouvait projeter des charges de 100 kg à 300 mètres, mais
+      seulement une à deux fois par heure.
+- id: '11'
+  title: Out of Affric
+  date: 18 juillet, après-midi
+  coords:
+  - '57.31206400524772'
+  - "-4.852147475891115"
+  previewPhoto: 11-10
+  content: Après les ruines d'Urquhart, nous poussons à l'ouest jusqu'au Glen Affric,
+    qui promet de belles randonnées dans l'une des plus grandes anciennes forêts
+    calédoniennes d'Écosse.
+  photos:
+  - id: 11-1
+    caption: La rivière Affric traverse le loch Beinn a’ Mheadhoin et, un peu plus
+      loin, le loch Affric.
+  - id: 11-2
+    caption: ''
+  - id: 11-3
+    caption: Le chemin est bordé de digitales pourpres. Le genre de fleurs avec
+      lesquelles on prépare une tisane pour son pire ennemi.
+  - id: 11-4
+    caption: Le chemin de randonnée monte jusqu'à un point de vue sur le loch Beinn
+      a’ Mheadhoin au loin.
+  - id: 11-5
+    caption: ''
+  - id: 11-6
+    caption: ''
+  - id: 11-7
+    caption: La rivière traverse des gorges rocheuses et les chutes de Dog Falls.
+  - id: 11-8
+    caption: Coire Loch, vu des hauteurs.
+  - id: 11-9
+    caption: ''
+  - id: 11-10
+    caption: ''
+- id: '12'
+  title: Les fantômes de la bataille de Culloden
+  date: 19 juillet, matin
+  coords:
+  - '57.47556052589661'
+  - "-4.096322433166506"
+  previewPhoto: 12-4
+  content: Le 16 avril 1746, la bataille de Culloden oppose 5000 highlanders jacobites
+    fidèles au Price Charles Edward Stuart, prétendant aux couronnes anglaise et
+    écossaise, et les 9000 soldats de l'armée hanovrienne du Duc de Cumberland.
+    Ce dernier, victorieux, ordonnera à ses hommes d'achever blessés, prisonniers
+    et même spectateurs assistant à la bataille, ce qui lui vaudra le surnom de
+    Butcher Cumberland. La défaite de Culloden marquera pour les écossais la fin
+    des espoirs de restauration de la lignée des Stuart sur les trônes d'Angleterre
+    et d'Écosse, et la fin du mode de vie des Highlanders.
+  photos:
+  - id: 12-1
+    caption: Des outils de chirurgie utilisés sur le champ de bataille.
+  - id: 12-2
+    caption: '"Chaque homme est son propre docteur", un manuel de médecine populaire
+      datant du début du 18ème siècle.'
+  - id: 12-3
+    caption: Monument aux morts de la bataille.
+  - id: 12-4
+    caption: Une pierre marque l'emplacement des fosses communes où sont enterrés
+      les guerriers de chaque clan. L'emplacement des fosses communes des soldats
+      hanovriens est toujours inconnu à ce jour.
+  - id: 12-5
+    caption: Le cottage de Leanach fut probablement utilisé comme un hôpital de
+      campagne par l'armée hanovrienne.
+  - id: 12-6
+    caption: '"Dark, dark was the day when we looked on Culloden / And chill was
+      the mist drop that clung to the tree, / The oats of the harvest hung heavy
+      and sodden, / No light on the land and no wind on the sea." (Andrew Lang,
+      Culloden)'
+- id: '13'
+  title: Paysages de Wester Ross
+  date: 19 juillet, après-midi
+  coords:
+  - '57.6759126357386'
+  - "-5.498795882873537"
+  previewPhoto: 13-4
+  content: Après avoir quitté Inverness, nous poursuivons notre exploration des
+    Highlands vers l'ouest et la région de Wester Ross. Ça vous rappelle quelque
+    chose ? De fait, George R. R. Martin s'est inspiré de l'endroit pour le nom
+    et les décors de son univers de fantasy.
+  photos:
+  - id: 13-1
+    caption: Le Loch Luichart, photobombé par un train de la Scotrail (l'équivalent
+      écossais de notre SNCF).
+  - id: 13-2
+    caption: Un peu plus loin sur la route, le Loch a' Chuilinn.
+  - id: 13-3
+    caption: ''
+  - id: 13-4
+    caption: 'Au bout de la vallée, notre destination : le Loch Maree.'
+  - id: 13-5
+    caption: ''
+  - id: 13-6
+    caption: Notre hôtel, sur la rive du Loch Maree.
+  - id: 13-7
+    caption: ''
+- id: '14'
+  title: Parler la langue des oiseaux à Eilean Donan
+  date: 20 juillet
+  coords:
+  - '57.27390647601237'
+  - "-5.5161444107818625"
+  previewPhoto: 14-2
+  content: Après avoir atteint le point le plus au nord de notre voyage, nous reprenons
+    la route vers le sud et, à l'ouest, l'île de Skye. Avant de passer le pont qui
+    relie l'île au continent, nous profitons du beau temps pour faire un détour
+    par Eilean Donan, le château carte postale ultime de l'Écosse.
+  photos:
+  - id: 14-1
+    caption: 'Eilean Donan se situe sur une île (eilean signifie île en gaélique)
+      à la croisée de trois lochs : Duich au sud-est, Long au nord-est et Alsh à
+      l''ouest.'
+  - id: 14-2
+    caption: Eilean Donan devrait son nom à Donnán d'Eigg, un évêque irlandais qui
+      vécut en ermite sur l'île à la fin du 7ème siècle. Une communauté picte y
+      aurait également vécu.
+  - id: 14-3
+    caption: Le château lui-même commence à être édifié au 13ème siècle. Situé à
+      une position stratégique, il est choisi pour abriter un ouvrage défensif contre
+      les raids vikings.
+  - id: 14-4
+    caption: Autrefois, on ne pouvait accéder à pied au château qu'à marée basse.
+      Le pont en pierre date du début du 20ème siècle.
+  - id: 14-5
+    caption: Au 18ème siècle, le lieu sert d'abri à la resistance jacobite. Le gouvernement
+      britannique y dépêche trois frégates qui bombardent le château pendant trois
+      jours. À l'issue de quoi, Eilean Donan est abandonné à l'état de ruine et
+      l'île restera inhabitée pendant 200 ans.
+  - id: 14-6
+    caption: ''
+  - id: 14-7
+    caption: Un chemin de ronde fait le tour du château.
+  - id: 14-8
+    caption: En 1912 commence la restauration moderne du château, qui ne s'achèvera
+      qu'en 1932, après vingt ans de travaux.
+  - id: 14-9
+    caption: L'entrée du château.
+  - id: 14-10
+    caption: Vue sur le loch Duich depuis les remparts.
+  - id: 14-11
+    caption: La cour intérieure, où l'on réalise que le château n'est pas seulement
+      construit sur le rocher, mais aussi autour de lui.
+  - id: 14-12
+    caption: 'Une vingtaine d''espèces d''oiseaux fréquentent Eilean Donan. Ici,
+      un cormoran. '
+  - id: 14-13
+    caption: Une légende du 12ème siècle raconte l'histoire du fils d'un chef de
+      clan qui parlait la langue des oiseaux. Ceux-ci prophétisèrent que son père
+      le servirait un jour, comme un serviteur sert son roi. Apprenant cela, le
+      père bannit son fils. Celui-ci ne revint que des années plus tard, après de
+      nombreuses aventures, ayant fait fortune grâce à ses pouvoirs magiques. Le
+      père ne reconnaissant pas son fils, il lui offrit l'hospitalité et lui servit
+      un repas, réalisant ainsi la prophétie. Plus tard, le fils obtint les faveurs
+      du roi Alexandre II, qui le chargea de bâtir le château d'Eilean Donan pour
+      défendre son royaume.
+- id: '15'
+  title: 'Storr : le vieil homme et la pluie'
+  date: 21 juillet
+  coords:
+  - '57.50711250210446'
+  - "-6.183079121352193"
+  previewPhoto: 15-7
+  content: Pour notre premier jour sur l'île de Skye, nous choisissons d'explorer
+    la péninsule de Trotternish au nord et en particulier de faire l'ascension de
+    Storr, colline rocheuse qui culmine à 674 mètres.
+  photos:
+  - id: 15-1
+    caption: 'Home sweet home : notre cottage au sud de l''île.'
+  - id: 15-2
+    caption: Le sommet de Storr dans la brûme vu du départ de la randonnée.
+  - id: 15-3
+    caption: ''
+  - id: 15-4
+    caption: Le clou du spectacle, The Old Man of Storr, est un monolithe haut de
+      55 mètres, formé suite à l'érosion de la montagne.
+  - id: 15-5
+    caption: A mi-chemin de l'ascension, vu sur un petit Loch sans nom.
+  - id: 15-6
+    caption: Dans notre dos, vue sur le Loch Leathan, le détroit de Raasay et l'île
+      du même nom.
+  - id: 15-7
+    caption: The Old Man of Storr a servi de décor au film Prometheus (qui décidément,
+      après l'Islande, nous suit dans nos voyages). C'est ici que, dans l'introduction
+      du film, des chercheurs découvrent une carte stellaire vers la planète LV-223.
+  - id: 15-8
+    caption: The Old Man of Storr, vu du plus haut point accessible à pied (480
+      m), où nous sommes accueillis par des vents violents et de la pluie battante.
+  - id: 15-9
+    caption: Après être redescendus, trempés jusqu'aux os, nous reprenons la route
+      vers le nord de l'île, pour faire le tour de la péninsule de Trotternish.
+      Ici, vue sur la chaine du Quiraing.
+  - id: 15-10
+    caption: ''
+  - id: 15-11
+    caption: ''
+  - id: 15-12
+    caption: ''
+  - id: 15-13
+    caption: ''
+- id: '16'
+  title: 'Dunvegan : un après-midi chez les McLeod'
+  date: 22 juillet
+  coords:
+  - '57.448386464308356'
+  - "-6.590296959154216"
+  previewPhoto: 16-3
+  content: Pour notre deuxième jour sur l'île de Skye, le beau temps n'étant toujours
+    pas au rendez-vous, nous décidons de visiter le château de Dunvegan, foyer du
+    clan McLeod depuis le 13ème siècle.
+  photos:
+  - id: 16-1
+    caption: ''
+  - id: 16-2
+    caption: ''
+  - id: 16-3
+    caption: La Highland, une race bovine locale connue pour ses coiffures très
+      tendances.
+  - id: 16-4
+    caption: Le château de Dunvegan domine le loch du même nom, un loch marin.
+  - id: 16-5
+    caption: ''
+  - id: 16-6
+    caption: Dunvegan est également connu pour ses jardins.
+  - id: 16-7
+    caption: ''
+  - id: 16-8
+    caption: ''
+  - id: 16-9
+    caption: ''
+  - id: 16-10
+    caption: ''
+  - id: 16-11
+    caption: La corne à boire de Sir Rory Mor. Selon la tradition, chaque héritier
+      du clan McLeod doit boire le contenu (1,5 litre de vin rouge) d'un trait,
+      "sans tomber ni la poser". John McLeod, 29ème chef de clan, est le dernier
+      à avoir réussi le défi (en 1 minute et 57 secondes).
+  - id: 16-12
+    caption: La "Great Sword of Dunvegan", une claymore.
+  - id: 16-13
+    caption: L'escalier menant aux cuisines longe le cachot. Une petite ouverture
+      permettaient aux prisonniers de sentir l'odeur de la nourriture tandis qu'ils
+      mouraient lentement de faim.
+  - id: 16-14
+    caption: Une chambre de domestique.
+  - id: 16-15
+    caption: ''
+- id: '17'
+  title: 'Fairy Pools : baignade avec les fées'
+  date: 23 juillet
+  coords:
+  - '57.25053443862765'
+  - "-6.258186164690301"
+  previewPhoto: 17-3
+  content: Au troisième jour de notre séjour sur l'île de Skye, le soleil perce
+    enfin les nuages. Malheureusement, il est déjà temps pour nous de quitter la
+    plus vaste des îles de l'archipel des Hébrides. Pour profiter du beau temps,
+    nous nous autorisons un détour par la vallée de Glen Brittle, où coule la rivière
+    Allt Coir' a' Mhadaidh. Une petite randonnée mène jusqu'à Fairy Pools, une série
+    de bassins et de cascades très photogéniques.
+  photos:
+  - id: 17-1
+    caption: ''
+  - id: 17-2
+    caption: Au fond, les black Cullins, une chaîne de montagnes du sud de l'île.
+  - id: 17-3
+    caption: Pour atteindre Fairy Pools, il faut à plusieurs reprises traverser
+      la rivière et ses bras, soit en sautillant d'un rocher précaire à un autre,
+      soit en bondissant par-dessus la rivière.
+  - id: 17-4
+    caption: Ici, Mathilde vient de traverser la rivière d'un bond (presque) sans
+      incident.
+  - id: 17-5
+    caption: ''
+  - id: 17-6
+    caption: En bas dans les gorges, des moutons qui semblent se demander, comme
+      nous, comment ils sont arrivés là.
+  - id: 17-7
+    caption: ''
+  - id: 17-8
+    caption: ''
+  - id: 17-9
+    caption: Nous déjeunons à Fairy Pools, nous prenons notre temps pour quelques
+      dernières photos... Si bien que nous ratons de peu le ferry pour lequel nous
+      avions achetés des billets à l'avance. Heureusement nous trouverons une place
+      sur le suivant.
+  - id: 17-11
+    caption: Le soir, de la fenêtre de notre hôtel près d'Acharacle.
+  - id: 17-10
+    caption: ''
+- id: '18'
+  title: 'Glen Nevis : le fort picte au sommet de la colline'
+  date: 24 juillet
+  coords:
+  - '56.796086764657474'
+  - "-5.07075823944092"
+  previewPhoto: 18-10
+  content: 'Après une nuit à Acharacle, nous reprenons la route en direction de
+    Fort William vers l''ouest. Notre première étape : le viaduct de Glenfinnan.
+    Fort William, où nous déjeunons dans un pub, est une petite ville de 10.000
+    habitants au pied du Ben Nevis, le plus haut sommet des îles britanniques, culminant
+    à 1344 mètres. Mais pour notre randonnée de l''après-midi, nous choisissons
+    de viser Dun Deardail, un ancien fort picte au sommet d''une colline de (tout
+    de même) 314 mètres.'
+  photos:
+  - id: 18-1
+    caption: Le viaduct de Glennfinnan, construit en béton, est constitué de 21
+      arches de 15 mètres de large et 30 mètres de haut (pour la plus haute).
+  - id: 18-2
+    caption: Le Jacobite steam train, connu pour avoir interprété le Poudard Express
+      dans les films Harry Potter, traverse le viaduct deux fois par jour.
+  - id: 18-3
+    caption: Face au viaduct, le Glen Shiel.
+  - id: 18-4
+    caption: Le Glen Nevis, après avoir commencé l'ascension.
+  - id: 18-6
+    caption: Les forêts insondables de Glen Nevis...
+  - id: 18-7
+    caption: ''
+  - id: 18-8
+    caption: ''
+  - id: 18-9
+    caption: Vue sur le Ben Nevis.
+  - id: 18-10
+    caption: Au bout du chemin de randonnée, quelques centaines de mètres avant
+      l'arrivée, un chemin de pierre conduit jusqu'au sommet de la colline.
+  - id: 18-11
+    caption: Au sommet. 2000 ans plutôt, se dressait ici Dun Deardail, fort celte
+      puis citadelle picte, dont on ne peut aujourd'hui que deviner les fondations.
+      On sait que le fort a été détruit par une chaleur intense, si forte qu'elle
+      a fait fondre la pierre. On en ignore la raison de l'incendie, mais on suppose
+      qu'étant donnée la température, il n'était probablement pas accidentel.
+  - id: 18-12
+    caption: Retour au parking "Braveheart", où nous avions laissé la voiture. Il
+      a été construit à l'origine pour les véhicules du tournage du film de Mel
+      Gibson, dont plusieurs scènes ont été filmées dans la région.
+  - id: 18-13
+    caption: ''
+- id: '19'
+  title: 'Coire Gabhail : la vallée perdue de Glen Coe'
+  date: 25 juillet
+  coords:
+  - '56.660758491304335'
+  - "-5.069256828041489"
+  previewPhoto: 20-1
+  content: Après une nuit à Fort William, nous reprenons notre exploration du sud
+    des Highlands. Pour atteindre notre prochaine destination, Arrochar, il faut
+    traverser la très belle vallée de Glen Coe et le site des "Three Sisters". Nous
+    choisissons pour la découvrir la populaire randonnée qui mène à la "Lost Valley",
+    en fait un col entre deux des trois "Sisters".
+  photos:
+  - id: 19-1
+    caption: La vallée de Glen Coe.
+  - id: 19-3
+    caption: Deux des montagnes qui forment les "Three Sisters".
+  - id: 19-2
+    caption: Entre deux "Sisters", le chemin de randonnée menant au col.
+  - id: 19-6
+    caption: Le chemin de randonnée suit la rivière Coe, et longe de nombreuses
+      cascades.
+  - id: 19-7
+    caption: ''
+  - id: 19-8
+    caption: Quand soudain, au bout du chemin, derrière un arbre..,
+  - id: 19-9
+    caption: Coire Gabhail, ou la vallée perdue. C'est ici que le clan McDonald
+      cachait son bétail pour ne pas se le faire voler (ou cachait le bétail qu'il
+      volait aux autres clans, selon les sources).
+  - id: 19-10
+    caption: ''
+  - id: 19-11
+    caption: ''
+  - id: 19-4
+    caption: La vallée de Glen Coe a servi de décor a de nombreux films dont Harry
+      Potter et le Prisonnier d'Azkaban et Skyfall.
+  - id: 19-12
+    caption: Plus loin sur la route, le Lochan na h-Achlaise.
+  - id: 19-13
+    caption: ''
+  - id: 19-14
+    caption: ''
+- id: '20'
+  title: 'Finnich Glen : devant la chaire du diable'
+  date: 25 juillet
+  coords:
+  - '56.033256164636214'
+  - "-4.415902272872927"
+  previewPhoto: 20-6
+  content: Pour notre dernier jour en Écosse, avant le retour à Edimbourg et le
+    vol pour Paris, nous choisissons une ballade dans Finnich Glen. Ces magnifiques
+    gorges recouvertes de mousse vertes sont aussi connues sous le nom de Devil's
+    Pulpit (la chaire du diable) en raison d'une formation rocheuse qui évoque la
+    chaire d'une église.
+  photos:
+  - id: 20-1
+    caption: ''
+  - id: 20-2
+    caption: ''
+  - id: 20-3
+    caption: ''
+  - id: 20-7
+    caption: La chaire, d'accord, mais pourquoi du diable ? La raison en serait
+      la terre rouge sur laquelle coule la rivière.
+  - id: 20-4
+    caption: ''
+  - id: 20-5
+    caption: ''
+  - id: 20-6
+    caption: ''
+  - id: 20-8
+    caption: Le château de Stirling où nous faisons un bref arrêt avant de rejoindre
+      Édimbourg.
 ---
 id: iceland
 title: Road-Trip en Islande
 subtitle: Mathilde & Clément sur les traces des macareux
 linkTitle: Islande, juillet 2016
 mapCenter:
-  lat: "64.9313"
-  lng: "-19.0212"
+  lat: 64.9313
+  lng: -19.0212
 mapZoomLevels:
   desktop: 7
-  mobile: 7
+  mobile: 5
 entries:
-  - id: 1
-    title: Aéroport de Keflavik
-    date: 15 juillet - 9h
-    coords:
-      - "63.99282663400118"
-      - "-22.6153564453125"
-    content: "Arrivée au petit matin à l'aéroport international de Keflavik, après un vol sans encombre depuis Paris. L'air est frais est vivifiant. On récupère d'abord la voiture, l'occasion pour le loueur de nous informer des nombreux dangers qui guettent l'automobiliste amateur en Islande : tempêtes de sable, collines aveugles, routes de graviers, moutons en liberté... Il faut aussi toujours prendre soin de se garer face au vent, faute de quoi les portes peuvent être arrachées !"
-    photos:
-      - id: "A"
-        caption: "Un élément indispensable au road-trip réussi : la voiture !"
-  - id: 2
-    title: "Hafnarfjödur"
-    date: "15 juillet - 10h"
-    coords:
-      - "64.05177661560711"
-      - "-21.985015869140625"
-    content:  "Arret bref mais inévitable à Hafnarfjödur, petite ville de pêcheurs à la périphérie de Reykjavik, où prend place l'intrigue d'Elliot du Néant, roman de David Calvo emporté dans les bagages !"
-    photos:
-      - id: "B"
-        caption: ""
-      - id: "3"
-
+- id: '1'
+  title: Aéroport de Keflavik
+  date: 15 juillet - 9h
+  coords:
+  - 63.99282663400118
+  - -22.6153564453125
+  content: 'Arrivée au petit matin à l''aéroport international de Keflavik, après
+    un vol sans encombre depuis Paris. L''air est frais est vivifiant. On récupère
+    d''abord la voiture, l''occasion pour le loueur de nous informer des nombreux
+    dangers qui guettent l''automobiliste amateur en Islande : tempêtes de sable,
+    collines aveugles, routes de graviers, moutons en liberté... Il faut aussi toujours
+    prendre soin de se garer face au vent, faute de quoi les portes peuvent être
+    arrachées !'
+  photos:
+  - id: A
+    caption: 'Un élément indispensable au road-trip réussi : la voiture !'
+- id: '2'
+  title: Hafnarfjödur
+  date: 15 juillet - 10h
+  coords:
+  - 64.05177661560711
+  - -21.985015869140625
+  content: Arret bref mais inévitable à Hafnarfjödur, petite ville de pêcheurs à
+    la périphérie de Reykjavik, où prend place l'intrigue d'Elliot du Néant, roman
+    de David Calvo emporté dans les bagages !
+  photos:
+  - id: B
+    caption: ''
+- id: '3'
+  title: Lac de Kleirfarvatn
+  date: 15 juillet - 12h
+  coords:
+  - 63.94642140599408
+  - -21.961669921875
+  content: C'est la route 1, celle qui fait le tour de l'île, que nous allons emprunter
+    tout au long de notre voyage, mais pour rallier notre premier étape à Selfoss,
+    on choisit d'emprunter la route 42 qui nous fera longer la côte. Bonne idée,
+    puisque cela nous permet de nous arrêter aux abords du lac de Kleirfarvatn.
+  previewPhoto: C6
+  photos:
+  - id: C1
+    caption: Parés pour la première sortie !
+  - id: C2
+    caption: Le lac et sa plage de sable noir.
+  - id: C4
+    caption: Pour prendre un peu de hauteur, nous entreprenons de gravir la colline
+      voisine.
+  - id: C3
+    caption: Les flancs de la colines creusés par le vent.
+  - id: C5
+    caption: La vue au sommet de la colline.
+  - id: C6
+    caption: Le lac vu du sommet.
+- id: '4'
+  title: Les fumerolles de Seltùn
+  date: 15 juillet - 14h
+  coords:
+  - 63.88724882293143
+  - -22.054367065429688
+  content: Deuxième arrêt impromptu sur la route de Selfoss lorsqu'on aperçoit des
+    fumerolles. De l'eau chauffée à 200° par le magma qui remonte à la surface en
+    dissolvant la roche et s'évapore en bouillonnant à la surface.
+  photos:
+  - id: D1
+    caption: Les fumerolles
+  - id: D2
+    caption: 'Vu de près : c''est beau, mais ça sent l''oeuf pourri.'
+  - id: D3
+    caption: Vus du haut de la colline, les cratères formés par les explosions de
+      vapeur.
+  - id: D4
+    caption: Au loin, des fumerolles particulièrement denses.
+  - id: D5
+    caption: Attention à ne pas mettre les pieds dans un bout de trou de boue qui
+      bout (à 100°) !
+  - id: D6
+    caption: Sur la route de Selfoss, le paysage ressemble à s'y méprendre à un
+      gigantesque cookie aux pépites de chocolat. Ou bien est-ce parce que nous
+      n'avons rien mangé depuis le matin ?
+- id: '5'
+  title: Le cratère de Kerið
+  date: 16 juillet - 11h
+  coords:
+  - 64.0409583983354
+  - -20.882606506347656
+  content: Après une nuit à la ferme auberge Vatnsholt près de Selfoss (où Mathilde
+    a tenté d'apprendre le français à un perroquet), direction le Cercle d'or, site
+    le plus touristique d'Islande. Première escale à Kerið, un cratère formé par
+    l'effondrement de la chambre magmatique d'un ancien volcan.
+  photos:
+  - id: E1
+    caption: Kerið
+  - id: E2
+    caption: Un escalier en bois pour descendre au fond du cratère.
+  - id: E3
+    caption: Vue du fond du cratère.
+  - id: E4
+    caption: La roche volcanique aux abords du cratère.
+- id: '6'
+  title: Geysir & Strokkur
+  date: 16 juillet - 13h
+  coords:
+  - 64.31335755280075
+  - -20.300374031066895
+  content: Geysir a donné son nom au phénomène des geysers (et non gésiers comme
+    dit Clément) et jaillit à 80 mètres trois fois par jour. Heureusement pour les
+    touristes, son petit frère Strokkur jaillit à 25 mètres toutes les dix minutes.
+  photos:
+  - id: F1
+    caption: L'eau qui ruisselle par terre est à 100°, l'hôpital le plus proche
+      est à 62 km.
+  - id: F2
+    caption: Fumerolles aux abords des geysers.
+  - id: F3
+    caption: Un mini geyser.
+  - id: F4
+    caption: Strokkur !
+  - id: F5
+    caption: L'eau est d'un bleu tropical, j'ai cru entendre quelqu'un dire que
+      c'était dû au sulfate de cuivre.
+  - id: F6
+    caption: Le geyser Geysir gisant sans gémir.
+  - id: F7
+    caption: Voici à quoi ressemble un bus scolaire Islandais. Pratique quand l'école
+      est sur un glacier !
+- id: '7'
+  title: Selfies à Gullfoss
+  date: 16 juillet - 15h
+  coords:
+  - 64.327639889255
+  - -20.124292373657227
+  content: Gullfoss ("La Chute d'Or") est une cascade haute de 32 mètres et large
+    de 70. Selon la légende, elle doit son nom à un type riche et avare qui aurait
+    préféré y jeter tout son or plutôt que de voir quelqu'un en hériter. Sympa !
+    Après avoir un nombre improbable de tentatives malheureuses, on abandonne l'idée
+    du selfie devant les chutes.
+  photos:
+  - id: G1
+    caption: Le chemin de Sigríður doit son nom à Sigríður Tómasdóttir, une islandaise
+      qui lutta pour empêcher la transformation des chutes en barrage hydro-éléctrique.
+  - id: G2
+    caption: ''
+  - id: G3
+    caption: ''
+  - id: G4
+    caption: ''
+- id: '8'
+  title: Randonnée à Skógafoss
+  date: 17 juillet - 12h
+  coords:
+  - 63.53172502888363
+  - -19.50845718383789
+  content: Skógafoss, sans doute notre plus beau moment jusqu'à présent. Les chutes
+    sont impresionnantes, mais il faut surtout monter en haut et suivre le chemin
+    de randonnée qui borde la rivière Skógá pour découvrir d'autres chutes et des
+    paysages somptueux.
+  photos:
+  - id: H1
+    caption: La légende veut que Þrasi Þórólfsson, premier colon Viking, aurait
+      caché son trésor dans une cave derrière les chutes (on n'a pas trouvé).
+  - id: H2
+    caption: 'Au sommet : double rainbow !'
+  - id: H3
+    caption: En amont, les gorges de la rivière Skóga.
+  - id: H4
+    caption: En Islande, les moutons vont toujours par trois. Si vous n'en voyez
+      que deux, le troisième est probablement en train de charger dans votre dos
+      !
+  - id: H5
+    caption: ''
+  - id: H6
+    caption: ''
+- id: '9'
+  title: Les moutons de Reynisfjall
+  date: 17 juillet - 17h
+  coords:
+  - 63.41196604278784
+  - -19.02454376220703
+  content: Arrivée à Vik, petite ville surplombée par les falaises de Reynisfjall,
+    au sommet desquelles on grimpe pour faire une randonnée de 8 km.
+  photos:
+  - id: I1
+    caption: La plage de sable au noir de Vik, au pied des falaises.
+  - id: I2
+    caption: Au sommet des falaises.
+  - id: I3
+    caption: 'Reynisdrangar : selon la légende, un trois-mâts que deux trolls auraient
+      échoué à traîner jusqu''au rivage, changé en pierre au lever du soleil.'
+  - id: I4
+    caption: L'Islande compte 1 million de moutons. De fait, on en croise plus souvent
+      que des Islandais.
+- id: '10'
+  title: Les colonnes de Reynisfjara
+  date: 18 juillet - 11h
+  coords:
+  - 63.40351340012634
+  - -19.05029296875
+  content: Avant de repartir de Vik pour l'ouest, petite escale à la plage de Reynisfjara,
+    au pied des falaises gravies la veille, célèbre pour ses colonnes de basalte.
+  photos:
+  - id: J1
+    caption: Les colonnes de basalte, phénomène naturel, formées par des coulées
+      de laves lorsqu'elles refroidissent.
+  - id: J2
+    caption: La légende veut que les phoques viennent une fois par an dans cette
+      grotte, retirent leur peau et chantent et dansent une nuit durant. Nous on
+      garde nos polaires...
+  - id: J3
+    caption: ''
+  - id: J4
+    caption: Le trône de pierre !
+- id: '11'
+  title: Les glaces de Jökulsárlón
+  date: 18 juillet - 15h
+  coords:
+  - 64.04276172598884
+  - -16.18011474609375
+  content: Après une longue route à travers le Skeiðarársandur (désert de sable
+    noir), sortie sur le Fjallsárlón et randonnée le long des rives de son grand-frère,
+    le Jökulsárlón. Les deux lacs proglaciaires sont nés de la fonte du Vatnajökull,
+    le plus grand glacier d'Islande. Les icebergs s'en détachent en craquant et
+    glissent lentement vers la mer.
+  photos:
+  - id: K1
+    caption: Jökulsárlón
+  - id: K2
+    caption: Un glaçon vieux de 500 ans !
+  - id: K3
+    caption: Sur les traces des macareux...
+  - id: K4
+    caption: Des sternes arctiques se la coulent douce sur un iceberg.
+  - id: K5
+    caption: Une sterne arctique.
+  - id: K6
+    caption: Les icebergs devant le glacier Vatnajökull.
+  - id: K7
+    caption: Un phoque timide.
+  - id: K8
+    caption: Un macareux !
+  - id: K9
+    caption: Les icebergs sont bleus lorsqu'ils se détachent du glacier ou tant
+      qu'ils sont sous l'eau, et deviennent blancs au contact de l'oxygène. Celui-ci
+      vient sans doute de se retourner.
+  - id: K10
+    caption: Le soir venu, les employés de l'office du tourisme rangent les icerbergs
+      à l'aide de grandes perches.
+- id: '12'
+  title: L'appel de Skaftafell
+  date: 19 juillet - 10h
+  coords:
+  - 64.0229187084014
+  - -16.972503662109375
+  content: Après une nuit à Höfn, petit retour sur nos pas pour une randonnée de
+    8 km dans le parc naturel de Skaftafell, avant de reprendre la route pour rallier
+    Egilstaðir à l'Est.
+  photos:
+  - id: L1
+    caption: La cascade Svartifoss ("Chute noire") et ses colonnes de basalte, dont
+      s'est inspiré l'architecte de l'église Hallgrímskirkja à Reykjavik.
+  - id: L2
+    caption: Le glacier Skaftafelljökull, noirci par les débris volcaniques.
+  - id: L3
+    caption: Skaftafelljökull s'achève par une lagune glaciaire où dérivent les
+      icebergs. Le recul du glacier s'accélère depuis plusieurs années.
+  - id: L4
+    caption: Le Skeiðarársandur, que nous avons traversé la veille, désert humide
+      de sable noir issu de la fonte du glacier.
+- id: '13'
+  title: Moutons dans la brume
+  date: 20 juillet
+  coords:
+  - 65.14669204324268
+  - -13.680038452148438
+  content: Une journée à sillonner les fjords de la côte Est en voiture. Pour les
+    atteindre, il faut traverser des cols de montagne noyés dans la brume, d'où
+    des moutons surgissent sur la route sans crier gare.
+  photos:
+  - id: M1
+    caption: En chemin, un arrêt à la cascade de Gufufoss.
+  - id: M2
+    caption: La route disparaît dans la brume.
+  - id: M3
+    caption: Bientôt, on ne voit pas beaucoup plus loin que le nez de la voiture.
+  - id: M4
+    caption: Au plus haut du col, les neiges éternelles.
+  - id: M5
+    caption: Sur les routes de montagne, on croise beaucoup d'auto-stoppeurs. Celui-là
+      a l'air un peu louche.
+  - id: M6
+    caption: Même sur la route principale, les tunnels comme les ponts ne sont assez
+      larges que pour un seul véhicule. Il faut attendre son tour...
+  - id: M7
+    caption: En sortant du brouillard, les fjords.
+  - id: M8
+    caption: ''
+  - id: M9
+    caption: ''
+  - id: M10
+    caption: L'état de la voiture après les routes de montagne.
+- id: '14'
+  title: Les macareux de Borgarfjörður
+  date: 21 juillet - 11h
+  coords:
+  - 65.54261585474393
+  - -13.756427764892578
+  content: Au bout de la route 94 qui mène au fjord de Borgarfjörður, à l'extrême
+    Nord-Est de l'Islande, se trouve un tout petit port, ambiance bout du monde.
+    Et surtout, à la sortie du port, se dresse une falaise où vivent des centaines
+    d'oiseaux, dont une colonie de macareux !
+  photos:
+  - id: N0
+    caption: Le port
+  - id: N1
+    caption: ''
+  - id: N2
+    caption: ''
+  - id: N3
+    caption: ''
+  - id: N4
+    caption: ''
+  - id: N5
+    caption: Les macareux installent leur nid dans des tunnels qu'ils garnissent
+      de feuilles, de plumes et de brin d'herbes.
+  - id: N6
+    caption: En anglais, "macareux" se dit "puffin", ce qui reflète bien le côté
+      patapouf de ces petits pingouins volants un peu patauds.
+  - id: N7
+    caption: ''
+- id: '15'
+  title: Les paysages extraterrestres de Dettifoss
+  date: 21 juillet - 16h
+  coords:
+  - 65.81431290777762
+  - -16.381988525390625
+  content: Large de 100 mètres et haute de 45, la cascade de Detifoss est la plus
+    puissante d'Europe avec un débit de 600 mètres-cube par seconde. C'est le décor
+    qu'a choisi Ridley Scott pour la scène d'introduction de son film Prometheus,
+    où l'on voit un extraterrestres plonger dans une cascade aux eaux noires.
+  photos:
+  - id: O1
+    caption: Pour accéder à la cascade, il faut s'éloigner de la route 1 et traverser
+      des kilomètres de désert de lave refroidie.
+  - id: O2
+    caption: Dettifoss
+  - id: O3
+    caption: On se dit qu'il n'a pas fallu beaucoup d'effets spéciaux pour donner
+      au lieu un aspect extraterrestre ou, en l'occurence, "soupe primodiale".
+  - id: O3b
+    caption: La scène du film de Ridley Scott est censée se dérouler il y a 4 milliards
+      d'années, mais l'Islande est une île relativement récente qui a émergée des
+      eaux il y a "seulement" 40 millions d'années.
+  - id: O4
+    caption: Un chemin de randonnée, trempé par les projections d'eau, suit les
+      gorges en aval de la cascade.
+  - id: O5
+    caption: Certains chemins de la randonnée sont plus verticaux que ceux auquels
+      nous sommes habitués.
+  - id: O6
+    caption: ''
+  - id: O7
+    caption: ''
+- id: '16'
+  title: Les solfatares de Hverarönd
+  date: 21 juillet - 18h
+  coords:
+  - 65.64088063577655
+  - -16.80856704711914
+  content: Dernière étape sur la route de Mývatn où nous passerons la nuit, le site
+    de Hverarönd. Impossible de manquer, depuis la route, les fumerolles blanches
+    qui s'élèvent dans le ciel. Mais au nord de l'Islande, on trouve aussi des solfatare,
+    nom italien pour un type de fumerolle particulièrement puissant qui s'échappe
+    du sol en sifflant.
+  photos:
+  - id: P1
+    caption: L'eau froide s'infiltre jusqu'aux chambres magmatiques, se transforme
+      en vapeur sous l'effet de la chaleur et remonte accompagnée de gaz contenant
+      de l'hydrogène sulfuré.
+  - id: P2
+    caption: Un solfatare
+  - id: P3
+    caption: Le touriste malin ne reste pas longtemps dans la fumée du solfatare,
+      brûlante et irrespirable.
+  - id: P4
+    caption: Un trou de boue bouillonnante. On peut y prendre des bains s'y on supporte
+      les températures supérieures à 80°.
+  - id: P5
+    caption: 'Les sols sont multicolores : rouge, brun, bleu, jaune, doré...'
+  - id: P6
+    caption: En Islande, il suffit parfois de se tromper de sortie sur la route
+      pour se retrouver sur une autre planète.
+  - id: P7
+    caption: Seuls sur Mars (et pas de Matt Damon en vue !)
+- id: '17'
+  title: Mývatn, le lac aux mouches
+  date: 22 juillet - 10h
+  coords:
+  - 65.59480042624011
+  - -17.0068359375
+  content: Mývatn serait le plus grand rassemblement de canard d'Europe. On a surtout
+    vu la plus grande concentration de moucheron au mètre-carré. Mais passés les
+    murs d'insecte, et pour peu que le soleil soit au rendez-vous, se dévoilent
+    des paysages bucoliques du lac Mývatn.
+  photos:
+  - id: Q1
+    caption: Ils vous vendent le cheval islandais au cinq allures, les moutons dans
+      les montagnes, les macareux dans les fjords... mais personne ne vous parle
+      des moucherons de Mývatn.
+  - id: Q2
+    caption: La solution pour traverser les murs d'insecte. Clément songe à garder
+      la même tenue pour passer les contrôles de l'aéroport au retour.
+  - id: Q3
+    caption: ''
+  - id: Q4
+    caption: ''
+  - id: Q5
+    caption: ''
+  - id: Q6
+    caption: ''
+  - id: Q7
+    caption: La flore aux abords du lac.
+  - id: Q8
+    caption: ''
+- id: '18'
+  title: La citadelle sombre de Dimmuborgir
+  date: 22 juillet - 13h
+  coords:
+  - 65.58600383388769
+  - -16.911907196044922
+  content: De loin, Dimmuborgir ("sombres chateaux") évoque les ruines d'une cité
+    vieille de plusieurs milliers d'années. Sauf qu'il n'y avait personne en Islande
+    avant le VIIIème siècle... La citadelle sombre est en réalité le résultat d'une
+    éruption volcanique. Selon les légendes, Dimmuborgir serait une porte vers l'enfer
+    ou l'habitat des Jólasveinarnir, sorte de croisement entre le père-noël et les
+    sept nains de Blanche-Neige...
+  photos:
+  - id: R1
+    caption: Dimmuborgir
+  - id: R2
+    caption: Un panneau sur le chemin de randonnée qui n'est paradoxalement pas
+      très rassurant.
+  - id: R3
+    caption: ''
+  - id: R4
+    caption: On ne sait en réalité pas très bien comment se sont formés les châteaux
+      de Dimmuborgir.
+  - id: R5
+    caption: Une théorie veut que le site fut autrefois un lac de lave, dans lequel
+      les jets de vapeur d'eau auraient refroidi la lave, créant ces cheminées autour
+      d'eux.
+  - id: R6
+    caption: Les Jólasveinarnir, supposés autochtones, ont des noms évocateurs tels
+      que "Lécheur-de-cuillère", "Claqueur-de-porte" ou "Gobeur-de-skyr". A Noël,
+      ils amènent des cadeaux aux enfants sages et des patates pourries aux autres.
+  - id: R7
+    caption: Une caverne de Jólasveinarnir. L'été, ils hibernent...
+  - id: R8
+    caption: A l'extremité de Dimmuborgir, les champs de lave s'étendent à perte
+      de vue, comme une mer fossilisée.
+- id: '19'
+  title: Les feux de Krafla
+  date: 22 juillet - 16h
+  coords:
+  - 65.72484013163663
+  - -16.805992126464844
+  content: Krafla est un volcan en activité dont le cratère peut se visiter. La
+    chambre magmatique se trouve à 2,1 km de profondeur (contre 60 en moyenne).
+    Aucune chance, donc, de tomber dans de la lave en fusion, mais le sol est chaud
+    au toucher et la pierre fume. Le site, extraordinaire, évoque le Mordor de Tolkien
+    ou les terres brulées de Fallout.
+  photos:
+  - id: S1
+    caption: Pour atteindre le cratère, il faut traverser le site de la centrale
+      de Kafla qui exploite l'énergie géothermique du lieu pour produire de l'électricité.
+  - id: S2
+    caption: La vallée est parcourue de gros pipelines qui convoient la vapeur d'eau
+      vers la centrale.
+  - id: S3
+    caption: Ces batiments, construits sur les points chauds, permettent de recueillir
+      la vapeur d'eau brûlante qui s'échappe du sol.
+  - id: S4
+    caption: Le chemin de randonnée enjambe de nombreuses fissures. Lors des "Feux
+      de Krafla" dans les années 1980, elles ont laissés échapper des flots de lave
+      en fusion.
+  - id: S5
+    caption: Le cratère Leirhnjùkshraun
+  - id: S6
+    caption: A l'intérieur du cratère
+  - id: S7
+    caption: Un morceau de lave refroidie
+  - id: S8
+    caption: 'Vue du sommet du Leirhnjùkshraun : les terres brulées'
+- id: '20'
+  title: La ferme de Glaumbær
+  date: 23 juillet - 15h
+  coords:
+  - 65.6159284575626
+  - -19.51068878173828
+  content: Sur la route de Sauðárkrókur, escale à Glaumbær, une ferme traditionnelle,
+    aux murs et en toit de tourbe, datant du 18ème siècle et parfaitement conservée.
+    Avant le 10ème siècle, le climat de l'Islande était plus doux et le pays recouvert
+    à 25 % de forêts (contre 1 % aujourd'hui). Mais le rafraichissement du climat
+    et la raréfaction du bois oblige durant la moyen-age à ruser, notamment en utilisant
+    des briques de tourbe.
+  photos:
+  - id: T1
+    caption: La ferme est constituée de treize maisons (en fait constituées chacune
+      d'une seule pièce).
+  - id: T2
+    caption: Un couloir de 22 mètres relie les treize maisons.
+  - id: T3
+    caption: La cuisine
+  - id: T4
+    caption: Un garde-manger
+  - id: T5
+    caption: Un des lits du dortir, couvert de cornes de bélier.
+  - id: T6
+    caption: De quoi se distraire pendant les longues nuits d'hiver à la ferme.
+  - id: T7
+    caption: La chambre du pasteur et de sa femme (qui ont chacun leur lit).
+  - id: T8
+    caption: Les murs en brique de tourbe, un très bon isolant thermique.
+  - id: T9
+    caption: ''
+  - id: T10
+    caption: Une maison plus récente, avec un toit de tourbe.
+- id: '21'
+  title: Húnaflói, la baie du petit ours
+  date: 24 juillet - 19h
+  coords:
+  - 65.59621895277296
+  - -20.634384155273438
+  content: Húnaflói ("la baie du petit ours") porte ce nom parce que des icebergs
+    détachés de la banquise viennent y flotter avec, parfois, un ours polaire sur
+    leur dos. Mais nous sommes heureux de n'avoir aperçu aucun de ces passagers
+    clandestins, puisqu'ils sont systématiquement mis à mort par les autorités pour
+    protéger la population. Par contre, la baie est habitée par des moutons, des
+    chevaux... et des phoques !
+  photos:
+  - id: U1
+    caption: De l'autre côté de la baie, une colonie de phoques.
+  - id: U2
+    caption: ''
+  - id: U3
+    caption: ''
+  - id: U4
+    caption: ''
+  - id: U5
+    caption: Le fameux cheval islandais aux cinq allures.
+  - id: U6
+    caption: Les moutons semblent vivre en bon entente avec leurs voisins les phoques.
+  - id: U7
+    caption: Hvítserkur, un paysage de la baie du petit ours.
+- id: '22'
+  title: Hellnar, un petit coin de paradis
+  date: 24 juillet - 19h
+  coords:
+  - 64.74601725111455
+  - -23.66455078125
+  content: Après une longue journée de route, nous voici à la ferme d'Hellnar. Contrairement
+    à ce que son nom pourrait laisser penser, Hellnar est un petit coin de paradis,
+    entre la montagne et l'océan et au milieu des champs de lave colonisés par la
+    mousse.
+  photos:
+  - id: V1
+    caption: ''
+  - id: V2
+    caption: Hellnar fut autrefois un important port de pêche, jusqu'à ce que ces
+      installations ne soient détruites par une tempête.
+  - id: V3
+    caption: Faute de pêcheurs, la petite crique est désormais l'habitat d'une colonie
+      d'oiseaux.
+  - id: V4
+    caption: ''
+  - id: V5
+    caption: ''
+  - id: V6
+    caption: Les étonnantes formations rocheuses de la crique...
+  - id: V7
+    caption: "...évoquent une mer déchainée qui se serait subitement changée en
+      pierre."
+  - id: V8
+    caption: Un sentier s'éloigne dans les champs de lave.
+  - id: V9
+    caption: Une maison islandaise
+- id: '23'
+  title: 'Lóndrangar : la forteresse et le parlement des oiseaux'
+  date: 25 juillet - 12h
+  coords:
+  - 64.73334
+  - -23.783331
+  content: Lóndrangar est un autre exemple typique d'architecture islandaise...
+    naturelle. L'apparente forteresse dressée contre la mer est née de l'érosion
+    d'un ancien cratère volcanique. Du haut de 75 mètres, on l'aperçoit de très
+    loin sur la route.
+  photos:
+  - id: W1
+    caption: Au loin, Lóndrangar.
+  - id: W2
+    caption: ''
+  - id: W3
+    caption: ''
+  - id: W4
+    caption: Sur le chemin, une ancienne cabane de pêcheurs abandonnée.
+  - id: W5
+    caption: On y suspendait autrefois les morceaux de viande de requin pendant
+      six mois pour les rendre comestibles.
+  - id: W6
+    caption: Des os de baleine.
+  - id: W7
+    caption: Clément a le pied marin, tant qu'il ne quitte pas la terre.
+  - id: W8
+    caption: Lóndrangar
+  - id: W9
+    caption: Au sein de la forteresse
+  - id: W10
+    caption: Plus loin sur la route, une falaise et un promontoire où nichent des
+      centaines de goélands évoquent l'hémicycle d'un parlement des oiseaux.
+  - id: W11
+    caption: Comme dans nos assemblées, certains parlementaires roupillent au fond.
+  - id: W12
+    caption: ''
+- id: '24'
+  title: À l'assaut du mont Snæfellsjökull
+  date: 25 juillet - 16h
+  coords:
+  - 64.86060787816564
+  - -23.873291015625
+  content: 'Le mont Snæfellsjökull est bien connu des amateurs de Jules Verne :
+    c''est à cet endroit que l''auteur français situe le point de départ de son
+    Voyage au centre de la Terre. Parce que la piste qui gravit le mont n''est accessible
+    qu''aux 4x4, nous nous lançons à pied dans une randonnée de 12 kilomètres !'
+  photos:
+  - id: X1
+    caption: ''
+  - id: X2
+    caption: Un sentier de randonnée mène au sommet du cratère d'un ancien volcan.
+  - id: X3
+    caption: De là-haut, on peut apercevoir les cratères d'autres volcans.
+  - id: X4
+    caption: Au loin, la tour radio de Hellisandur, qui culmine à 412 mètres, serait
+      la plus haute d'Europe. Elle servait autrefois au réseau LORAN-C, un ancêtre
+      du GPS.
+  - id: X5
+    caption: ''
+  - id: X6
+    caption: La chute de Klukkufoss et ses colonnes balsatiques.
+  - id: X7
+    caption: ''
+  - id: X8
+    caption: ''
+  - id: X0
+    caption: La calotte glaciaire du volcan Snæfellsjökull, qui lui vaut le surnom
+      de Fujiyama islandais. Il serait lui aussi l'un des sept chakras de la planète.
+  - id: X9
+    caption: La linaigrette est une fleur que l'on trouve dans les endroits humides,
+      qui ressemble à du coton, et qui était autrefois utilisée comme mèche dans
+      les lampes à pétrole.
+  - id: X10
+    caption: ''
+- id: '25'
+  title: Pose longue à Kirkjufell
+  date: 26 juillet - 11h
+  coords:
+  - 64.92648814969809
+  - -23.31024169921875
+  content: Arrêt bref mais obligatoire à Kirkjufell, le "mont église", carte postale
+    ultime de l'Islande avec sa cascade et sa montagne en forme de clocher. L'occasion
+    de s'essayer à la photographie de cascade avec pose longue, un autre cliché
+    !
+  photos:
+  - id: Y1
+    caption: Kirkjufellfoss et Kirkjufell
+  - id: Y2
+    caption: Pose longue
+- id: '26'
+  title: Stykkishólmur et la bibliothèque de l'eau
+  date: 26 juillet - 13h
+  coords:
+  - 65.07806223275166
+  - -22.723159790039062
+  content: Stykkishólmur est un charmant petit port au nord de la péninsule de Snæfellsnes,
+    où l'on s'arrête aussi pour son musée du volcan et sa Bibliothèque de l'Eau,
+    étonnant projet artistique. L'artiste Roni Horn y a collecté l'eau de 24 glaciers
+    islandais.
+  photos:
+  - id: Z1
+    caption: Stykkishólmur
+  - id: Z2
+    caption: ''
+  - id: Z3
+    caption: ''
+  - id: Z3b
+    caption: Une bien belle paire d'affiches de cinéma orne l'escalier du musée
+      du volcan.
+  - id: Z4
+    caption: 'La Bibliothèque de l''Eau : l''occasion de prendre conscience que
+      rien ne ressemble plus à un tube rempli d''eau qu''un autre tube rempli d''eau.'
+  - id: Z5
+    caption: ''
+  - id: Z6
+    caption: ''
+- id: '27'
+  title: Les phoques d'Ytri-Tunga
+  date: 26 juillet - 17h
+  coords:
+  - 64.8027522595179
+  - -23.080387115478516
+  content: Après la ferme d'Ytri-Tunga au sud de la péninsule de Snæfellsnes, se
+    trouve une plage où vit une colonie de phoques.
+  photos:
+  - id: Ð1
+    caption: La ferme d'Ytri-Tunga, entre mer et montagne
+  - id: Ð2
+    caption: La plage et sa colonie de phoques
+  - id: Ð3
+    caption: Après la pêche, repus, les phoques se prélassent sur les rochers.
+  - id: Ð4
+    caption: La chasse (pour leur fourrure) et noyades dans les filets de pêche
+      ont grandement contribués à réduire les colonies.
+  - id: Ð5
+    caption: ''
+- id: '28'
+  title: La faille de Þingvellir
+  date: 27 juillet
+  coords:
+  - 64.25548306327258
+  - -21.12499237060547
+  content: Þingvellir est le site historique du parlement islandais, fondé en 930,
+    sur l'emplacement de la faille qui sépare les plaques tectoniques nord-américaine
+    et eurasienne. Aujourd'hui, le parlement se réunit à Rekjavik et Þingvellir
+    est un parc national aux allures des Disneyland avec ses allées goudronnées
+    bordées de main courante et ses parking tous les 500 mètres.
+  photos:
+  - id: Þ1
+    caption: Þingvellir
+  - id: Þ2
+    caption: Une facade de la faille qui atteint 40 mètres de profondeur
+  - id: Þ3
+    caption: ''
+  - id: Þ4
+    caption: ''
+  - id: Þ5
+    caption: La cascade Öxarárfoss
+  - id: Þ6
+    caption: Les allées bien propres de Þingvellir
+- id: '29'
+  title: Þrihnukagigur, voyage au centre de la terre
+  date: 28 juillet
+  coords:
+  - 63.99975068170886
+  - -21.657142639160156
+  content: Þrihnukagigur, le "cratère aux trois pics", est un endroit unique au
+    monde. Après une éruption, soit la lave se solidifie dans la chambre magmatique
+    et le volcan devient une montagne, soit la lave s'écoule vers le bas, la chambre
+    magmatique s'écroule, et le volcan devient un cratère. À Þrihnukagigur, c'est
+    le deuxième cas qui s'est produit, sauf que la chambre magmatique ne s'est pas
+    écroulée, permettant de la visiter.
+  photos:
+  - id: Δ1
+    caption: Au loin, les trois pics. C'est dans celui de droite que nous allons
+      descendre.
+  - id: Δ3
+    caption: En chemin, au sol, des "cordes de lave". Elles apparaissent lorsque
+      la lave se solidifie en surface mais continue à s'écouler en-dessous.
+  - id: Δ2
+    caption: Le volcan dans lequel nous allons descendre.
+  - id: Δ4
+    caption: La nacelle permettant de descendre dans la chambre magmatique, 120
+      mètres plus bas.
+  - id: Δ5
+    caption: ''
+  - id: Δ6
+    caption: En haut à gauche, la cheminée du volcan, juste assez grande pour laisser
+      passer la nacelle.
+  - id: Δ7
+    caption: ''
+  - id: Δ8
+    caption: ''
