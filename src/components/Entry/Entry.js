@@ -6,10 +6,11 @@ import PropTypes from 'prop-types';
 import Thumbnail from '../Thumbnail/Thumbnail';
 import Overlay from '../Overlay/Overlay';
 import Pin from '../Pin/Pin';
+import ParseTrips from '../Trips/Trips';
 
 import './Entry.scss';
 
-import trips from '../../trips/trips.yaml?stream';
+const trips = ParseTrips();
 
 export default function Entry(props) {
 

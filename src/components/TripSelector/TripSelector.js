@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-//  import trips from '../../trips/trips.json';
+import ParseTrips from '../Trips/Trips';
 
-import trips from '../../trips/trips.yaml?stream';
+// import trips from '../../trips/trips.yaml?stream';
+const trips = ParseTrips();
 
 class TripSelector extends React.Component {
   componentDidMount() {
