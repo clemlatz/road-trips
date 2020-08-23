@@ -17,15 +17,12 @@ echo "" > $output_file
 
 trips=$(ls */*.yaml)
 for trip in $trips; do
-    echo $trip
     echo "---" >> $output_file
     cat $trip >> $output_file
     # write all entries to file
     echo "entries:" >> $output_file
     trip_dir=$(dirname $trip)
     for entry in $(find ${trip_dir}/entries -name "*.yaml"); do
-        echo $entry
         cat $entry >> $output_file
     done
 done
-
