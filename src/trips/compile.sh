@@ -7,13 +7,8 @@ cd $(dirname "$0")
 
 output_file=trips.yaml
 
-# if [[ -f "$output_file" ]]; then
-#     echo "Removing previous trips file..."
-#     rm "$output_file"
-# fi
-
-touch $output_file
-echo "" > $output_file
+# reset the file
+> $output_file
 
 trips=$(ls */*.yaml)
 for trip in $trips; do
