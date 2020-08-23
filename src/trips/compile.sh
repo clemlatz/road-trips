@@ -5,7 +5,7 @@ set -e
 # move to location of this script
 cd $(dirname "$0")
 
-output_file=../../src/trips/trips.yaml
+output_file=trips.yaml
 
 # if [[ -f "$output_file" ]]; then
 #     echo "Removing previous trips file..."
