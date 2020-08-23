@@ -55,7 +55,7 @@ module.exports = {
   plugins: [
     new WebpackShellPlugin({
       enforceOrder: true,
-      beforeStart: 'bash ./dist/images/compile.sh',
+      onBuildStart: 'bash ./src/trips/compile.sh',
     }
     ),
     new CleanWebpackPlugin({
