@@ -1,0 +1,16 @@
+- id: '1'
+  title: Aéroport de Keflavik
+  date: 15 juillet - 9h
+  coords:
+  - 63.99282663400118
+  - -22.6153564453125
+  content: 'Arrivée au petit matin à l''aéroport international de Keflavik, après
+    un vol sans encombre depuis Paris. L''air est frais est vivifiant. On récupère
+    d''abord la voiture, l''occasion pour le loueur de nous informer des nombreux
+    dangers qui guettent l''automobiliste amateur en Islande : tempêtes de sable,
+    collines aveugles, routes de graviers, moutons en liberté... Il faut aussi toujours
+    prendre soin de se garer face au vent, faute de quoi les portes peuvent être
+    arrachées !'
+  photos:
+  - id: A
+    caption: 'Un élément indispensable au road-trip réussi : la voiture !'

@@ -1,0 +1,59 @@
+- id: '2'
+  title: Une matinée au musée
+  date: 14 juillet - 10h
+  coords:
+  - '55.94707735252899'
+  - "-3.189586265183152"
+  previewPhoto: 2-11
+  content: 'De Holyrood Park au centre-ville, un petite demi-heure de marche nous
+    permet de faire plus ample connaissance avec la ville. Notre première destination
+    : le National Museum of Scotland. Celui-ci regroupe en réalité deux musées :
+    l''historique Royal Museum of Scotland, qui présente des trésors éclectiques
+    du monde entier ramenés par les écossais de leurs voyages, et le plus récent
+    et le Museum of Scotland consacré à l''histoire et à la culture de l''Écosse.
+    C''est surtout ce dernier qui a retenu notre attention.'
+  photos:
+  - id: 2-1
+    caption: En chemin, un bâtiment typique de l'architecture edimbourgeoise.
+  - id: 2-3
+    caption: Une devanture de bar.
+  - id: 2-4
+    caption: Les rues d'Edimbourg.
+  - id: 2-5
+    caption: Greyfriars Bobby (1856-1872) est un chien célèbre pour avoir survécu
+      à son maître et veillé sa tombe pendant 14 ans, ne s'absentant qu'une fois
+      par jour pour aller déjeuner dans son restaurant préféré. Une statue lui est
+      dédiée, un bar porte son nom et son histoire a été racontée dans un film Disney.
+  - id: 2-6
+    caption: Le hall du National Museum of Scotland.
+  - id: 2-7
+    caption: La Columbia Printing Press est une presse typographique fabriquée en
+      1860 et qui a fonctionné jusqu'en 1964 (pas d'obsolescence programmée à l'époque
+      !). Elle est décorée par des dauphins symbolisant la sagesse et le baton d'Hermès,
+      messager des dieux.
+  - id: 2-8
+    caption: Les broches servaient aux femmes à tenir leur plaid, tandis que les
+      hommes utilisaient de simples épingles. En bas, le sporran, sacoche accrochée
+      à la ceinture qui permettaient de pallier l'absence de poches du kilt.
+  - id: 2-9
+    caption: Au 17ème siècle, ces cornes de vache aplaties et gravée permettait
+      de transporter de la poudre à canon et de la garder au sec.
+  - id: 2-10
+    caption: Une importante tradition orale, essentiellement pratiquée par des bardes
+      femmes, permettaient d'entretenir le souvenir des exploits des ancètres. En
+      bas, des carnets contenant des louanges vantant les mérites des chefs de clans.
+  - id: 2-11
+    caption: The Lewis Chesspieces, un jeu d'échec en ivoire sculpté dans des défenses
+      de morse, découvert à Lewis en 1831. Fabriqué en Scandinavie au 12ème siècle,
+      il aurait été amené par les vikings avant d'appartenir au Roi de Lewis.
+  - id: 2-12
+    caption: Des outres à Whisky datant du 17ème siècle.
+  - id: 2-13
+    caption: Une "quaich", du gaélique "cuach" qui signifie "coupe", en bois et
+      en argent, gravé de la date 1692, des initiales JR (pour le roi James VII)
+      et HR (son propriétaire). Traditionnellement utilisée pour boire du whisky.
+  - id: 2-14
+    caption: La pompe à feu ("atmospheric engine") inventée par Thomas Newcomen
+      en 1712 utilisait la pression atomsphérique créé par la condensation de l'eau
+      pour actionner le piston et extraire de l'eau des mines. C'est la première
+      utilisation d'une machine à vapeur pour du travail mécanique.

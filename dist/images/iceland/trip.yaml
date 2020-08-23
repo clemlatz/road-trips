@@ -1,0 +1,10 @@
+id: iceland
+title: Road-Trip en Islande
+subtitle: Mathilde & Clément sur les traces des macareux
+linkTitle: Islande, juillet 2016
+mapCenter:
+  lat: 64.9313
+  lng: -19.0212
+mapZoomLevels:
+  desktop: 7
+  mobile: 5

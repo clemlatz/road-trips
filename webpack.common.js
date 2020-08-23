@@ -2,6 +2,7 @@ const path = require('path');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const WebpackShellPlugin = require('webpack-shell-plugin');
 
 module.exports = {
   mode: 'development',
@@ -13,6 +14,12 @@ module.exports = {
     filename: 'bundle.[name].[hash:6].js',
     chunkFilename: 'bundle.[name].[chunkhash:6].js',
     publicPath: '/',
+  },
+  resolve: {
+    extensions: ['.js'],
+    alias: {
+      'utils': path.resolve(__dirname, './utils')  // <-- When you build or restart dev-server, you'll get an error if the path to your utils.js file is incorrect.
+    }
   },
   devtool: 'inline-source-map',
   module: {
@@ -46,6 +53,11 @@ module.exports = {
     ]
   },
   plugins: [
+    new WebpackShellPlugin({
+      enforceOrder: true,
+      beforeStart: 'bash ./dist/images/compile.sh',
+    }
+    ),
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: ['dist', '!dist/images']
     }),
@@ -57,6 +69,3 @@ module.exports = {
     }
   }
 };
-
-
-

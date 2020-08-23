@@ -1,0 +1,10 @@
+id: scotland
+title: Road-Trip en Écosse
+subtitle: Mathilde & Clément à la recherche du poney perdu
+linkTitle: Écosse, juillet 2018
+mapCenter:
+  lat: 56.9822
+  lng: -4.89193
+mapZoomLevels:
+  desktop: 7
+  mobile: 7
