@@ -4,3 +4,4 @@ src/trips/trips.yaml
 dist/bundle*
 dist/index.html
 dist/sitemap*
+src/trips/trips.json
