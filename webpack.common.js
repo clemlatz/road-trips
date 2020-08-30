@@ -25,32 +25,38 @@ function ls_files(p) {
   return readdirSync(p).filter(f => statSync(path.join(p, f)).isFile());
 }
 
-function tmp() {
-
+function compileTrips() {
+  // output to be written at the end
+  // of this function
   var output = "";
+
   // get all directories under src/trips
+  var trips_dir = './src/trips/';
+  var trip_file = 'trip.yaml';
   const dirs = ls_dir('./src/trips');
   // get the trips file from each dir
   var i;
   for (i = 0; i < dirs.length; i++) {
-    const yamlContent = readFileSync(path.resolve(__dirname, './src/trips/' + dirs[i] + "/trip.yaml"), 'utf-8');
+    var this_trip_dir = path.resolve(__dirname, trips_dir + dirs[i]);
+    const yamlContent = readFileSync(this_trip_dir + '/' + trip_file, 'utf-8');
     const parsedYamlContent = parseAllDocuments(yamlContent);
+    output += '---\n';
     output += yamlContent;
     output += "entries:\n";
     // now add all entries for this trip to the output
-    const trip_entries_dir = dirs[i] + "/entries";
-    const trip_dir_list = ls_files(path.resolve(__dirname, './src/trips/' + dirs[i] + '/entries'));
+    const trip_entries_dir = this_trip_dir + "/entries/";
+    const trip_dir_list = ls_files(path.resolve(__dirname, trip_entries_dir));
+    // read each entry yaml file and add it to the output
     var j;
     for (j = 0; j < trip_dir_list.length; j++) {
-      if (trip_dir_list[j].search(".yaml") != -1) {
-        const entryContent = readFileSync(path.resolve(__dirname, './src/trips/' + dirs[i] + '/entries/' + trip_dir_list[j]), 'utf-8');
+      if (trip_dir_list[j].endsWith(".yaml")) {
+        const entryContent = readFileSync(path.resolve(__dirname, trip_entries_dir + trip_dir_list[j]), 'utf-8');
         output += entryContent;
       }
     }
-    // add document delimiter between trips
-    if (i + 1 < dirs.length) output += "---\n";
   }
 
+  // write all content to the JSON file
   const yamlContent = parseAllDocuments(output);
   const jsonContent = JSON.stringify(yamlContent);
   writeFileSync('./src/trips/trips.json', jsonContent);
@@ -105,8 +111,8 @@ module.exports = {
   },
   plugins: [
     new ExtraHooksPlugin({
-      beforeCompile: () => tmp(),
-      watchRun: () => tmp()
+      beforeCompile: () => compileTrips(),
+      watchRun: () => compileTrips()
     }),
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: ['dist', '!dist/images']
