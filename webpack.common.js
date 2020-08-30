@@ -5,9 +5,10 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const WebpackShellPlugin = require('webpack-shell-plugin');
 const ExtraHooksPlugin = require('event-hooks-webpack-plugin');
 const { CallbackTask } = require('event-hooks-webpack-plugin/lib/tasks');
+const ExtraWatchWebpackPlugin = require('extra-watch-webpack-plugin');
 
-const { copySync, readFileSync, writeFileSync } = require('fs-extra');
-const { parseAllDocuments } = require('yaml');
+const { statSync, copySync, readdirSync, readFileSync, writeFileSync } = require('fs-extra');
+const { parse, parseAllDocuments } = require('yaml');
 
 function yaml2json(yamlFilePath, jsonFilePath) {
   const yamlContent = readFileSync(yamlFilePath, 'utf-8');
@@ -16,9 +17,43 @@ function yaml2json(yamlFilePath, jsonFilePath) {
   writeFileSync(jsonFilePath, jsonContent);
 }
 
+function ls_dir(p) {
+  return readdirSync(p).filter(f => statSync(path.join(p, f)).isDirectory());
+}
+
+function ls_files(p) {
+  return readdirSync(p).filter(f => statSync(path.join(p, f)).isFile());
+}
+
 function tmp() {
-  yaml2json('./src/trips/trips.yaml', './src/trips/trips  .json');
-  console.log("Called back");
+
+  var output = "";
+  // get all directories under src/trips
+  const dirs = ls_dir('./src/trips');
+  // get the trips file from each dir
+  var i;
+  for (i = 0; i < dirs.length; i++) {
+    const yamlContent = readFileSync(path.resolve(__dirname, './src/trips/' + dirs[i] + "/trip.yaml"), 'utf-8');
+    const parsedYamlContent = parseAllDocuments(yamlContent);
+    output += yamlContent;
+    output += "entries:\n";
+    // now add all entries for this trip to the output
+    const trip_entries_dir = dirs[i] + "/entries";
+    const trip_dir_list = ls_files(path.resolve(__dirname, './src/trips/' + dirs[i] + '/entries'));
+    var j;
+    for (j = 0; j < trip_dir_list.length; j++) {
+      if (trip_dir_list[j].search(".yaml") != -1) {
+        const entryContent = readFileSync(path.resolve(__dirname, './src/trips/' + dirs[i] + '/entries/' + trip_dir_list[j]), 'utf-8');
+        output += entryContent;
+      }
+    }
+    // add document delimiter between trips
+    if (i + 1 < dirs.length) output += "---\n";
+  }
+
+  const yamlContent = parseAllDocuments(output);
+  const jsonContent = JSON.stringify(yamlContent);
+  writeFileSync('./src/trips/trips.json', jsonContent);
 }
 
 module.exports = {
@@ -26,8 +61,13 @@ module.exports = {
   entry: [
     './src/index.js'
   ],
+  watchOptions: {
+    ignored: ['./**/*.json'],
+    poll: 3
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
+    publicPath: './dist',
     filename: 'bundle.[name].[hash:6].js',
     chunkFilename: 'bundle.[name].[chunkhash:6].js',
     publicPath: '/',
@@ -64,16 +104,15 @@ module.exports = {
     ]
   },
   plugins: [
-    new WebpackShellPlugin({
-      enforceOrder: true,
-      onBuildStart: 'bash ./src/trips/compile.sh',
-    }),
     new ExtraHooksPlugin({
       beforeCompile: () => tmp(),
       watchRun: () => tmp()
     }),
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: ['dist', '!dist/images']
+    }),
+    new ExtraWatchWebpackPlugin({
+      files: [ './**/*.yaml']
     }),
     new HtmlWebpackPlugin({ template: 'public/index.html' }),
   ],
