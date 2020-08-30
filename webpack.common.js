@@ -2,7 +2,6 @@ const path = require('path');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const WebpackShellPlugin = require('webpack-shell-plugin');
 const ExtraHooksPlugin = require('event-hooks-webpack-plugin');
 const { CallbackTask } = require('event-hooks-webpack-plugin/lib/tasks');
 const ExtraWatchWebpackPlugin = require('extra-watch-webpack-plugin');
