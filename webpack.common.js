@@ -72,7 +72,6 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: './dist',
     filename: 'bundle.[name].[hash:6].js',
     chunkFilename: 'bundle.[name].[chunkhash:6].js',
     publicPath: '/',
@@ -110,7 +109,7 @@ module.exports = {
   },
   plugins: [
     new ExtraHooksPlugin({
-      beforeCompile: () => compileTrips(),
+      beforeRun: () => compileTrips(),
       watchRun: () => compileTrips()
     }),
     new CleanWebpackPlugin({

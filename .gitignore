@@ -1,6 +1,5 @@
 node_modules
 yarn-error.log
-src/trips/trips.yaml
 dist/bundle*
 dist/index.html
 dist/sitemap*
