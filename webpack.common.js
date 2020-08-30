@@ -3,6 +3,23 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const WebpackShellPlugin = require('webpack-shell-plugin');
+const ExtraHooksPlugin = require('event-hooks-webpack-plugin');
+const { CallbackTask } = require('event-hooks-webpack-plugin/lib/tasks');
+
+const { copySync, readFileSync, writeFileSync } = require('fs-extra');
+const { parseAllDocuments } = require('yaml');
+
+function yaml2json(yamlFilePath, jsonFilePath) {
+  const yamlContent = readFileSync(yamlFilePath, 'utf-8');
+  const parsedYamlContent = parseAllDocuments(yamlContent);
+  const jsonContent = JSON.stringify(parsedYamlContent);
+  writeFileSync(jsonFilePath, jsonContent);
+}
+
+function tmp() {
+  yaml2json('./src/trips/trips.yaml', './src/trips/trips  .json');
+  console.log("Called back");
+}
 
 module.exports = {
   mode: 'development',
@@ -50,6 +67,10 @@ module.exports = {
     new WebpackShellPlugin({
       enforceOrder: true,
       onBuildStart: 'bash ./src/trips/compile.sh',
+    }),
+    new ExtraHooksPlugin({
+      beforeCompile: () => tmp(),
+      watchRun: () => tmp()
     }),
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: ['dist', '!dist/images']

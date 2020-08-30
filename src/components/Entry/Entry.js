@@ -9,7 +9,7 @@ import Pin from '../Pin/Pin';
 
 import './Entry.scss';
 
-import trips from '../../trips/trips.yaml?stream';
+import trips from '../../trips/trips.json'
 
 export default function Entry(props) {
 
