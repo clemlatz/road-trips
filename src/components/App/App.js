@@ -55,8 +55,8 @@ class App extends React.Component {
             onZoomChange={zoom => this._onMapZoomChange(zoom)} />
           <Route exact path="/" render={tripSelector} />
           <Route path="/:tripId/" render={tripSelector} />
-          <Route path="/:tripId/:entryId-:entrySlug" component={Entry} />
-          <Route path="/:tripId/:entryId-:entrySlug/:photoId" component={Photo} />
+          <Route path="/:tripId/:entrySlugWithId" component={Entry} />
+          <Route path="/:tripId/:entrySlugWithId/:photoId" component={Photo} />
         </Fragment>
       </Router>
     );

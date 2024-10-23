@@ -13,7 +13,8 @@ import trips from '../../trips/trips.json';
 
 export default function Entry(props) {
 
-  const { tripId, entryId, entrySlug } = props.match.params;
+  const { tripId, entrySlugWithId } = props.match.params;
+  const [, entryId, entrySlug] = entrySlugWithId.match(/^(\d*)-(.*)$/);
   const trip = trips.find(trip => trip.id === tripId);
   const entry = trip.entries.find(entry => entry.id === entryId);
 
