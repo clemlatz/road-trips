@@ -4,20 +4,19 @@ env:
   GITHUB_PR_NUMBER: ${{github.event.pull_request.number}}
 
 on:
-  push:
-    branches: [ main, master ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
 jobs:
   tests_e2e_netlify_prepare:
     name: Wait for deployment on Netlify
     runs-on: ubuntu-latest
     steps:
       - name: Waiting for Netlify Preview
-        uses: jakepartusch/wait-for-netlify-action@v1.4
+        uses: clemlatz/wait-for-netlify-action@0.1.1
         id: wait-for-netflify-preview
         with:
           site_name: ${{env.NETLIFY_SITE_NAME}}
+          pr_number: ${{github.event.pull_request.number}}
           max_timeout: 600
 
   tests_e2e_netlify:
