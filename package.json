@@ -5,10 +5,10 @@
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "photos": "sips -Z 2500 dist/images/scotland/photos/* && sips -Z 600 dist/images/scotland/thumbs/*",
     "build": "webpack --config webpack.prod.js",
-    "lint": "eslint src/"
+    "lint": "eslint src/",
+    "test": "npx playwright test"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
   "homepage": "https://github.com/iwazaru/iceland-road-trip#readme",
   "devDependencies": {
     "@hot-loader/react-dom": "^16.8.6",
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.9.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-plugin-transform-class-properties": "^6.24.1",

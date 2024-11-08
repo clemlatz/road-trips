@@ -3,3 +3,7 @@ yarn-error.log
 dist/bundle*
 dist/index.html
 dist/sitemap*
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
