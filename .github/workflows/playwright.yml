@@ -1,27 +1,45 @@
 name: Playwright Tests
+env:
+  NETLIFY_SITE_NAME: 'roadtrips'
+  GITHUB_PR_NUMBER: ${{github.event.pull_request.number}}
+
 on:
   push:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
 jobs:
-  test:
-    timeout-minutes: 60
+  tests_e2e_netlify_prepare:
+    name: Wait for deployment on Netlify
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
-      with:
-        node-version: lts/*
-    - name: Install dependencies
-      run: npm ci
-    - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
-    - name: Run Playwright tests
-      run: npx playwright test
-    - uses: actions/upload-artifact@v4
-      if: ${{ !cancelled() }}
-      with:
-        name: playwright-report
-        path: playwright-report/
-        retention-days: 30
+      - name: Waiting for Netlify Preview
+        uses: jakepartusch/wait-for-netlify-action@v1.4
+        id: wait-for-netflify-preview
+        with:
+          site_name: ${{env.NETLIFY_SITE_NAME}}
+          max_timeout: 60
+
+  tests_e2e_netlify:
+    needs: tests_e2e_netlify_prepare
+    name: Run end-to-end tests on Netlify PR preview
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - name: install playwright browsers
+        run: npx playwright install --with-deps
+      - name: '@playwright/test'
+        run: npm install -D @playwright/test
+      - name: run playwright
+        run: npx playwright test
+        # Here we provide the preview domain, based on the GITHUB_PR_NUMBER combined with the NETLIFY_SITE_NAME
+        env:
+          PLAYWRIGHT_TEST_BASE_URL: "https://deploy-preview-${{env.GITHUB_PR_NUMBER}}--${{env.NETLIFY_SITE_NAME}}.netlify.app"
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 30
