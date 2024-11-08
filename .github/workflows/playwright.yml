@@ -18,7 +18,7 @@ jobs:
         id: wait-for-netflify-preview
         with:
           site_name: ${{env.NETLIFY_SITE_NAME}}
-          max_timeout: 60
+          max_timeout: 600
 
   tests_e2e_netlify:
     needs: tests_e2e_netlify_prepare
